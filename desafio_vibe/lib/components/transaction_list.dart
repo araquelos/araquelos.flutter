@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import '../models/transaction.dart';
 import 'package:intl/intl.dart';
@@ -18,14 +20,14 @@ class TransactionList extends StatelessWidget {
               children: [
                 const SizedBox(height: 20),
                 Text(
-                  'Nenhuma Transação Cadastrada!',
+                  'Você não tem TED’s agendados!',
                   style: Theme.of(context).textTheme.headline6,
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 0),
                 SizedBox(
-                  height: 200,
+                  height: 80,
                   child: Image.asset(
-                    'assets/images/waiting.png',
+                    'assets/images/wallet.png',
                     fit: BoxFit.cover,
                   ),
                 ),

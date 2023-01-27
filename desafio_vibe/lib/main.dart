@@ -1,14 +1,15 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'components/transaction_form.dart';
 import 'components/transaction_list.dart';
-import 'components/chart.dart';
 import 'models/transaction.dart';
 
-main() => runApp(ExpensesApp());
+main() => runApp(DesafioVibe());
 
-class ExpensesApp extends StatelessWidget {
-  ExpensesApp({Key? key}) : super(key: key);
+class DesafioVibe extends StatelessWidget {
+  DesafioVibe({Key? key}) : super(key: key);
   final ThemeData tema = ThemeData();
 
   @override
@@ -18,7 +19,7 @@ class ExpensesApp extends StatelessWidget {
       theme: tema.copyWith(
         colorScheme: tema.colorScheme.copyWith(
           primary: Colors.purple,
-          secondary: Colors.amber,
+          secondary: Colors.pink,
         ),
         textTheme: tema.textTheme.copyWith(
           headline6: const TextStyle(
@@ -54,13 +55,13 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> _transactions = [];
 
-  List<Transaction> get _recentTransactions {
+  /*List<Transaction> get _recentTransactions {
     return _transactions.where((tr) {
       return tr.date.isAfter(DateTime.now().subtract(
         const Duration(days: 7),
       ));
     }).toList();
-  }
+  }*/
 
   _addTransaction(String title, double value, DateTime date) {
     final newTransaction = Transaction(
@@ -96,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Despesas Pessoais'),
+        title: const Text('TED’s agendados'),
         actions: [
           IconButton(
             icon: const Icon(Icons.add),
@@ -108,14 +109,14 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Chart(_recentTransactions),
             TransactionList(_transactions, _removeTransaction),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.add),
+      floatingActionButton: FloatingActionButton.extended(
         onPressed: () => _openTransactionFormModal(context),
+        label: const Text('Agendar TED'),
+        icon: const Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
