@@ -1,13 +1,19 @@
 class Transaction {
   final String id;
-  final String title;
-  final double value;
-  final DateTime date;
+  final int codBanco;
+  final int agencia;
+  final int conta;
+  final String cpf;
+  final double valor;
+  final DateTime data;
 
   Transaction({
     required this.id,
-    required this.title,
-    required this.value,
-    required this.date,
+    required this.codBanco,
+    required this.agencia,
+    required this.conta,
+    required this.cpf,
+    required this.valor,
+    required this.data,
   });
 }

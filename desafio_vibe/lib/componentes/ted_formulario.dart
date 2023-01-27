@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 class TransactionForm extends StatefulWidget {
-  final void Function(String, double, DateTime) onSubmit;
+  final void Function(int, int, int, String, double, DateTime) onSubmit;
 
   const TransactionForm(this.onSubmit, {Key? key}) : super(key: key);
 
@@ -11,19 +11,30 @@ class TransactionForm extends StatefulWidget {
 }
 
 class _TransactionFormState extends State<TransactionForm> {
-  final _titleController = TextEditingController();
-  final _valueController = TextEditingController();
-  DateTime? _selectedDate = DateTime.now();
+  final _codBancoController = TextEditingController();
+  final _agenciaController = TextEditingController();
+  final _contaController = TextEditingController();
+  final _cpfController = TextEditingController();
+  final _valorController = TextEditingController();
+  DateTime? _dataSelecionada = DateTime.now();
 
   _submitForm() {
-    final title = _titleController.text;
-    final value = double.tryParse(_valueController.text) ?? 0;
+    final codBanco = int.tryParse(_codBancoController.text) ?? 0;
+    final agencia = int.tryParse(_agenciaController.text) ?? 0;
+    final conta = int.tryParse(_contaController.text) ?? 0;
+    final cpf = _cpfController.text;
+    final valor = double.tryParse(_valorController.text) ?? 0;
 
-    if (title.isEmpty || value <= 0 || _selectedDate == null) {
+    if (codBanco <= 0 ||
+        agencia <= 0 ||
+        conta <= 0 ||
+        cpf.isEmpty ||
+        valor <= 0 ||
+        _dataSelecionada == null) {
       return;
     }
 
-    widget.onSubmit(title, value, _selectedDate!);
+    widget.onSubmit(codBanco, agencia, conta, cpf, valor, _dataSelecionada!);
   }
 
   _showDatePicker() {
@@ -38,7 +49,7 @@ class _TransactionFormState extends State<TransactionForm> {
       }
 
       setState(() {
-        _selectedDate = pickedDate;
+        _dataSelecionada = pickedDate;
       });
     });
   }
@@ -52,14 +63,41 @@ class _TransactionFormState extends State<TransactionForm> {
         child: Column(
           children: [
             TextField(
-              controller: _titleController,
+              controller: _codBancoController,
+              keyboardType:
+                  const TextInputType.numberWithOptions(decimal: false),
               onSubmitted: (_) => _submitForm(),
               decoration: const InputDecoration(
-                labelText: 'Título',
+                labelText: 'Código do Banco',
               ),
             ),
             TextField(
-              controller: _valueController,
+              controller: _agenciaController,
+              keyboardType:
+                  const TextInputType.numberWithOptions(decimal: false),
+              onSubmitted: (_) => _submitForm(),
+              decoration: const InputDecoration(
+                labelText: 'Agência',
+              ),
+            ),
+            TextField(
+              controller: _contaController,
+              keyboardType:
+                  const TextInputType.numberWithOptions(decimal: false),
+              onSubmitted: (_) => _submitForm(),
+              decoration: const InputDecoration(
+                labelText: 'Conta',
+              ),
+            ),
+            TextField(
+              controller: _cpfController,
+              onSubmitted: (_) => _submitForm(),
+              decoration: const InputDecoration(
+                labelText: 'CPF',
+              ),
+            ),
+            TextField(
+              controller: _valorController,
               keyboardType:
                   const TextInputType.numberWithOptions(decimal: true),
               onSubmitted: (_) => _submitForm(),
@@ -73,9 +111,9 @@ class _TransactionFormState extends State<TransactionForm> {
                 children: <Widget>[
                   Expanded(
                     child: Text(
-                      _selectedDate == null
+                      _dataSelecionada == null
                           ? 'Nenhuma data selecionada!'
-                          : 'Data Selecionada: ${DateFormat('dd/MM/y').format(_selectedDate!)}',
+                          : 'Data Selecionada: ${DateFormat('dd/MM/y').format(_dataSelecionada!)}',
                     ),
                   ),
                   TextButton(
@@ -95,7 +133,7 @@ class _TransactionFormState extends State<TransactionForm> {
               children: <Widget>[
                 ElevatedButton(
                   child: Text(
-                    'Nova Transação',
+                    'Agendar TED',
                     style: TextStyle(
                       color: Theme.of(context).textTheme.labelLarge?.color,
                     ),

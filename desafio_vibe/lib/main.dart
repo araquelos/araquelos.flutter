@@ -53,12 +53,16 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> _transactions = [];
 
-  _addTransaction(String title, double value, DateTime date) {
+  _addTransaction(int codBanco, int agencia, int conta, String cpf,
+      double valor, DateTime data) {
     final newTransaction = Transaction(
       id: Random().nextDouble().toString(),
-      title: title,
-      value: value,
-      date: date,
+      codBanco: codBanco,
+      agencia: agencia,
+      conta: conta,
+      cpf: cpf,
+      valor: valor,
+      data: data,
     );
 
     setState(() {

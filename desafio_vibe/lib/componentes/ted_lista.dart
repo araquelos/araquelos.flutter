@@ -49,7 +49,7 @@ class TransactionList extends StatelessWidget {
                         padding: const EdgeInsets.all(6),
                         child: FittedBox(
                           child: Text(
-                            'R\$${tr.value}',
+                            'R\$${tr.valor}',
                             style: const TextStyle(
                               color: Colors.white,
                             ),
@@ -58,11 +58,11 @@ class TransactionList extends StatelessWidget {
                       ),
                     ),
                     title: Text(
-                      tr.title,
+                      tr.cpf,
                       style: Theme.of(context).textTheme.titleLarge,
                     ),
                     subtitle: Text(
-                      DateFormat('d MMM y').format(tr.date),
+                      DateFormat('d MMM y').format(tr.data),
                     ),
                     trailing: IconButton(
                       icon: const Icon(Icons.delete),
