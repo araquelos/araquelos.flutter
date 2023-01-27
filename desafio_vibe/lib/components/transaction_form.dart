@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
@@ -99,7 +97,7 @@ class _TransactionFormState extends State<TransactionForm> {
                   child: Text(
                     'Nova Transação',
                     style: TextStyle(
-                      color: Theme.of(context).textTheme.button?.color,
+                      color: Theme.of(context).textTheme.labelLarge?.color,
                     ),
                   ),
                   onPressed: _submitForm,

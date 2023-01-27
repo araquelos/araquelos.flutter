@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'components/transaction_form.dart';
@@ -22,13 +20,13 @@ class DesafioVibe extends StatelessWidget {
           secondary: Colors.pink,
         ),
         textTheme: tema.textTheme.copyWith(
-          headline6: const TextStyle(
+          titleLarge: const TextStyle(
             fontFamily: 'OpenSans',
             fontSize: 18,
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
-          button: const TextStyle(
+          labelLarge: const TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
           ),
@@ -54,14 +52,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> _transactions = [];
-
-  /*List<Transaction> get _recentTransactions {
-    return _transactions.where((tr) {
-      return tr.date.isAfter(DateTime.now().subtract(
-        const Duration(days: 7),
-      ));
-    }).toList();
-  }*/
 
   _addTransaction(String title, double value, DateTime date) {
     final newTransaction = Transaction(
