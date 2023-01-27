@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
-import 'components/transaction_form.dart';
-import 'components/transaction_list.dart';
-import 'models/transaction.dart';
+import 'componentes/ted_formulario.dart';
+import 'componentes/ted_lista.dart';
+import 'modelos/ted.dart';
 
 main() => runApp(DesafioVibe());
 
