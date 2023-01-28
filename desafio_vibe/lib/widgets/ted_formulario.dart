@@ -1,16 +1,18 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-class TransactionForm extends StatefulWidget {
+class Ted_Formulario extends StatefulWidget {
   final void Function(int, int, int, String, double, DateTime) onSubmit;
 
-  const TransactionForm(this.onSubmit, {Key? key}) : super(key: key);
+  const Ted_Formulario(this.onSubmit, {Key? key}) : super(key: key);
 
   @override
-  State<TransactionForm> createState() => _TransactionFormState();
+  State<Ted_Formulario> createState() => _Ted_FormularioState();
 }
 
-class _TransactionFormState extends State<TransactionForm> {
+class _Ted_FormularioState extends State<Ted_Formulario> {
   final _codBancoController = TextEditingController();
   final _agenciaController = TextEditingController();
   final _contaController = TextEditingController();

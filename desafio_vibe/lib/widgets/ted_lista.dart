@@ -1,19 +1,22 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import '../modelos/ted.dart';
 import 'package:intl/intl.dart';
 
-class TransactionList extends StatelessWidget {
-  final List<Transaction> transactions;
+class Ted_Lista extends StatelessWidget {
+  final List<Ted> teds;
+  //final Ted ted;
   final void Function(String) onRemove;
 
-  const TransactionList(this.transactions, this.onRemove, {Key? key})
+  const Ted_Lista(this.teds, this.onRemove, {Key? key, /*required this.ted*/})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: 430,
-      child: transactions.isEmpty
+      child: teds.isEmpty
           ? Column(
               children: [
                 const SizedBox(height: 20),
@@ -32,9 +35,9 @@ class TransactionList extends StatelessWidget {
               ],
             )
           : ListView.builder(
-              itemCount: transactions.length,
+              itemCount: teds.length,
               itemBuilder: (ctx, index) {
-                final tr = transactions[index];
+                final tr = teds[index];
                 return Card(
                   elevation: 5,
                   margin: const EdgeInsets.symmetric(
@@ -64,10 +67,12 @@ class TransactionList extends StatelessWidget {
                     subtitle: Text(
                       DateFormat('d MMM y').format(tr.data),
                     ),
-                    trailing: IconButton(
-                      icon: const Icon(Icons.delete),
-                      color: Theme.of(context).errorColor,
-                      onPressed: () => onRemove(tr.id),
+                    trailing: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(onPressed: () {}, icon: const Icon(Icons.remove_red_eye), color: Theme.of(context).colorScheme.background),
+                        IconButton(onPressed: () => onRemove(tr.id), icon: const Icon(Icons.delete), color: Theme.of(context).colorScheme.error),
+                      ],
                     ),
                   ),
                 );

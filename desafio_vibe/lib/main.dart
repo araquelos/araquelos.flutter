@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
-import 'componentes/ted_formulario.dart';
-import 'componentes/ted_lista.dart';
+import 'widgets/ted_formulario.dart';
+import 'widgets/ted_lista.dart';
 import 'modelos/ted.dart';
 
 main() => runApp(DesafioVibe());
@@ -13,6 +13,7 @@ class DesafioVibe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: const MyHomePage(),
       theme: tema.copyWith(
         colorScheme: tema.colorScheme.copyWith(
@@ -51,11 +52,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final List<Transaction> _transactions = [];
+  final List<Ted> _teds = [];
 
-  _addTransaction(int codBanco, int agencia, int conta, String cpf,
+  _addTed(int codBanco, int agencia, int conta, String cpf,
       double valor, DateTime data) {
-    final newTransaction = Transaction(
+    final newTed = Ted(
       id: Random().nextDouble().toString(),
       codBanco: codBanco,
       agencia: agencia,
@@ -66,23 +67,23 @@ class _MyHomePageState extends State<MyHomePage> {
     );
 
     setState(() {
-      _transactions.add(newTransaction);
+      _teds.add(newTed);
     });
 
     Navigator.of(context).pop();
   }
 
-  _removeTransaction(String id) {
+  _removeTed(String id) {
     setState(() {
-      _transactions.removeWhere((tr) => tr.id == id);
+      _teds.removeWhere((tr) => tr.id == id);
     });
   }
 
-  _openTransactionFormModal(BuildContext context) {
+  _openTedFormModal(BuildContext context) {
     showModalBottomSheet(
       context: context,
       builder: (_) {
-        return TransactionForm(_addTransaction);
+        return Ted_Formulario(_addTed);
       },
     );
   }
@@ -95,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: [
           IconButton(
             icon: const Icon(Icons.add),
-            onPressed: () => _openTransactionFormModal(context),
+            onPressed: () => _openTedFormModal(context),
           ),
         ],
       ),
@@ -103,12 +104,12 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            TransactionList(_transactions, _removeTransaction),
+            Ted_Lista(_teds, _removeTed),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () => _openTransactionFormModal(context),
+        onPressed: () => _openTedFormModal(context),
         label: const Text('Agendar TED'),
         icon: const Icon(Icons.add),
       ),

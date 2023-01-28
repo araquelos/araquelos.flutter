@@ -1,4 +1,4 @@
-class Transaction {
+class Ted {
   final String id;
   final int codBanco;
   final int agencia;
@@ -7,7 +7,7 @@ class Transaction {
   final double valor;
   final DateTime data;
 
-  Transaction({
+  Ted({
     required this.id,
     required this.codBanco,
     required this.agencia,
