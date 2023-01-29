@@ -1,8 +1,9 @@
 import 'package:desafio_vibe/paginas/ted_detalhes.dart';
-import 'package:desafio_vibe/utilitarios/app_routes.dart';
+import 'package:desafio_vibe/paginas/ted_formulario.dart';
+import 'package:desafio_vibe/utilitarios/app_rotas.dart';
+import 'package:desafio_vibe/widgets/ted_form.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
-import 'widgets/ted_formulario.dart';
 import 'widgets/ted_lista.dart';
 import 'modelos/ted.dart';
 
@@ -17,7 +18,8 @@ class DesafioVibe extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        AppRoutes.tedDetalhes: (ctx) => const TedDetalhes(),
+        AppRotas.tedDetalhes: (ctx) => const TedDetalhes(),
+        AppRotas.tedFormulario: (ctx) => const TedFormulario(),
       },
       home: const MyHomePage(),
       theme: tema.copyWith(
@@ -88,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
     showModalBottomSheet(
       context: context,
       builder: (_) {
-        return Ted_Formulario(_addTed);
+        return TedForm(_addTed);
       },
     );
   }
@@ -109,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Ted_Lista(
+            TedLista(
               _teds,
               _removeTed,
             ),
@@ -117,7 +119,12 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () => _openTedFormModal(context),
+        //onPressed: () => _openTedFormModal(context),
+        onPressed: () {
+          Navigator.of(context).pushNamed(
+            AppRotas.tedFormulario,
+          );
+        },
         label: const Text('Agendar TED'),
         icon: const Icon(Icons.add),
       ),

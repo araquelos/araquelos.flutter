@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import '../modelos/ted.dart';
 import 'package:intl/intl.dart';
 
-import '../utilitarios/app_routes.dart';
+import '../utilitarios/app_rotas.dart';
 
-class Ted_Lista extends StatelessWidget {
+class TedLista extends StatelessWidget {
   final List<Ted> teds;
   //final Ted ted;
   final void Function(String) onRemove;
 
-  const Ted_Lista(
+  const TedLista(
     this.teds,
     this.onRemove, {
     Key? key,
@@ -79,7 +79,7 @@ class Ted_Lista extends StatelessWidget {
                         IconButton(
                             onPressed: () {
                               Navigator.of(context).pushNamed(
-                                AppRoutes.tedDetalhes,
+                                AppRotas.tedDetalhes,
                                 arguments: tr,
                               );
                             },

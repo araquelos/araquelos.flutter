@@ -3,16 +3,16 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-class Ted_Formulario extends StatefulWidget {
+class TedForm extends StatefulWidget {
   final void Function(int, int, int, String, double, DateTime) onSubmit;
 
-  const Ted_Formulario(this.onSubmit, {Key? key}) : super(key: key);
+  const TedForm(this.onSubmit, {Key? key}) : super(key: key);
 
   @override
-  State<Ted_Formulario> createState() => _Ted_FormularioState();
+  State<TedForm> createState() => _TedFormState();
 }
 
-class _Ted_FormularioState extends State<Ted_Formulario> {
+class _TedFormState extends State<TedForm> {
   final _codBancoController = TextEditingController();
   final _agenciaController = TextEditingController();
   final _contaController = TextEditingController();

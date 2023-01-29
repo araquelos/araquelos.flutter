@@ -9,7 +9,8 @@ class TedDetalhes extends StatelessWidget {
     final Ted ted = ModalRoute.of(context)!.settings.arguments as Ted;
     return Scaffold(
       appBar: AppBar(
-        title: Text(ted.cpf),
+        //title: Text(ted.cpf),
+        title: const Text('Visualizar TED'),
       ),
     );
   }
