@@ -4,13 +4,19 @@ import 'package:flutter/material.dart';
 import '../modelos/ted.dart';
 import 'package:intl/intl.dart';
 
+import '../utilitarios/app_routes.dart';
+
 class Ted_Lista extends StatelessWidget {
   final List<Ted> teds;
   //final Ted ted;
   final void Function(String) onRemove;
 
-  const Ted_Lista(this.teds, this.onRemove, {Key? key, /*required this.ted*/})
-      : super(key: key);
+  const Ted_Lista(
+    this.teds,
+    this.onRemove, {
+    Key? key,
+    /*required this.ted*/
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -70,8 +76,19 @@ class Ted_Lista extends StatelessWidget {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        IconButton(onPressed: () {}, icon: const Icon(Icons.remove_red_eye), color: Theme.of(context).colorScheme.background),
-                        IconButton(onPressed: () => onRemove(tr.id), icon: const Icon(Icons.delete), color: Theme.of(context).colorScheme.error),
+                        IconButton(
+                            onPressed: () {
+                              Navigator.of(context).pushNamed(
+                                AppRoutes.tedDetalhes,
+                                arguments: tr,
+                              );
+                            },
+                            icon: const Icon(Icons.remove_red_eye),
+                            color: Theme.of(context).colorScheme.background),
+                        IconButton(
+                            onPressed: () => onRemove(tr.id),
+                            icon: const Icon(Icons.delete),
+                            color: Theme.of(context).colorScheme.error),
                       ],
                     ),
                   ),

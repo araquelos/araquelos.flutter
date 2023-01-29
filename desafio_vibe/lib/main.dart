@@ -1,3 +1,5 @@
+import 'package:desafio_vibe/paginas/ted_detalhes.dart';
+import 'package:desafio_vibe/utilitarios/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'widgets/ted_formulario.dart';
@@ -14,6 +16,9 @@ class DesafioVibe extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      routes: {
+        AppRoutes.tedDetalhes: (ctx) => const TedDetalhes(),
+      },
       home: const MyHomePage(),
       theme: tema.copyWith(
         colorScheme: tema.colorScheme.copyWith(
@@ -54,8 +59,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final List<Ted> _teds = [];
 
-  _addTed(int codBanco, int agencia, int conta, String cpf,
-      double valor, DateTime data) {
+  _addTed(int codBanco, int agencia, int conta, String cpf, double valor,
+      DateTime data) {
     final newTed = Ted(
       id: Random().nextDouble().toString(),
       codBanco: codBanco,
@@ -104,7 +109,10 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Ted_Lista(_teds, _removeTed),
+            Ted_Lista(
+              _teds,
+              _removeTed,
+            ),
           ],
         ),
       ),
