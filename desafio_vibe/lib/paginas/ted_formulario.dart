@@ -10,6 +10,9 @@ class TedFormulario extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final firstDate = DateTime(DateTime.now().year - 120);
+    final lastDate = DateTime.now();
+
     return Scaffold(
       appBar: AppBar(
         title: const Text(
@@ -38,17 +41,11 @@ class TedFormulario extends StatelessWidget {
               TextFormField(
                 decoration: const InputDecoration(labelText: 'Valor (R\$)'),
               ),
-              SizedBox(
-                height: 70,
-                child: Row(
-                  children: <Widget>[
-                    const Text('Nenhuma data selecionada!'),
-                    TextButton(
-                      onPressed: () => {},
-                      child: const Text('Selecionar Data', style: TextStyle(fontWeight: FontWeight.bold,),))
-                  ],
-                ),
-              ),
+              InputDatePickerFormField(
+                firstDate: firstDate, 
+                lastDate: lastDate,
+                fieldLabelText: 'Data',
+                initialDate: DateTime.now()),
               Container(
                 padding: const EdgeInsets.all(20),
                 child: Row(
