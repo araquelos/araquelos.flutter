@@ -1,7 +1,6 @@
 import 'package:desafio_vibe/paginas/ted_detalhes.dart';
 import 'package:desafio_vibe/paginas/ted_formulario.dart';
 import 'package:desafio_vibe/utilitarios/app_rotas.dart';
-import 'package:desafio_vibe/widgets/ted_form.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'widgets/ted_lista.dart';
@@ -86,26 +85,14 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  _openTedFormModal(BuildContext context) {
-    showModalBottomSheet(
-      context: context,
-      builder: (_) {
-        return TedForm(_addTed);
-      },
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TED’s agendados'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.add),
-            onPressed: () => _openTedFormModal(context),
-          ),
-        ],
+        title: const Text(
+          'TED’s agendados',
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -119,7 +106,6 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
-        //onPressed: () => _openTedFormModal(context),
         onPressed: () {
           Navigator.of(context).pushNamed(
             AppRotas.tedFormulario,

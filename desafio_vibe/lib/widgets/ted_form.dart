@@ -6,7 +6,7 @@ import 'package:intl/intl.dart';
 class TedForm extends StatefulWidget {
   final void Function(int, int, int, String, double, DateTime) onSubmit;
 
-  const TedForm(this.onSubmit, {Key? key}) : super(key: key);
+  const TedForm(this.onSubmit, int i, {Key? key}) : super(key: key);
 
   @override
   State<TedForm> createState() => _TedFormState();

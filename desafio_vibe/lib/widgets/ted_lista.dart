@@ -8,14 +8,12 @@ import '../utilitarios/app_rotas.dart';
 
 class TedLista extends StatelessWidget {
   final List<Ted> teds;
-  //final Ted ted;
   final void Function(String) onRemove;
 
   const TedLista(
     this.teds,
     this.onRemove, {
     Key? key,
-    /*required this.ted*/
   }) : super(key: key);
 
   @override
