@@ -19,6 +19,7 @@ class DesafioVibe extends StatelessWidget {
       routes: {
         AppRotas.tedDetalhes: (ctx) => const TedDetalhes(),
         AppRotas.tedFormulario: (ctx) => TedFormulario(),
+        AppRotas.principal:(ctx) => DesafioVibe(),
       },
       home: const MyHomePage(),
       theme: tema.copyWith(

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
-
 import '../utilitarios/app_rotas.dart';
 
 class TedFormulario extends StatelessWidget {
@@ -8,6 +6,7 @@ class TedFormulario extends StatelessWidget {
   TextEditingController dateInput = TextEditingController();
 
   TedFormulario({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
@@ -37,12 +36,18 @@ class TedFormulario extends StatelessWidget {
                 decoration: const InputDecoration(labelText: 'CPF'),
               ),
               TextFormField(
-                decoration: const InputDecoration(labelText: 'Valor'),
+                decoration: const InputDecoration(labelText: 'Valor (R\$)'),
               ),
-              InputDatePickerFormField(
-                firstDate: DateTime.now(),
-                lastDate: DateTime.now(),
-                fieldLabelText: 'Data',
+              SizedBox(
+                height: 70,
+                child: Row(
+                  children: <Widget>[
+                    const Text('Nenhuma data selecionada!'),
+                    TextButton(
+                      onPressed: () => {},
+                      child: const Text('Selecionar Data', style: TextStyle(fontWeight: FontWeight.bold,),))
+                  ],
+                ),
               ),
               Container(
                 padding: const EdgeInsets.all(20),
@@ -60,7 +65,7 @@ class TedFormulario extends StatelessWidget {
                         ),
                         onPressed: () {
                           Navigator.of(context).pushNamed(
-                            AppRotas.tedFormulario,
+                            AppRotas.tedDetalhes,
                           );
                         },
                       ),
@@ -69,7 +74,10 @@ class TedFormulario extends StatelessWidget {
                     SizedBox(
                       child: ElevatedButton(
                         child: const Text('Voltar'),
-                        onPressed: () {},
+                        onPressed: () {
+                            Navigator.of(context).pushNamed(
+                            AppRotas.principal,
+                          );},
                         style: ButtonStyle(
                             backgroundColor:
                                 MaterialStateProperty.all(Colors.grey),
