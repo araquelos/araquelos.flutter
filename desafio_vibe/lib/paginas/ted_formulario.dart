@@ -1,29 +1,38 @@
+import 'package:desafio_vibe/utilitarios/app_rotas.dart';
 import 'package:flutter/material.dart';
-import '../utilitarios/app_rotas.dart';
 
 class TedFormulario extends StatelessWidget {
-  final _form = GlobalKey<FormState>();
-  TextEditingController dateInput = TextEditingController();
+  const TedFormulario({Key? key}) : super(key: key);
 
-  TedFormulario({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Dados da TED',style: TextStyle(color: Colors.white)),
+      ),
+      body: Formulario(),
+    );
+  }
+}
 
+class Formulario extends StatefulWidget {
+  const Formulario({Key? key}) : super(key: key);
 
+  @override
+  State<StatefulWidget> createState() => _FormularioState();
+}
+
+class _FormularioState extends State<Formulario> {
+  
   @override
   Widget build(BuildContext context) {
     final firstDate = DateTime(DateTime.now().year - 120);
     final lastDate = DateTime.now();
 
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Dados da TED',
-          style: TextStyle(color: Colors.white),
-        ),
-      ),
-      body: Padding(
+    return Padding(
         padding: const EdgeInsets.all(15),
         child: Form(
-          key: _form,
+          //key: _form,
           child: Column(
             children: <Widget>[
               TextFormField(
@@ -91,7 +100,6 @@ class TedFormulario extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
+      );
   }
 }
