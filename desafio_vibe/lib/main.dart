@@ -1,5 +1,6 @@
 import 'package:desafio_vibe/paginas/ted_detalhes.dart';
 import 'package:desafio_vibe/paginas/ted_formulario.dart';
+import 'package:desafio_vibe/paginas/ted_revisar.dart';
 import 'package:desafio_vibe/provider/teds.dart';
 import 'package:desafio_vibe/utilitarios/app_rotas.dart';
 import 'package:flutter/material.dart';
@@ -22,6 +23,7 @@ class DesafioVibe extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         routes: {
           AppRotas.tedDetalhes: (ctx) => const TedDetalhes(),
+          AppRotas.tedRevisar: (ctx) => const TedRevisar(),
           AppRotas.tedFormulario: (ctx) => TedFormulario(),
         },
         home: const PaginaInicial(),
