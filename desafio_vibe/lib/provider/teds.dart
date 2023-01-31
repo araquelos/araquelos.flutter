@@ -3,8 +3,10 @@ import 'dart:math';
 import 'package:desafio_vibe/modelos/ted.dart';
 import 'package:flutter/material.dart';
 
+import '../dados/teds_mockados.dart';
+
 class Teds with ChangeNotifier {
-  final Map<String, Ted> _itens = {};
+  final Map<String, Ted> _itens = {...teds_mockados};
 
   List<Ted> get all {
     return [..._itens.values];
@@ -18,21 +20,23 @@ class Teds with ChangeNotifier {
     return _itens.values.elementAt(i);
   }
 
-  void put (Ted ted) {
-    if(ted == null) {
+  void put(Ted ted) {
+    if (ted == null) {
       return;
     }
 
     final id = Random().nextDouble().toString();
-    _itens.putIfAbsent(id, () => Ted(
-      id: id, 
-      codBanco: ted.codBanco, 
-      agencia: ted.agencia, 
-      conta: ted.conta, 
-      cpf: ted.cpf, 
-      valor: ted.valor, 
-      data: ted.data));
+    _itens.putIfAbsent(
+        id,
+        () => Ted(
+            id: id,
+            codBanco: ted.codBanco,
+            agencia: ted.agencia,
+            conta: ted.conta,
+            cpf: ted.cpf,
+            valor: ted.valor,
+            data: ted.data));
 
-      notifyListeners();
+    notifyListeners();
   }
 }
