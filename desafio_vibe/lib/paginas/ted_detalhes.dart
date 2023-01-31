@@ -1,4 +1,3 @@
-import 'package:desafio_vibe/modelos/ted.dart';
 import 'package:flutter/material.dart';
 
 class TedDetalhes extends StatelessWidget {
@@ -6,11 +5,12 @@ class TedDetalhes extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Ted ted = ModalRoute.of(context)!.settings.arguments as Ted;
+    final Map<String, Object> _formTed = ModalRoute.of(context)!.settings.arguments as Map<String, Object>;
+    //final Ted ted = ModalRoute.of(context)!.settings.arguments as Ted;
     return Scaffold(
       appBar: AppBar(
-        //title: Text(ted.cpf),
-        title: const Text('Visualizar TED'),
+        title: Text(_formTed['codBanco'].toString()),
+        //title: const Text('Visualizar TED'),
       ),
     );
   }

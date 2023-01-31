@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../utilitarios/app_rotas.dart';
+
 class TedFormulario extends StatelessWidget {
   const TedFormulario({Key? key}) : super(key: key);
 
@@ -102,8 +104,10 @@ class _FormularioState extends State<Formulario> {
 
                           if (isValid == true) {
                             _form.currentState?.save();
-                            print(_formTed);
-                            Navigator.of(context).pop();
+                            Navigator.of(context).pushNamed(
+                                AppRotas.tedDetalhes,
+                                arguments: _formTed,
+                              );
                           }                          
                         },
                       ),
