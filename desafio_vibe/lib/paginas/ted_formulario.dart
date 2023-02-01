@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 import '../utilitarios/app_rotas.dart';
 
@@ -27,8 +28,6 @@ class Formulario extends StatefulWidget {
 class _FormularioState extends State<Formulario> {
   @override
   Widget build(BuildContext context) {
-    final firstDate = DateTime(DateTime.now().year - 120);
-    final lastDate = DateTime.now();
     final _form = GlobalKey<FormState>();
     final Map<String, Object> _formTed = {};
 
@@ -92,20 +91,17 @@ class _FormularioState extends State<Formulario> {
                 if (value == null || value.trim().isEmpty) {
                   return 'Valor é obrigatório';
                 }
-                if (double.parse(value) > 0 && double.parse(value) <= 10000) {
+                if (double.parse(value) == 0 || double.parse(value) > 10000) {
                   return 'Valor deve ser um valor numérico superior a R\$ 0,00 e inferior a R\$ 10.000,00';
                 }
               },
               onSaved: (value) => _formTed['valor'] = value!,
             ),
-            TextFormField(
-              decoration: const InputDecoration(labelText: 'Data'),
-              validator: (value) {
-                if (value == null || value.trim().isEmpty) {
-                  return 'Data é obrigatória';
-                }
-              },
-              onSaved: (value) => _formTed['data'] = value!,
+            InputDatePickerFormField(
+              firstDate: DateTime.now(),
+              lastDate: DateTime.now().add(const Duration(days: 30)),
+              fieldLabelText: 'Data',
+              onDateSaved: (value) => _formTed['data'] = value,
             ),
             Container(
               padding: const EdgeInsets.all(20),
