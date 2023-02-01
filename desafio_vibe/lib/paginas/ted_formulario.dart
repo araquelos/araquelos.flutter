@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_multi_formatter/flutter_multi_formatter.dart';
+import 'package:flutter_multi_formatter/formatters/currency_input_formatter.dart';
 import 'package:intl/intl.dart';
+import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
 import '../utilitarios/app_rotas.dart';
 
@@ -90,6 +93,7 @@ class _FormularioState extends State<Formulario> {
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'Conta'),
+              inputFormatters: [MaskTextInputFormatter(mask: "#########-#")],
               controller: _contaController,
               keyboardType: TextInputType.number,
               validator: (value) {
@@ -104,6 +108,7 @@ class _FormularioState extends State<Formulario> {
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'CPF'),
+              inputFormatters: [MaskTextInputFormatter(mask: "###.###.###-##")],
               controller: _cpfController,
               keyboardType: TextInputType.number,
               validator: (value) {
@@ -118,16 +123,20 @@ class _FormularioState extends State<Formulario> {
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'Valor (R\$)'),
+              inputFormatters: [
+                CurrencyInputFormatter(
+                  thousandSeparator: ThousandSeparator.Period,
+                )
+              ],
+              keyboardType: TextInputType.number,
               controller: _valorController,
-              keyboardType:
-                  const TextInputType.numberWithOptions(decimal: true),
               validator: (value) {
                 if (value == null || value.trim().isEmpty) {
                   return 'Valor é obrigatório';
                 }
-                if (double.parse(value) == 0 || double.parse(value) > 10000) {
+                /*if (double.parse(value) == 0 || double.parse(value) > 10000) {
                   return 'Valor deve ser um valor numérico superior a R\$ 0,00 e inferior a R\$ 10.000,00';
-                }
+                }*/
               },
               onSaved: (value) => _formTed['valor'] = value!,
             ),

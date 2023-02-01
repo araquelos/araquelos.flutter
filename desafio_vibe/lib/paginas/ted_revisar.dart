@@ -12,9 +12,8 @@ class TedRevisar extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        //title: Text(DateFormat("'Data numérica:' dd/MM/yyyy").format(dataFormatada)),
-        //title: Text(_formTed['codBanco'].toString()),
-        title: const Text('Confirmar TED'),
+        title:
+            const Text('Confirmar TED', style: TextStyle(color: Colors.white)),
         actions: [
           IconButton(
             icon: const Icon(Icons.save),
@@ -22,7 +21,164 @@ class TedRevisar extends StatelessWidget {
           ),
         ],
       ),
-      //body: ,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(15),
+          child: Column(
+            children: [
+              const SizedBox(height: 20),
+              SizedBox(
+                height: 100,
+                width: 100,
+                child: Image.asset(
+                  'assets/images/money-transfer.png',
+                  fit: BoxFit.cover,
+                ),
+              ),
+              const SizedBox(height: 20),
+              const Text(
+                'Revise os dados antes de enviar',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(30),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      'Valor',
+                      style: TextStyle(
+                          fontSize: 14, fontWeight: FontWeight.normal),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      _formTed['codBanco'].toString(),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    const SizedBox(height: 20),
+                    const Text(
+                      'Agência',
+                      style: TextStyle(
+                          fontSize: 14, fontWeight: FontWeight.normal),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      _formTed['agencia'].toString(),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    const SizedBox(height: 20),
+                    const Text(
+                      'Conta',
+                      style: TextStyle(
+                          fontSize: 14, fontWeight: FontWeight.normal),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      _formTed['conta'].toString(),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    const SizedBox(height: 20),
+                    const Text(
+                      'CPF',
+                      style: TextStyle(
+                          fontSize: 14, fontWeight: FontWeight.normal),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      _formTed['cpf'].toString(),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    const SizedBox(height: 20),
+                    const Text(
+                      'Valor',
+                      style: TextStyle(
+                          fontSize: 14, fontWeight: FontWeight.normal),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      'R\$${_formTed['valor'].toString()}',
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    const SizedBox(height: 20),
+                    const Text(
+                      'Data',
+                      style: TextStyle(
+                          fontSize: 14, fontWeight: FontWeight.normal),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      DateFormat("dd/MM/yyyy").format(dataFormatada),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(20),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          SizedBox(
+                            child: ElevatedButton(
+                              child: Text(
+                                'Confirmar',
+                                style: TextStyle(
+                                  color: Theme.of(context)
+                                      .textTheme
+                                      .labelLarge
+                                      ?.color,
+                                ),
+                              ),
+                              onPressed: () {},
+                            ),
+                          ),
+                          const SizedBox(width: 10),
+                          SizedBox(
+                            child: ElevatedButton(
+                              child: const Text('Voltar'),
+                              onPressed: () {
+                                Navigator.of(context).pop();
+                              },
+                              style: ButtonStyle(
+                                  backgroundColor:
+                                      MaterialStateProperty.all(Colors.grey),
+                                  textStyle: MaterialStateProperty.all(
+                                      TextStyle(
+                                          color: Theme.of(context)
+                                              .textTheme
+                                              .labelLarge
+                                              ?.color))),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
