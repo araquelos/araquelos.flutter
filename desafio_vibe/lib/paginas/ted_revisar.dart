@@ -12,11 +12,17 @@ class TedRevisar extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-            DateFormat("'Data numérica:' dd/MM/yyyy").format(dataFormatada)),
+        //title: Text(DateFormat("'Data numérica:' dd/MM/yyyy").format(dataFormatada)),
         //title: Text(_formTed['codBanco'].toString()),
-        //title: const Text('Visualizar TED'),
+        title: const Text('Confirmar TED'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.save),
+            onPressed: () => {},
+          ),
+        ],
       ),
+      //body: ,
     );
   }
 }

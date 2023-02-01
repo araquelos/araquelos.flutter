@@ -5,7 +5,6 @@ import 'package:desafio_vibe/provider/teds.dart';
 import 'package:desafio_vibe/utilitarios/app_rotas.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'dart:math';
 import 'widgets/ted_lista.dart';
 import 'modelos/ted.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -26,7 +25,7 @@ class DesafioVibe extends StatelessWidget {
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate
         ],
-        supportedLocales: [const Locale('pt', 'BR')],
+        supportedLocales: const [Locale('pt', 'BR')],
         debugShowCheckedModeBanner: false,
         routes: {
           AppRotas.tedDetalhes: (ctx) => const TedDetalhes(),
@@ -74,25 +73,6 @@ class PaginaInicial extends StatefulWidget {
 class _PaginaInicialState extends State<PaginaInicial> {
   final List<Ted> _teds = [];
 
-  _addTed(int codBanco, int agencia, int conta, String cpf, double valor,
-      DateTime data) {
-    final newTed = Ted(
-      id: Random().nextDouble().toString(),
-      codBanco: codBanco,
-      agencia: agencia,
-      conta: conta,
-      cpf: cpf,
-      valor: valor,
-      data: data,
-    );
-
-    setState(() {
-      _teds.add(newTed);
-    });
-
-    Navigator.of(context).pop();
-  }
-
   _removeTed(String id) {
     setState(() {
       _teds.removeWhere((tr) => tr.id == id);
@@ -109,6 +89,16 @@ class _PaginaInicialState extends State<PaginaInicial> {
           'TED’s agendados',
           style: TextStyle(color: Colors.white),
         ),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.add),
+            onPressed: () => {
+              Navigator.of(context).pushNamed(
+                AppRotas.tedFormulario,
+              )
+            },
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(

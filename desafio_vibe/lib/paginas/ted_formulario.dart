@@ -10,8 +10,7 @@ class TedFormulario extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:
-            const Text('Dados da TED', style: TextStyle(color: Colors.white)),
+        title: const Text('Nova TED', style: TextStyle(color: Colors.white)),
       ),
       body: Formulario(),
     );
