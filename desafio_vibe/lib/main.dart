@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 import 'dart:math';
 import 'widgets/ted_lista.dart';
 import 'modelos/ted.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 main() => runApp(DesafioVibe());
 
@@ -20,6 +21,12 @@ class DesafioVibe extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (ctx) => Teds(),
       child: MaterialApp(
+        // ignore: prefer_const_literals_to_create_immutables
+        localizationsDelegates: [
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate
+        ],
+        supportedLocales: [const Locale('pt', 'BR')],
         debugShowCheckedModeBanner: false,
         routes: {
           AppRotas.tedDetalhes: (ctx) => const TedDetalhes(),
