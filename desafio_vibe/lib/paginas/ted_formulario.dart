@@ -134,9 +134,10 @@ class _FormularioState extends State<Formulario> {
                 if (value == null || value.trim().isEmpty) {
                   return 'Valor é obrigatório';
                 }
-                /*if (double.parse(value) == 0 || double.parse(value) > 10000) {
+                var valor = value.replaceAll('.', '').replaceAll(',', '.');
+                if (double.parse(valor) == 0 || double.parse(valor) > 10000) {
                   return 'Valor deve ser um valor numérico superior a R\$ 0,00 e inferior a R\$ 10.000,00';
-                }*/
+                }
               },
               onSaved: (value) => _formTed['valor'] = value!,
             ),
