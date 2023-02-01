@@ -26,6 +26,30 @@ class Formulario extends StatefulWidget {
 }
 
 class _FormularioState extends State<Formulario> {
+  final _codBancoController = TextEditingController();
+  final _agenciaController = TextEditingController();
+  final _contaController = TextEditingController();
+  final _cpfController = TextEditingController();
+  final _valorController = TextEditingController();
+  DateTime? _selectedDate = DateTime.now();
+
+  _showDatePicker() {
+    showDatePicker(
+      context: context,
+      firstDate: DateTime.now(),
+      lastDate: DateTime.now().add(const Duration(days: 30)),
+      initialDate: DateTime.now(),
+    ).then((pickedDate) {
+      if (pickedDate == null) {
+        return;
+      }
+
+      setState(() {
+        _selectedDate = pickedDate;
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final _form = GlobalKey<FormState>();
@@ -39,6 +63,8 @@ class _FormularioState extends State<Formulario> {
           children: <Widget>[
             TextFormField(
               decoration: const InputDecoration(labelText: 'Código do Banco'),
+              controller: _codBancoController,
+              keyboardType: TextInputType.number,
               validator: (value) {
                 if (value == null || value.trim().isEmpty) {
                   return 'Código do Banco é obrigatório';
@@ -51,6 +77,8 @@ class _FormularioState extends State<Formulario> {
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'Agência'),
+              controller: _agenciaController,
+              keyboardType: TextInputType.number,
               validator: (value) {
                 if (value == null || value.trim().isEmpty) {
                   return 'Agência é obrigatória';
@@ -63,6 +91,8 @@ class _FormularioState extends State<Formulario> {
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'Conta'),
+              controller: _contaController,
+              keyboardType: TextInputType.number,
               validator: (value) {
                 if (value == null || value.trim().isEmpty) {
                   return 'Conta é obrigatória';
@@ -75,6 +105,8 @@ class _FormularioState extends State<Formulario> {
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'CPF'),
+              controller: _cpfController,
+              keyboardType: TextInputType.number,
               validator: (value) {
                 if (value == null || value.trim().isEmpty) {
                   return 'CPF é obrigatório';
@@ -87,6 +119,9 @@ class _FormularioState extends State<Formulario> {
             ),
             TextFormField(
               decoration: const InputDecoration(labelText: 'Valor (R\$)'),
+              controller: _valorController,
+              keyboardType:
+                  const TextInputType.numberWithOptions(decimal: true),
               validator: (value) {
                 if (value == null || value.trim().isEmpty) {
                   return 'Valor é obrigatório';
@@ -97,11 +132,28 @@ class _FormularioState extends State<Formulario> {
               },
               onSaved: (value) => _formTed['valor'] = value!,
             ),
-            InputDatePickerFormField(
-              firstDate: DateTime.now(),
-              lastDate: DateTime.now().add(const Duration(days: 30)),
-              fieldLabelText: 'Data',
-              onDateSaved: (value) => _formTed['data'] = value,
+            SizedBox(
+              height: 70,
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Text(
+                      _selectedDate == null
+                          ? 'Nenhuma data selecionada!'
+                          : 'Data Selecionada: ${DateFormat('dd/MM/y').format(_selectedDate!)}',
+                    ),
+                  ),
+                  TextButton(
+                    child: const Text(
+                      'Selecionar Data',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    onPressed: _showDatePicker,
+                  )
+                ],
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(20),
@@ -121,6 +173,10 @@ class _FormularioState extends State<Formulario> {
 
                         if (isValid == true) {
                           _form.currentState?.save();
+                          /*if (_selectedDate == null) {
+                            return;
+                          }*/
+                          _formTed['data'] = _selectedDate!;
                           Navigator.of(context).pushNamed(
                             AppRotas.tedRevisar,
                             arguments: _formTed,
