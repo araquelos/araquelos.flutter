@@ -99,7 +99,6 @@ class TedDetalhes extends StatelessWidget {
                     const SizedBox(height: 10),
                     Text(
                       UtilBrasilFields.obterReal(ted.valor),
-                      //'R\$${ted.valor.toString()}',
                       style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,

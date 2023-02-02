@@ -1,3 +1,4 @@
+import 'package:brasil_fields/brasil_fields.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../modelos/ted.dart';
@@ -51,12 +52,12 @@ class TedLista extends StatelessWidget {
                   child: ListTile(
                     leading: CircleAvatar(
                       backgroundColor: Colors.purple,
-                      //radius: 30,
+                      radius: 30,
                       child: Padding(
-                        padding: const EdgeInsets.all(6),
+                        padding: const EdgeInsets.all(5),
                         child: FittedBox(
                           child: Text(
-                            'R\$${tr.valor}',
+                            UtilBrasilFields.obterReal(tr.valor),
                             style: const TextStyle(
                               color: Colors.white,
                             ),
