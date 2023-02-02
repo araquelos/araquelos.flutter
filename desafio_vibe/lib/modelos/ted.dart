@@ -2,7 +2,7 @@ class Ted {
   final String id;
   final int codBanco;
   final int agencia;
-  final int conta;
+  final String conta;
   final String cpf;
   final double valor;
   final DateTime data;

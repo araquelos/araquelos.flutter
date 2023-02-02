@@ -149,7 +149,7 @@ class _FormularioState extends State<Formulario> {
                     child: Text(
                       _selectedDate == null
                           ? 'Nenhuma data selecionada!'
-                          : 'Data Selecionada: ${DateFormat('dd/MM/y').format(_selectedDate!)}',
+                          : 'Data Selecionada: ${DateFormat('dd/MM/yyyy').format(_selectedDate!)}',
                     ),
                   ),
                   TextButton(
@@ -182,9 +182,6 @@ class _FormularioState extends State<Formulario> {
 
                         if (isValid == true) {
                           _form.currentState?.save();
-                          /*if (_selectedDate == null) {
-                            return;
-                          }*/
                           _formTed['data'] = _selectedDate!;
                           Navigator.of(context).pushNamed(
                             AppRotas.tedRevisar,

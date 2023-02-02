@@ -1,23 +1,25 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import '../modelos/ted.dart';
 import 'package:intl/intl.dart';
 
+import '../provider/teds.dart';
 import '../utilitarios/app_rotas.dart';
 
 class TedLista extends StatelessWidget {
   final List<Ted> teds;
-  final void Function(String) onRemove;
 
   const TedLista(
-    this.teds,
-    this.onRemove, {
+    this.teds, {
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    final Teds tedsProvider = Provider.of(context);
+
     return SizedBox(
       height: 430,
       child: teds.isEmpty
@@ -51,7 +53,7 @@ class TedLista extends StatelessWidget {
                   child: ListTile(
                     leading: CircleAvatar(
                       backgroundColor: Colors.purple,
-                      radius: 30,
+                      //radius: 30,
                       child: Padding(
                         padding: const EdgeInsets.all(6),
                         child: FittedBox(
@@ -69,7 +71,7 @@ class TedLista extends StatelessWidget {
                       style: Theme.of(context).textTheme.titleLarge,
                     ),
                     subtitle: Text(
-                      DateFormat('d MMM y').format(tr.data),
+                      DateFormat('dd/MM/yyyy').format(tr.data),
                     ),
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
@@ -84,7 +86,29 @@ class TedLista extends StatelessWidget {
                             icon: const Icon(Icons.remove_red_eye),
                             color: Theme.of(context).colorScheme.background),
                         IconButton(
-                            onPressed: () => onRemove(tr.id),
+                            onPressed: () => showDialog<String>(
+                                  context: context,
+                                  builder: (BuildContext context) =>
+                                      AlertDialog(
+                                    title: const Text('Excluir TED'),
+                                    content: const Text(
+                                        'Tem certeza que deseja excluir essa transação?'),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () =>
+                                            Navigator.pop(context, 'Não'),
+                                        child: const Text('Não'),
+                                      ),
+                                      TextButton(
+                                        onPressed: () {
+                                          Navigator.pop(context, 'Sim');
+                                          tedsProvider.remove(tr);
+                                        },
+                                        child: const Text('Sim'),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                             icon: const Icon(Icons.delete),
                             color: Theme.of(context).colorScheme.error),
                       ],

@@ -28,11 +28,12 @@ class DesafioVibe extends StatelessWidget {
         supportedLocales: const [Locale('pt', 'BR')],
         debugShowCheckedModeBanner: false,
         routes: {
-          AppRotas.tedDetalhes: (ctx) => const TedDetalhes(),
+          AppRotas.inicio: (_) => const PaginaInicial(),
+          AppRotas.tedFormulario: (_) => const TedFormulario(),
           AppRotas.tedRevisar: (ctx) => const TedRevisar(),
-          AppRotas.tedFormulario: (ctx) => TedFormulario(),
+          AppRotas.tedDetalhes: (ctx) => const TedDetalhes(),
         },
-        home: const PaginaInicial(),
+        //home: const PaginaInicial(),
         theme: tema.copyWith(
           colorScheme: tema.colorScheme.copyWith(
             primary: Colors.purple,
@@ -71,14 +72,6 @@ class PaginaInicial extends StatefulWidget {
 }
 
 class _PaginaInicialState extends State<PaginaInicial> {
-  final List<Ted> _teds = [];
-
-  _removeTed(String id) {
-    setState(() {
-      _teds.removeWhere((tr) => tr.id == id);
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     final Teds teds = Provider.of(context);
@@ -104,10 +97,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            TedLista(
-              teds.all,
-              _removeTed,
-            ),
+            TedLista(teds.all),
           ],
         ),
       ),

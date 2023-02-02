@@ -3,28 +3,14 @@ import 'dart:math';
 import 'package:desafio_vibe/modelos/ted.dart';
 import 'package:flutter/material.dart';
 
-import '../dados/teds_mockados.dart';
-
 class Teds with ChangeNotifier {
-  final Map<String, Ted> _itens = {...teds_mockados};
+  final Map<String, Ted> _itens = {/*...teds_mockados*/};
 
   List<Ted> get all {
     return [..._itens.values];
   }
 
-  int get count {
-    return _itens.length;
-  }
-
-  Ted byIndex(int i) {
-    return _itens.values.elementAt(i);
-  }
-
   void put(Ted ted) {
-    if (ted == null) {
-      return;
-    }
-
     final id = Random().nextDouble().toString();
     _itens.putIfAbsent(
         id,
@@ -37,6 +23,11 @@ class Teds with ChangeNotifier {
             valor: ted.valor,
             data: ted.data));
 
+    notifyListeners();
+  }
+
+  void remove(Ted ted) {
+    _itens.remove(ted.id);
     notifyListeners();
   }
 }

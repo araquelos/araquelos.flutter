@@ -1,5 +1,10 @@
+import 'package:desafio_vibe/modelos/ted.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
+
+import '../provider/teds.dart';
+import '../utilitarios/app_rotas.dart';
 
 class TedRevisar extends StatelessWidget {
   const TedRevisar({Key? key}) : super(key: key);
@@ -9,17 +14,14 @@ class TedRevisar extends StatelessWidget {
     final Map<String, Object> _formTed =
         ModalRoute.of(context)!.settings.arguments as Map<String, Object>;
     DateTime dataFormatada = DateTime.parse(_formTed['data'].toString());
+    double valorFormatado = double.parse(
+        _formTed['valor'].toString().replaceAll('.', '').replaceAll(',', '.'));
+    final Teds teds = Provider.of(context);
 
     return Scaffold(
       appBar: AppBar(
         title:
             const Text('Confirmar TED', style: TextStyle(color: Colors.white)),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.save),
-            onPressed: () => {},
-          ),
-        ],
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -126,7 +128,7 @@ class TedRevisar extends StatelessWidget {
                     ),
                     const SizedBox(height: 10),
                     Text(
-                      DateFormat("dd/MM/yyyy").format(dataFormatada),
+                      DateFormat('dd/MM/yyyy').format(dataFormatada),
                       style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
@@ -148,7 +150,21 @@ class TedRevisar extends StatelessWidget {
                                       ?.color,
                                 ),
                               ),
-                              onPressed: () {},
+                              onPressed: () {
+                                teds.put(Ted(
+                                    id: '',
+                                    codBanco: int.parse(
+                                        _formTed['codBanco'].toString()),
+                                    agencia: int.parse(
+                                        _formTed['agencia'].toString()),
+                                    conta: _formTed['conta'].toString(),
+                                    cpf: _formTed['cpf'].toString(),
+                                    valor: valorFormatado,
+                                    data: dataFormatada));
+                                Navigator.of(context).pushNamed(
+                                  AppRotas.inicio,
+                                );
+                              },
                             ),
                           ),
                           const SizedBox(width: 10),
