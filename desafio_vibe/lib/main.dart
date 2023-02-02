@@ -6,7 +6,6 @@ import 'package:desafio_vibe/utilitarios/app_rotas.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'widgets/ted_lista.dart';
-import 'modelos/ted.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 main() => runApp(DesafioVibe());
@@ -20,8 +19,7 @@ class DesafioVibe extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (ctx) => Teds(),
       child: MaterialApp(
-        // ignore: prefer_const_literals_to_create_immutables
-        localizationsDelegates: [
+        localizationsDelegates: const [
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate
         ],
@@ -33,7 +31,6 @@ class DesafioVibe extends StatelessWidget {
           AppRotas.tedRevisar: (ctx) => const TedRevisar(),
           AppRotas.tedDetalhes: (ctx) => const TedDetalhes(),
         },
-        //home: const PaginaInicial(),
         theme: tema.copyWith(
           colorScheme: tema.colorScheme.copyWith(
             primary: Colors.purple,

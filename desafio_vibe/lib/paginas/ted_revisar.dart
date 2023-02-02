@@ -164,6 +164,7 @@ class TedRevisar extends StatelessWidget {
                                 Navigator.of(context).pushNamed(
                                   AppRotas.inicio,
                                 );
+                                _showToast(context);
                               },
                             ),
                           ),
@@ -197,4 +198,15 @@ class TedRevisar extends StatelessWidget {
       ),
     );
   }
+}
+
+void _showToast(BuildContext context) {
+  final scaffold = ScaffoldMessenger.of(context);
+  scaffold.showSnackBar(
+    SnackBar(
+      content: const Text('O TED foi agendado!'),
+      action: SnackBarAction(
+          label: 'Fechar', onPressed: scaffold.hideCurrentSnackBar),
+    ),
+  );
 }

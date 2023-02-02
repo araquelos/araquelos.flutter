@@ -1,5 +1,3 @@
-// ignore_for_file: camel_case_types
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../modelos/ted.dart';
@@ -92,7 +90,7 @@ class TedLista extends StatelessWidget {
                                       AlertDialog(
                                     title: const Text('Excluir TED'),
                                     content: const Text(
-                                        'Tem certeza que deseja excluir essa transação?'),
+                                        'Tem certeza que deseja excluir esse agendamento?'),
                                     actions: <Widget>[
                                       TextButton(
                                         onPressed: () =>

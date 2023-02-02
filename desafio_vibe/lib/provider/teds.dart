@@ -4,7 +4,7 @@ import 'package:desafio_vibe/modelos/ted.dart';
 import 'package:flutter/material.dart';
 
 class Teds with ChangeNotifier {
-  final Map<String, Ted> _itens = {/*...teds_mockados*/};
+  final Map<String, Ted> _itens = {};
 
   List<Ted> get all {
     return [..._itens.values];

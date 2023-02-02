@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_multi_formatter/flutter_multi_formatter.dart';
-import 'package:flutter_multi_formatter/formatters/currency_input_formatter.dart';
 import 'package:intl/intl.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
@@ -15,7 +14,7 @@ class TedFormulario extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Nova TED', style: TextStyle(color: Colors.white)),
       ),
-      body: Formulario(),
+      body: const Formulario(),
     );
   }
 }
