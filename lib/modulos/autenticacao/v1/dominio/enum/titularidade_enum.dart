@@ -1,0 +1,1 @@
+enum TitularidadeEnum { primeira, segunda }

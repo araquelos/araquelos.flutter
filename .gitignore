@@ -32,6 +32,11 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Freezed Code Generation
+*.freezed.dart
+*.g.dart
+!/packages/local_auth_android/lib/src/messages.g.dart
+
 # Symbolication related
 app.*.symbols
 
@@ -42,3 +47,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/packages/multifatorial/android/gradle/wrapper/gradle-wrapper.jar
+/packages/multifatorial/android/gradle/wrapper/gradle-wrapper.properties
+/packages/multifatorial/android/gradlew
+/packages/multifatorial/android/gradlew.bat
+/packages/local_auth/example/android/.gradle/*
+/packages/local_auth_android/example/android/.gradle/*
+
+
+.vscode

@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:2:3-44
+		INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:3:5-9:19
+activity#br.com.voxdatati.voxauth.SDK.Utils.AuthQrcode
+ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:4:9-8:20
+	android:exported
+		ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:4:80-103
+	android:name
+		ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:4:19-79
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:5:13-7:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:6:17-77
+	android:name
+		ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml:6:27-74
+uses-sdk
+INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+		ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+		ADDED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Vibe\mobile-pj\multifatorial\android\src\main\AndroidManifest.xml

@@ -1,0 +1,11 @@
+framework module VoxAuth {
+  umbrella header "VoxAuth.h"
+
+  export *
+  module * { export * }
+}
+
+module VoxAuth.Swift {
+  header "VoxAuth-Swift.h"
+  requires objc
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <RelativeLayout
+        android:id="@+id/scannerQr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_margin="10dp"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:background="@drawable/ic_keyboard_arrow_left_24px"
+        style="?android:attr/borderlessButtonStyle"></Button>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="@string/qrcode_title"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/idQrcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff" />
+</FrameLayout>
