@@ -5,8 +5,7 @@ class MealDetailScreen extends StatelessWidget {
   final Function(Meal) onToggleFavorite;
   final bool Function(Meal) isFavorite;
 
-  const MealDetailScreen(this.onToggleFavorite, this.isFavorite, {Key? key})
-      : super(key: key);
+  const MealDetailScreen(this.onToggleFavorite, this.isFavorite, {Key? key}) : super(key: key);
 
   Widget _createSectionTitle(BuildContext context, String title) {
     return Container(

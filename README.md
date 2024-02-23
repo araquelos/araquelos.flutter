@@ -1,4 +1,4 @@
-# meals
+# life_book
 
 A new Flutter project.
 
