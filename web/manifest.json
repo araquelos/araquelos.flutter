@@ -1,6 +1,6 @@
 {
-    "name": "meals",
-    "short_name": "meals",
+    "name": "shop",
+    "short_name": "shop",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-# meals
+# shop
 
 A new Flutter project.
 
