@@ -1,6 +1,0 @@
-framework module voxauthflutter {
-  umbrella header "voxauthflutter-umbrella.h"
-
-  export *
-  module * { export * }
-}

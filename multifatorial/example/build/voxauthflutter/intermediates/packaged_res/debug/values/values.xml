@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorAccent">#ff60009a</color>
-    <color name="colorPrimary">#ff6a1b9a</color>
-    <color name="viewfinder_border">@color/colorPrimary</color>
-    <color name="viewfinder_laser">@color/colorAccent</color>
-    <string name="app_name">VoxAuth</string>
-    <string name="qrcode_title">Leitor de QRCode</string>
-</resources>
