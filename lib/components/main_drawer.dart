@@ -32,27 +32,37 @@ class MainDrawer extends StatelessWidget {
             width: double.infinity,
             padding: const EdgeInsets.all(20),
             color: Theme.of(context).colorScheme.secondary,
-            alignment: Alignment.bottomRight,
-            child: Text(
-              'Vamos Cozinhar?',
-              style: TextStyle(
-                fontWeight: FontWeight.w900,
-                fontSize: 30,
-                color: Theme.of(context).colorScheme.primary,
+            alignment: Alignment.bottomLeft,
+            child: RichText(
+              text: TextSpan(
+                text: 'O Livro da Vida 🍃',
+                style: TextStyle(
+                  fontWeight: FontWeight.w900,
+                  fontSize: 30,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
+                children: const <TextSpan>[
+                  TextSpan(
+                    text: '\nJ. Krishnamurti',
+                    style: TextStyle(
+                      fontWeight: FontWeight.w900,
+                      fontSize: 15,
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
           const SizedBox(height: 20),
           _createItem(
-            Icons.restaurant,
-            'Refeições',
-            () => Navigator.of(context).pushReplacementNamed(AppRoutes.home),
+            Icons.calendar_month,
+            'Calendário',
+            () => Navigator.of(context).pushReplacementNamed(AppRoutes.calendar),
           ),
           _createItem(
-            Icons.settings,
-            'Configurações',
-            () =>
-                Navigator.of(context).pushReplacementNamed(AppRoutes.settings),
+            Icons.edit_attributes_outlined,
+            'Filtros',
+            () => Navigator.of(context).pushReplacementNamed(AppRoutes.filters),
           ),
         ],
       ),

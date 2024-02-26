@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import '../models/category.dart';
+import '../models/month.dart';
 import '../utils/app_routes.dart';
 
-class CategoryItem extends StatelessWidget {
-  final Category category;
+class MonthItem extends StatelessWidget {
+  final Month month;
 
-  const CategoryItem(this.category, {Key? key}) : super(key: key);
+  const MonthItem(this.month, {Key? key}) : super(key: key);
 
   void _selectCategory(BuildContext context) {
     Navigator.of(context).pushNamed(
       AppRoutes.categoriesMeals,
-      arguments: category,
+      arguments: month,
     );
   }
 
@@ -26,15 +26,15 @@ class CategoryItem extends StatelessWidget {
           borderRadius: BorderRadius.circular(15),
           gradient: LinearGradient(
             colors: [
-              category.color.withOpacity(0.5),
-              category.color,
+              month.color.withOpacity(0.5),
+              month.color,
             ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
         ),
         child: Text(
-          category.title,
+          month.title,
           style: Theme.of(context).textTheme.titleLarge,
         ),
       ),

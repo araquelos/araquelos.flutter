@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import '../components/meal_item.dart';
-import '../models/meal.dart';
+import '../models/reflection.dart';
 
 class FavoriteScreen extends StatelessWidget {
-  final List<Meal> favoriteMeals;
+  final List<Reflection> favoriteMeals;
 
   const FavoriteScreen(this.favoriteMeals, {Key? key}) : super(key: key);
 
@@ -11,7 +11,7 @@ class FavoriteScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     if (favoriteMeals.isEmpty) {
       return const Center(
-        child: Text('Nenhuma refeição foi marcada como favoritas'),
+        child: Text('Nenhuma refleção hoje :('),
       );
     } else {
       return ListView.builder(

@@ -1,25 +1,24 @@
 import 'package:flutter/material.dart';
 import '../components/main_drawer.dart';
-import '../models/settings.dart';
+import '../models/filters.dart';
 
 class SettingsScreen extends StatefulWidget {
-  final Settings settings;
-  final Function(Settings) onSettingsChanged;
+  final Filters filters;
+  final Function(Filters) onFiltersChanged;
 
-  const SettingsScreen(this.settings, this.onSettingsChanged, {Key? key})
-      : super(key: key);
+  const SettingsScreen(this.filters, this.onFiltersChanged, {Key? key}) : super(key: key);
 
   @override
   State<SettingsScreen> createState() => _SettingsScreenState();
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
-  Settings? settings;
+  Filters? filters;
 
   @override
   void initState() {
     super.initState();
-    settings = widget.settings;
+    filters = widget.filters;
   }
 
   Widget _createSwitch(
@@ -32,9 +31,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
       title: Text(title),
       subtitle: Text(subtitle),
       value: value,
+      inactiveThumbColor: Colors.white,
+      inactiveTrackColor: Colors.grey,
       onChanged: (value) {
         onChanged(value);
-        widget.onSettingsChanged(settings!);
+        widget.onFiltersChanged(filters!);
       },
     );
   }
@@ -43,7 +44,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Configurações'),
+        title: const Text('Filtros'),
       ),
       drawer: const MainDrawer(),
       body: Column(
@@ -51,36 +52,30 @@ class _SettingsScreenState extends State<SettingsScreen> {
           Container(
             padding: const EdgeInsets.all(20),
             child: Text(
-              'Configurações',
-              style: Theme.of(context).textTheme.headline6,
+              'Filtro por Mês',
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ),
           Expanded(
             child: ListView(
               children: [
                 _createSwitch(
-                  'Sem Glutén',
-                  'Só exibe refeições sem glúten!',
-                  settings!.isGlutenFree,
-                  (value) => setState(() => settings!.isGlutenFree = value),
+                  'JANEIRO',
+                  'Ouvir — Aprender — Autoridade — Autoconhecimento',
+                  filters!.isJanuary,
+                  (value) => setState(() => filters!.isJanuary = value),
                 ),
                 _createSwitch(
-                  'Sem Lactose',
-                  'Só exibe refeições sem lactose!',
-                  settings!.isLactoseFree,
-                  (value) => setState(() => settings!.isLactoseFree = value),
+                  'FEVEREIRO',
+                  'Vir a Ser — Crença — Acção — Bem e Mal',
+                  filters!.isFebruary,
+                  (value) => setState(() => filters!.isFebruary = value),
                 ),
                 _createSwitch(
-                  'Vegana',
-                  'Só exibe refeições veganas!',
-                  settings!.isVegan,
-                  (value) => setState(() => settings!.isVegan = value),
-                ),
-                _createSwitch(
-                  'Vegetariana',
-                  'Só exibe refeições vegetarianas!',
-                  settings!.isVegetarian,
-                  (value) => setState(() => settings!.isVegetarian = value),
+                  'MARÇO',
+                  'Dependência — Apego — Relacionamento — Medo',
+                  filters!.isMarch,
+                  (value) => setState(() => filters!.isMarch = value),
                 ),
               ],
             ),

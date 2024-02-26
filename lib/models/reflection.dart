@@ -10,35 +10,53 @@ enum Cost {
   expensive,
 }
 
-class Meal {
+class Reflection {
   final String id;
-  final List<String> categories;
   final String title;
+  final int day;
+  final int month;
+  final List<String> monthFilters;
   final String imageUrl;
   final List<String> ingredients;
   final List<String> steps;
-  final int duration;
-  final bool isGlutenFree;
-  final bool isLactoseFree;
-  final bool isVegan;
-  final bool isVegetarian;
   final Complexity complexity;
   final Cost cost;
+  final bool isJanuary;
+  final bool isFebruary;
+  final bool isMarch;
+  final bool isApril;
+  final bool isMay;
+  final bool isJune;
+  final bool isJuly;
+  final bool isAugust;
+  final bool isSeptember;
+  final bool isOctober;
+  final bool isNovember;
+  final bool isDecember;
 
-  const Meal({
+  const Reflection({
     required this.id,
-    required this.categories,
     required this.title,
+    required this.day,
+    required this.month,
+    required this.monthFilters,
     required this.imageUrl,
     required this.ingredients,
     required this.steps,
-    required this.duration,
-    required this.isGlutenFree,
-    required this.isLactoseFree,
-    required this.isVegan,
-    required this.isVegetarian,
     required this.complexity,
     required this.cost,
+    this.isJanuary = false,
+    this.isFebruary = false,
+    this.isMarch = false,
+    this.isApril = false,
+    this.isMay = false,
+    this.isJune = false,
+    this.isJuly = false,
+    this.isAugust = false,
+    this.isSeptember = false,
+    this.isOctober = false,
+    this.isNovember = false,
+    this.isDecember = false,
   });
 
   String get complexityText {

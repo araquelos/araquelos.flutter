@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import '../components/meal_item.dart';
-import '../models/category.dart';
-import '../models/meal.dart';
+import '../models/month.dart';
+import '../models/reflection.dart';
 
 class CategoriesMealsScreen extends StatelessWidget {
-  final List<Meal> life_book;
+  final List<Reflection> life_book;
 
   const CategoriesMealsScreen(this.life_book, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final category = ModalRoute.of(context)!.settings.arguments as Category;
+    final category = ModalRoute.of(context)!.settings.arguments as Month;
 
     final categoryMeals = life_book.where((meal) {
-      return meal.categories.contains(category.id);
+      return meal.monthFilters.contains(category.id);
     }).toList();
 
     return Scaffold(

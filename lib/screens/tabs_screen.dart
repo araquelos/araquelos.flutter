@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'categories_screen.dart';
 import 'favorite_screen.dart';
 import '../components/main_drawer.dart';
-import '../models/meal.dart';
+import '../models/reflection.dart';
 
 class TabsScreen extends StatefulWidget {
-  final List<Meal> favoriteMeals;
+  final List<Reflection> favoriteMeals;
+  final bool isCalendar;
 
-  const TabsScreen(this.favoriteMeals, {Key? key}) : super(key: key);
+  const TabsScreen(this.favoriteMeals, this.isCalendar, {Key? key}) : super(key: key);
 
   @override
   State<TabsScreen> createState() => _TabsScreenState();
@@ -21,14 +22,15 @@ class _TabsScreenState extends State<TabsScreen> {
   @override
   void initState() {
     super.initState();
+    _selectedScreenIndex = widget.isCalendar == true ? 1 : 0;
     _screens = [
+      {
+        'title': 'Reflexão do Dia',
+        'screen': FavoriteScreen(widget.favoriteMeals),
+      },
       {
         'title': 'Calendário',
         'screen': const CategoriesScreen(),
-      },
-      {
-        'title': 'Mensagem de Hoje',
-        'screen': FavoriteScreen(widget.favoriteMeals),
       },
     ];
   }
@@ -57,12 +59,12 @@ class _TabsScreenState extends State<TabsScreen> {
         currentIndex: _selectedScreenIndex,
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.calendar_month),
-            label: 'Calendário',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.calendar_today),
             label: 'Hoje',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calendar_month),
+            label: 'Calendário',
           ),
         ],
       ),

@@ -4,8 +4,8 @@ import 'screens/categories_meals_screen.dart';
 import 'screens/meal_detail_screen.dart';
 import 'screens/settings_screen.dart';
 import 'utils/app_routes.dart';
-import 'models/meal.dart';
-import 'models/settings.dart';
+import 'models/reflection.dart';
+import 'models/filters.dart';
 import 'data/dummy_data.dart';
 
 void main() {
@@ -20,37 +20,57 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Settings settings = Settings();
-  List<Meal> _availableMeals = dummyMeals;
-  final List<Meal> _favoriteMeals = [];
+  Filters filters = Filters();
+  List<Reflection> _availableMeals = dummyMessages;
+  final List<Reflection> _favoriteMeals =
+      dummyMessages.where((x) => x.day == DateTime.now().day && x.month == DateTime.now().month).toList();
 
-  void _filterMeals(Settings settings) {
+  void _filterMeals(Filters filters) {
     setState(() {
-      this.settings = settings;
-      _availableMeals = dummyMeals.where((meal) {
-        final filterGluten = settings.isGlutenFree && !meal.isGlutenFree;
-        final filterLactose = settings.isLactoseFree && !meal.isLactoseFree;
-        final filterVegan = settings.isVegan && !meal.isVegan;
-        final filterVegetarian = settings.isVegetarian && !meal.isVegetarian;
-        return !filterGluten && !filterLactose && !filterVegan && !filterVegetarian;
+      this.filters = filters;
+      _availableMeals = dummyMessages.where((meal) {
+        final filterJanuary = filters.isJanuary && !meal.isJanuary;
+        final filterFebruary = filters.isFebruary && !meal.isFebruary;
+        final filterMarch = filters.isMarch && !meal.isMarch;
+        final filterApril = filters.isApril && !meal.isApril;
+        final filterMay = filters.isMay && !meal.isMay;
+        final filterJune = filters.isJune && !meal.isJune;
+        final filterJuly = filters.isJuly && !meal.isJuly;
+        final filterAugust = filters.isAugust && !meal.isAugust;
+        final filterSeptember = filters.isSeptember && !meal.isSeptember;
+        final filterOctober = filters.isOctober && !meal.isOctober;
+        final filterNovember = filters.isNovember && !meal.isNovember;
+        final filterDecember = filters.isDecember && !meal.isDecember;
+        return !filterJanuary &&
+            !filterFebruary &&
+            !filterMarch &&
+            !filterApril &&
+            !filterMay &&
+            !filterJune &&
+            !filterJuly &&
+            !filterAugust &&
+            !filterSeptember &&
+            !filterOctober &&
+            !filterNovember &&
+            !filterDecember;
       }).toList();
     });
   }
 
-  void _toggleFavorite(Meal meal) {
+  void _toggleFavorite(Reflection meal) {
     setState(() {
       _favoriteMeals.contains(meal) ? _favoriteMeals.remove(meal) : _favoriteMeals.add(meal);
     });
   }
 
-  bool _isFavorite(Meal meal) {
+  bool _isFavorite(Reflection meal) {
     return _favoriteMeals.contains(meal);
   }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Vamos Cozinhar?',
+      title: 'Livro da Vida',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
@@ -77,10 +97,11 @@ class _MyAppState extends State<MyApp> {
             .copyWith(background: Colors.white),
       ),
       routes: {
-        AppRoutes.home: (ctx) => TabsScreen(_favoriteMeals),
+        AppRoutes.home: (ctx) => TabsScreen(_favoriteMeals, false),
+        AppRoutes.calendar: (ctx) => TabsScreen(_favoriteMeals, true),
         AppRoutes.categoriesMeals: (ctx) => CategoriesMealsScreen(_availableMeals),
         AppRoutes.mealDetail: (ctx) => MealDetailScreen(_toggleFavorite, _isFavorite),
-        AppRoutes.settings: (ctx) => SettingsScreen(settings, _filterMeals),
+        AppRoutes.filters: (ctx) => SettingsScreen(filters, _filterMeals),
       },
     );
   }

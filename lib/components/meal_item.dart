@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import '../models/meal.dart';
+import '../models/reflection.dart';
 import '../utils/app_routes.dart';
 
 class MealItem extends StatelessWidget {
-  final Meal meal;
+  final Reflection reflection;
 
-  const MealItem(this.meal, {Key? key}) : super(key: key);
+  const MealItem(this.reflection, {Key? key}) : super(key: key);
 
   void _selectMeal(BuildContext context) {
     Navigator.of(context)
         .pushNamed(
       AppRoutes.mealDetail,
-      arguments: meal,
+      arguments: reflection,
     )
         .then((result) {
       if (result == null) {
@@ -42,7 +42,7 @@ class MealItem extends StatelessWidget {
                     topRight: Radius.circular(15),
                   ),
                   child: Image.network(
-                    meal.imageUrl,
+                    reflection.imageUrl,
                     height: 250,
                     width: double.infinity,
                     fit: BoxFit.cover,
@@ -59,7 +59,7 @@ class MealItem extends StatelessWidget {
                       horizontal: 20,
                     ),
                     child: Text(
-                      meal.title,
+                      reflection.title,
                       style: const TextStyle(
                         fontSize: 26,
                         color: Colors.white,
@@ -78,23 +78,23 @@ class MealItem extends StatelessWidget {
                 children: [
                   Row(
                     children: [
-                      const Icon(Icons.schedule),
+                      const Icon(Icons.calendar_today),
                       const SizedBox(width: 6),
-                      Text('${meal.duration} min'),
+                      Text(reflection.day.toString()),
                     ],
                   ),
                   Row(
                     children: [
-                      const Icon(Icons.work),
+                      const Icon(Icons.calendar_month),
                       const SizedBox(width: 6),
-                      Text(meal.complexityText),
+                      Text(reflection.month.toString()),
                     ],
                   ),
                   Row(
                     children: [
                       const Icon(Icons.attach_money),
                       const SizedBox(width: 6),
-                      Text(meal.costText),
+                      Text(reflection.costText),
                     ],
                   ),
                 ],

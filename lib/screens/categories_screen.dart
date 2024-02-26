@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../components/category_item.dart';
+import '../components/month_item.dart';
 import '../data/dummy_data.dart';
 
 class CategoriesScreen extends StatelessWidget {
@@ -15,8 +15,8 @@ class CategoriesScreen extends StatelessWidget {
         crossAxisSpacing: 22,
         mainAxisSpacing: 22,
       ),
-      children: dummyCategories.map((cat) {
-        return CategoryItem(cat);
+      children: dummyMonths.map((cat) {
+        return MonthItem(cat);
       }).toList(),
     );
   }

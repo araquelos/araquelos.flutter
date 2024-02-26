@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../models/meal.dart';
+import '../models/reflection.dart';
 
 class MealDetailScreen extends StatelessWidget {
-  final Function(Meal) onToggleFavorite;
-  final bool Function(Meal) isFavorite;
+  final Function(Reflection) onToggleFavorite;
+  final bool Function(Reflection) isFavorite;
 
   const MealDetailScreen(this.onToggleFavorite, this.isFavorite, {Key? key}) : super(key: key);
 
@@ -12,7 +12,7 @@ class MealDetailScreen extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 10),
       child: Text(
         title,
-        style: Theme.of(context).textTheme.headline6,
+        style: Theme.of(context).textTheme.titleLarge,
       ),
     );
   }
@@ -34,7 +34,7 @@ class MealDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final meal = ModalRoute.of(context)!.settings.arguments as Meal;
+    final meal = ModalRoute.of(context)!.settings.arguments as Reflection;
 
     return Scaffold(
       appBar: AppBar(
