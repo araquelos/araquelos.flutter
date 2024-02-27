@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
   Filters filters = Filters();
   List<Reflection> _availableMeals = dummyMessages;
   final List<Reflection> _favoriteMeals =
-      dummyMessages.where((x) => x.day == DateTime.now().day && x.month == DateTime.now().month).toList();
+      dummyMessages.where((x) => x.day == DateTime.now().day && x.monthInt == DateTime.now().month).toList();
 
   void _filterMeals(Filters filters) {
     setState(() {

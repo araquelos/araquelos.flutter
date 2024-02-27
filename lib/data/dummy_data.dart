@@ -56,30 +56,14 @@ const dummyMessages = [
   Reflection(
     id: 'r1',
     title: 'Ouvir com Facilidade',
-    day: 26,
-    month: 2,
-    monthFilters: ['m2'],
-    cost: Cost.cheap,
-    complexity: Complexity.simple,
-    imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
-    ingredients: [
-      '4 Tomatoes',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
+    day: 1,
+    month: Months.janeiro,
+    monthFilters: ['m1'],
+    isJanuary: true,
+    tag: Tags.ouvir,
+    imagePath: 'assets/images/01-01.jpg',
+    paragraphs: [
+      'Já alguma vez se sentaram muito silenciosamente, sem que a vossa atenção esteja fixada em coisa alguma, sem fazerem qualquer esforço para se concentrarem, mas com a mente muito silenciosa, completamente quieta?\n\nEntão ouvem tudo, não ouvem?\n\nOuvem os ruídos distantes tão bem quanto aqueles que estão mais perto e aqueles que estão muito próximos, os sons circundantes — o que significa realmente que estão a ouvir tudo.\n\nA vossa mente não se encontra confinada a um pequeno canal estreito.\n\nSe conseguirem ouvir desta maneira, ouvir com facilidade, sem esforço, descobrirão que uma mudança extraordinária está a ter lugar dentro de vós, uma mudança que surge sem que a tenham desejado, sem que a tenham pedido; e nessa mudança existe uma grande beleza e uma percepção imediata e profunda.'
     ],
-    steps: [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
-    ],
-    isFebruary: true,
   ),
 ];

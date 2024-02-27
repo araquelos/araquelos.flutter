@@ -41,8 +41,8 @@ class MealItem extends StatelessWidget {
                     topLeft: Radius.circular(15),
                     topRight: Radius.circular(15),
                   ),
-                  child: Image.network(
-                    reflection.imageUrl,
+                  child: Image.asset(
+                    reflection.imagePath,
                     height: 250,
                     width: double.infinity,
                     fit: BoxFit.cover,
@@ -87,14 +87,14 @@ class MealItem extends StatelessWidget {
                     children: [
                       const Icon(Icons.calendar_month),
                       const SizedBox(width: 6),
-                      Text(reflection.month.toString()),
+                      Text(reflection.monthText),
                     ],
                   ),
                   Row(
                     children: [
-                      const Icon(Icons.attach_money),
+                      const Icon(Icons.label_outline),
                       const SizedBox(width: 6),
-                      Text(reflection.costText),
+                      Text(reflection.tagText),
                     ],
                   ),
                 ],

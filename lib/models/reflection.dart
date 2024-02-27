@@ -1,26 +1,16 @@
-enum Complexity {
-  simple,
-  medium,
-  difficult,
-}
+enum Months { janeiro, fevereiro, marco, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro }
 
-enum Cost {
-  cheap,
-  fair,
-  expensive,
-}
+enum Tags { ouvir, aprender, autoridade, autoconhecimento }
 
 class Reflection {
   final String id;
   final String title;
   final int day;
-  final int month;
+  final Months month;
   final List<String> monthFilters;
-  final String imageUrl;
-  final List<String> ingredients;
-  final List<String> steps;
-  final Complexity complexity;
-  final Cost cost;
+  final Tags tag;
+  final String imagePath;
+  final List<String> paragraphs;
   final bool isJanuary;
   final bool isFebruary;
   final bool isMarch;
@@ -40,11 +30,9 @@ class Reflection {
     required this.day,
     required this.month,
     required this.monthFilters,
-    required this.imageUrl,
-    required this.ingredients,
-    required this.steps,
-    required this.complexity,
-    required this.cost,
+    required this.tag,
+    required this.imagePath,
+    required this.paragraphs,
     this.isJanuary = false,
     this.isFebruary = false,
     this.isMarch = false,
@@ -59,27 +47,38 @@ class Reflection {
     this.isDecember = false,
   });
 
-  String get complexityText {
-    switch (complexity) {
-      case Complexity.simple:
-        return 'Simples';
-      case Complexity.medium:
-        return 'Normal';
-      case Complexity.difficult:
-        return 'Difícil';
+  String get monthText {
+    switch (month) {
+      case Months.janeiro:
+        return 'Janeiro';
+      case Months.fevereiro:
+        return 'Fevereiro';
       default:
-        return 'Desconhecida';
+        return 'Desconhecido';
     }
   }
 
-  String get costText {
-    switch (cost) {
-      case Cost.cheap:
-        return 'Barato';
-      case Cost.fair:
-        return 'Justo';
-      case Cost.expensive:
-        return 'Caro';
+  int get monthInt {
+    switch (month) {
+      case Months.janeiro:
+        return 1;
+      case Months.fevereiro:
+        return 2;
+      default:
+        return 0;
+    }
+  }
+
+  String get tagText {
+    switch (tag) {
+      case Tags.ouvir:
+        return 'Ouvir';
+      case Tags.aprender:
+        return 'Aprender';
+      case Tags.autoridade:
+        return 'Autoridade';
+      case Tags.autoconhecimento:
+        return 'Autoconhecimento';
       default:
         return 'Desconhecido';
     }

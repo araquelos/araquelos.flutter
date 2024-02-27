@@ -19,8 +19,8 @@ class MealDetailScreen extends StatelessWidget {
 
   Widget _createSectionContainer(Widget child) {
     return Container(
-      width: 330,
-      height: 200,
+      width: 350,
+      height: 350,
       padding: const EdgeInsets.all(10),
       margin: const EdgeInsets.all(10),
       decoration: BoxDecoration(
@@ -46,44 +46,24 @@ class MealDetailScreen extends StatelessWidget {
             SizedBox(
               height: 300,
               width: double.infinity,
-              child: Image.network(
-                meal.imageUrl,
+              child: Image.asset(
+                meal.imagePath,
                 fit: BoxFit.cover,
               ),
             ),
-            _createSectionTitle(context, 'Ingredientes'),
-            _createSectionContainer(
-              ListView.builder(
-                itemCount: meal.ingredients.length,
-                itemBuilder: (ctx, index) {
-                  return Card(
-                    color: Theme.of(context).colorScheme.secondary,
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                        vertical: 5,
-                        horizontal: 10,
-                      ),
-                      child: Text(meal.ingredients[index]),
-                    ),
-                  );
-                },
-              ),
-            ),
-            _createSectionTitle(context, 'Passos'),
+            _createSectionTitle(context, 'Reflexão'),
             _createSectionContainer(ListView.builder(
-              itemCount: meal.steps.length,
+              itemCount: meal.paragraphs.length,
               itemBuilder: (ctx, index) {
                 return Column(
                   children: [
                     ListTile(
-                      leading: CircleAvatar(
-                        backgroundColor: Theme.of(context).colorScheme.primary,
-                        child: Text(
-                          '${index + 1}',
-                          style: const TextStyle(color: Colors.white),
-                        ),
+                      titleAlignment: ListTileTitleAlignment.top,
+                      iconColor: Theme.of(context).colorScheme.primary,
+                      leading: const Icon(
+                        Icons.label_important,
                       ),
-                      title: Text(meal.steps[index]),
+                      title: Text(meal.paragraphs[index]),
                     ),
                     const Divider(),
                   ],
@@ -94,9 +74,10 @@ class MealDetailScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(isFavorite(meal) ? Icons.star : Icons.star_border),
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        child: Icon(isFavorite(meal) ? Icons.cake : Icons.cake_outlined),
         onPressed: () {
-          onToggleFavorite(meal);
+          //onToggleFavorite(meal);
         },
       ),
     );
