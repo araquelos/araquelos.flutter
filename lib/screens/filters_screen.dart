@@ -2,17 +2,18 @@ import 'package:flutter/material.dart';
 import '../components/main_drawer.dart';
 import '../models/filters.dart';
 
-class SettingsScreen extends StatefulWidget {
+class FiltersScreen extends StatefulWidget {
   final Filters filters;
   final Function(Filters) onFiltersChanged;
 
-  const SettingsScreen(this.filters, this.onFiltersChanged, {Key? key}) : super(key: key);
+  const FiltersScreen(this.filters, this.onFiltersChanged, {Key? key})
+      : super(key: key);
 
   @override
-  State<SettingsScreen> createState() => _SettingsScreenState();
+  State<FiltersScreen> createState() => _FiltersScreenState();
 }
 
-class _SettingsScreenState extends State<SettingsScreen> {
+class _FiltersScreenState extends State<FiltersScreen> {
   Filters? filters;
 
   @override

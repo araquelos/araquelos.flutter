@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'categories_screen.dart';
-import 'favorite_screen.dart';
+import 'months_screen.dart';
+import 'reflection_day_screen.dart';
 import '../components/main_drawer.dart';
 import '../models/reflection.dart';
 
 class TabsScreen extends StatefulWidget {
-  final List<Reflection> favoriteMeals;
+  final List<Reflection> reflectionDay;
   final bool isCalendar;
 
-  const TabsScreen(this.favoriteMeals, this.isCalendar, {Key? key}) : super(key: key);
+  const TabsScreen(this.reflectionDay, this.isCalendar, {Key? key})
+      : super(key: key);
 
   @override
   State<TabsScreen> createState() => _TabsScreenState();
@@ -26,11 +27,11 @@ class _TabsScreenState extends State<TabsScreen> {
     _screens = [
       {
         'title': 'Reflexão do Dia',
-        'screen': FavoriteScreen(widget.favoriteMeals),
+        'screen': ReflectionDayScreen(widget.reflectionDay),
       },
       {
         'title': 'Calendário',
-        'screen': const CategoriesScreen(),
+        'screen': const MonthsScreen(),
       },
     ];
   }

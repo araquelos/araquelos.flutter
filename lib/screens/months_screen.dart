@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../components/month_item.dart';
 import '../data/dummy_data.dart';
 
-class CategoriesScreen extends StatelessWidget {
-  const CategoriesScreen({Key? key}) : super(key: key);
+class MonthsScreen extends StatelessWidget {
+  const MonthsScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

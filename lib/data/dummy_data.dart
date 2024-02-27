@@ -52,7 +52,7 @@ const dummyMonths = [
   ),
 ];
 
-const dummyMessages = [
+const dummyReflections = [
   Reflection(
     id: 'r1',
     title: 'Ouvir com Facilidade',

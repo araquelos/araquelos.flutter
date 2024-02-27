@@ -2,22 +2,22 @@ import 'package:flutter/material.dart';
 import '../models/reflection.dart';
 import '../utils/app_routes.dart';
 
-class MealItem extends StatelessWidget {
+class ReflectionItem extends StatelessWidget {
   final Reflection reflection;
 
-  const MealItem(this.reflection, {Key? key}) : super(key: key);
+  const ReflectionItem(this.reflection, {Key? key}) : super(key: key);
 
-  void _selectMeal(BuildContext context) {
+  void _selectReflection(BuildContext context) {
     Navigator.of(context)
         .pushNamed(
-      AppRoutes.mealDetail,
+      AppRoutes.reflectionDetail,
       arguments: reflection,
     )
         .then((result) {
       if (result == null) {
         print('Sem resultado!');
       } else {
-        print('O nome da refeição é $result.');
+        print('O nome da reflexão é $result.');
       }
     });
   }
@@ -25,7 +25,7 @@ class MealItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => _selectMeal(context),
+      onTap: () => _selectReflection(context),
       child: Card(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),

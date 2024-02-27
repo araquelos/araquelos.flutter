@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'screens/tabs_screen.dart';
-import 'screens/categories_meals_screen.dart';
-import 'screens/meal_detail_screen.dart';
-import 'screens/settings_screen.dart';
+import 'screens/months_reflections_screen.dart';
+import 'screens/reflection_detail_screen.dart';
+import 'screens/filters_screen.dart';
 import 'utils/app_routes.dart';
 import 'models/reflection.dart';
 import 'models/filters.dart';
@@ -21,26 +21,28 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   Filters filters = Filters();
-  List<Reflection> _availableMeals = dummyMessages;
-  final List<Reflection> _favoriteMeals =
-      dummyMessages.where((x) => x.day == DateTime.now().day && x.monthInt == DateTime.now().month).toList();
+  List<Reflection> _availableReflections = dummyReflections;
+  final List<Reflection> _reflectionDay = dummyReflections
+      .where((x) =>
+          x.day == DateTime.now().day && x.monthInt == DateTime.now().month)
+      .toList();
 
-  void _filterMeals(Filters filters) {
+  void _filterReflections(Filters filters) {
     setState(() {
       this.filters = filters;
-      _availableMeals = dummyMessages.where((meal) {
-        final filterJanuary = filters.isJanuary && !meal.isJanuary;
-        final filterFebruary = filters.isFebruary && !meal.isFebruary;
-        final filterMarch = filters.isMarch && !meal.isMarch;
-        final filterApril = filters.isApril && !meal.isApril;
-        final filterMay = filters.isMay && !meal.isMay;
-        final filterJune = filters.isJune && !meal.isJune;
-        final filterJuly = filters.isJuly && !meal.isJuly;
-        final filterAugust = filters.isAugust && !meal.isAugust;
-        final filterSeptember = filters.isSeptember && !meal.isSeptember;
-        final filterOctober = filters.isOctober && !meal.isOctober;
-        final filterNovember = filters.isNovember && !meal.isNovember;
-        final filterDecember = filters.isDecember && !meal.isDecember;
+      _availableReflections = dummyReflections.where((reflection) {
+        final filterJanuary = filters.isJanuary && !reflection.isJanuary;
+        final filterFebruary = filters.isFebruary && !reflection.isFebruary;
+        final filterMarch = filters.isMarch && !reflection.isMarch;
+        final filterApril = filters.isApril && !reflection.isApril;
+        final filterMay = filters.isMay && !reflection.isMay;
+        final filterJune = filters.isJune && !reflection.isJune;
+        final filterJuly = filters.isJuly && !reflection.isJuly;
+        final filterAugust = filters.isAugust && !reflection.isAugust;
+        final filterSeptember = filters.isSeptember && !reflection.isSeptember;
+        final filterOctober = filters.isOctober && !reflection.isOctober;
+        final filterNovember = filters.isNovember && !reflection.isNovember;
+        final filterDecember = filters.isDecember && !reflection.isDecember;
         return !filterJanuary &&
             !filterFebruary &&
             !filterMarch &&
@@ -57,14 +59,8 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
-  void _toggleFavorite(Reflection meal) {
-    setState(() {
-      _favoriteMeals.contains(meal) ? _favoriteMeals.remove(meal) : _favoriteMeals.add(meal);
-    });
-  }
-
-  bool _isFavorite(Reflection meal) {
-    return _favoriteMeals.contains(meal);
+  bool _isReflectionDay(Reflection reflection) {
+    return _reflectionDay.contains(reflection);
   }
 
   @override
@@ -97,11 +93,13 @@ class _MyAppState extends State<MyApp> {
             .copyWith(background: Colors.white),
       ),
       routes: {
-        AppRoutes.home: (ctx) => TabsScreen(_favoriteMeals, false),
-        AppRoutes.calendar: (ctx) => TabsScreen(_favoriteMeals, true),
-        AppRoutes.categoriesMeals: (ctx) => CategoriesMealsScreen(_availableMeals),
-        AppRoutes.mealDetail: (ctx) => MealDetailScreen(_toggleFavorite, _isFavorite),
-        AppRoutes.filters: (ctx) => SettingsScreen(filters, _filterMeals),
+        AppRoutes.home: (ctx) => TabsScreen(_reflectionDay, false),
+        AppRoutes.calendar: (ctx) => TabsScreen(_reflectionDay, true),
+        AppRoutes.monthReflections: (ctx) =>
+            MonthsReflectionsScreen(_availableReflections),
+        AppRoutes.reflectionDetail: (ctx) =>
+            ReflectionDetailScreen(_isReflectionDay),
+        AppRoutes.filters: (ctx) => FiltersScreen(filters, _filterReflections),
       },
     );
   }

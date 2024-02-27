@@ -7,9 +7,9 @@ class MonthItem extends StatelessWidget {
 
   const MonthItem(this.month, {Key? key}) : super(key: key);
 
-  void _selectCategory(BuildContext context) {
+  void _selectMonth(BuildContext context) {
     Navigator.of(context).pushNamed(
-      AppRoutes.categoriesMeals,
+      AppRoutes.monthReflections,
       arguments: month,
     );
   }
@@ -17,7 +17,7 @@ class MonthItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => _selectCategory(context),
+      onTap: () => _selectMonth(context),
       splashColor: Theme.of(context).colorScheme.primary,
       borderRadius: BorderRadius.circular(15),
       child: Container(

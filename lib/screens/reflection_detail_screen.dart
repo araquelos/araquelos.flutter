@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import '../models/reflection.dart';
 
-class MealDetailScreen extends StatelessWidget {
-  final Function(Reflection) onToggleFavorite;
-  final bool Function(Reflection) isFavorite;
+class ReflectionDetailScreen extends StatelessWidget {
+  final bool Function(Reflection) isReflectionDay;
 
-  const MealDetailScreen(this.onToggleFavorite, this.isFavorite, {Key? key}) : super(key: key);
+  const ReflectionDetailScreen(this.isReflectionDay, {Key? key})
+      : super(key: key);
 
   Widget _createSectionTitle(BuildContext context, String title) {
     return Container(
@@ -34,11 +34,11 @@ class MealDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final meal = ModalRoute.of(context)!.settings.arguments as Reflection;
+    final reflection = ModalRoute.of(context)!.settings.arguments as Reflection;
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(meal.title),
+        title: Text(reflection.title),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -47,13 +47,14 @@ class MealDetailScreen extends StatelessWidget {
               height: 300,
               width: double.infinity,
               child: Image.asset(
-                meal.imagePath,
+                reflection.imagePath,
                 fit: BoxFit.cover,
               ),
             ),
-            _createSectionTitle(context, 'Reflexão'),
+            _createSectionTitle(context,
+                'Reflexão do Dia ${reflection.day}/${reflection.monthInt}'),
             _createSectionContainer(ListView.builder(
-              itemCount: meal.paragraphs.length,
+              itemCount: reflection.paragraphs.length,
               itemBuilder: (ctx, index) {
                 return Column(
                   children: [
@@ -63,7 +64,7 @@ class MealDetailScreen extends StatelessWidget {
                       leading: const Icon(
                         Icons.label_important,
                       ),
-                      title: Text(meal.paragraphs[index]),
+                      title: Text(reflection.paragraphs[index]),
                     ),
                     const Divider(),
                   ],
@@ -73,12 +74,14 @@ class MealDetailScreen extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.endTop,
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Theme.of(context).colorScheme.primary,
-        child: Icon(isFavorite(meal) ? Icons.cake : Icons.cake_outlined),
-        onPressed: () {
-          //onToggleFavorite(meal);
-        },
+        backgroundColor: Colors.white,
+        child: Icon(
+          isReflectionDay(reflection) ? Icons.cake : Icons.cake_outlined,
+          color: Colors.green,
+        ),
+        onPressed: () {},
       ),
     );
   }
