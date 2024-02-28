@@ -1,6 +1,20 @@
-enum Months { janeiro, fevereiro, marco, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro }
+enum Months {
+  nenhum,
+  janeiro,
+  fevereiro,
+  marco,
+  abril,
+  maio,
+  junho,
+  julho,
+  agosto,
+  setembro,
+  outubro,
+  novembro,
+  dezembro
+}
 
-enum Tags { ouvir, aprender, autoridade, autoconhecimento }
+enum Tags { nenhuma, ouvir, aprender, autoridade, autoconhecimento }
 
 class Reflection {
   final String id;
@@ -27,10 +41,10 @@ class Reflection {
   const Reflection({
     required this.id,
     required this.title,
-    required this.day,
-    required this.month,
+    this.day = 0,
+    this.month = Months.nenhum,
     required this.monthFilters,
-    required this.tag,
+    this.tag = Tags.nenhuma,
     required this.imagePath,
     required this.paragraphs,
     this.isJanuary = false,
@@ -54,7 +68,7 @@ class Reflection {
       case Months.fevereiro:
         return 'Fevereiro';
       default:
-        return 'Desconhecido';
+        return 'Nenhum';
     }
   }
 
@@ -80,7 +94,7 @@ class Reflection {
       case Tags.autoconhecimento:
         return 'Autoconhecimento';
       default:
-        return 'Desconhecido';
+        return 'Oração';
     }
   }
 }

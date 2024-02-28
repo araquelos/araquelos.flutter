@@ -43,7 +43,7 @@ class ReflectionItem extends StatelessWidget {
                   ),
                   child: Image.asset(
                     reflection.imagePath,
-                    height: 250,
+                    height: 210,
                     width: double.infinity,
                     fit: BoxFit.cover,
                   ),
@@ -53,7 +53,7 @@ class ReflectionItem extends StatelessWidget {
                   right: 10,
                   child: Container(
                     width: 300,
-                    color: Colors.black54,
+                    color: const Color.fromARGB(138, 76, 175, 80),
                     padding: const EdgeInsets.symmetric(
                       vertical: 5,
                       horizontal: 20,

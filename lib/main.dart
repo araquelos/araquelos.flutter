@@ -24,7 +24,8 @@ class _MyAppState extends State<MyApp> {
   List<Reflection> _availableReflections = dummyReflections;
   final List<Reflection> _reflectionDay = dummyReflections
       .where((x) =>
-          x.day == DateTime.now().day && x.monthInt == DateTime.now().month)
+          (x.day == DateTime.now().day || x.day == 0) &&
+          (x.monthInt == DateTime.now().month || x.monthInt == 0))
       .toList();
 
   void _filterReflections(Filters filters) {
