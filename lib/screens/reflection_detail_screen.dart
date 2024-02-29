@@ -4,8 +4,7 @@ import '../models/reflection.dart';
 class ReflectionDetailScreen extends StatelessWidget {
   final bool Function(Reflection) isReflectionDay;
 
-  const ReflectionDetailScreen(this.isReflectionDay, {Key? key})
-      : super(key: key);
+  const ReflectionDetailScreen(this.isReflectionDay, {Key? key}) : super(key: key);
 
   Widget _createSectionTitle(BuildContext context, String title) {
     return Container(
@@ -44,7 +43,7 @@ class ReflectionDetailScreen extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(
-              height: 300,
+              height: 230,
               width: double.infinity,
               child: Image.asset(
                 reflection.imagePath,
@@ -52,7 +51,7 @@ class ReflectionDetailScreen extends StatelessWidget {
               ),
             ),
             _createSectionTitle(context,
-                'Reflexão do Dia ${reflection.day}/${reflection.monthInt}'),
+                reflection.day != 0 ? 'Reflexão do Dia ${reflection.day}/${reflection.monthInt}' : 'Oração Diária'),
             _createSectionContainer(ListView.builder(
               itemCount: reflection.paragraphs.length,
               itemBuilder: (ctx, index) {

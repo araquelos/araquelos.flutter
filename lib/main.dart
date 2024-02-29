@@ -23,9 +23,8 @@ class _MyAppState extends State<MyApp> {
   Filters filters = Filters();
   List<Reflection> _availableReflections = dummyReflections;
   final List<Reflection> _reflectionDay = dummyReflections
-      .where((x) =>
-          (x.day == DateTime.now().day || x.day == 0) &&
-          (x.monthInt == DateTime.now().month || x.monthInt == 0))
+      .where(
+          (x) => (x.day == DateTime.now().day || x.day == 0) && (x.monthInt == DateTime.now().month || x.monthInt == 0))
       .toList();
 
   void _filterReflections(Filters filters) {
@@ -67,7 +66,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Livro da Vida',
+      title: 'Reflexões da Vida',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
@@ -96,10 +95,8 @@ class _MyAppState extends State<MyApp> {
       routes: {
         AppRoutes.home: (ctx) => TabsScreen(_reflectionDay, false),
         AppRoutes.calendar: (ctx) => TabsScreen(_reflectionDay, true),
-        AppRoutes.monthReflections: (ctx) =>
-            MonthsReflectionsScreen(_availableReflections),
-        AppRoutes.reflectionDetail: (ctx) =>
-            ReflectionDetailScreen(_isReflectionDay),
+        AppRoutes.monthReflections: (ctx) => MonthsReflectionsScreen(_availableReflections),
+        AppRoutes.reflectionDetail: (ctx) => ReflectionDetailScreen(_isReflectionDay),
         AppRoutes.filters: (ctx) => FiltersScreen(filters, _filterReflections),
       },
     );
