@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 import 'months_screen.dart';
 import 'reflection_day_screen.dart';
-import '../components/main_drawer.dart';
 import '../models/reflection.dart';
 
 class TabsScreen extends StatefulWidget {
   final List<Reflection> reflectionDay;
   final bool isCalendar;
 
-  const TabsScreen(this.reflectionDay, this.isCalendar, {Key? key})
-      : super(key: key);
+  const TabsScreen(this.reflectionDay, this.isCalendar, {Key? key}) : super(key: key);
 
   @override
   State<TabsScreen> createState() => _TabsScreenState();
@@ -26,11 +24,11 @@ class _TabsScreenState extends State<TabsScreen> {
     _selectedScreenIndex = widget.isCalendar == true ? 1 : 0;
     _screens = [
       {
-        'title': 'Reflexão do Dia',
+        'title': '🙏 Reflexão do Dia',
         'screen': ReflectionDayScreen(widget.reflectionDay),
       },
       {
-        'title': 'Calendário',
+        'title': '📆 Calendário',
         'screen': const MonthsScreen(),
       },
     ];
@@ -48,14 +46,14 @@ class _TabsScreenState extends State<TabsScreen> {
       appBar: AppBar(
         title: Text(
           _screens![_selectedScreenIndex]['title'] as String,
+          style: const TextStyle(color: Colors.white),
         ),
       ),
-      drawer: const MainDrawer(),
       body: _screens![_selectedScreenIndex]['screen'] as Widget,
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectScreen,
         backgroundColor: Theme.of(context).colorScheme.primary,
-        unselectedItemColor: Colors.lime,
+        unselectedItemColor: Colors.white38,
         selectedItemColor: Theme.of(context).colorScheme.secondary,
         currentIndex: _selectedScreenIndex,
         items: const [

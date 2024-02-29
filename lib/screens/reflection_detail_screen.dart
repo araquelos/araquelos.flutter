@@ -38,6 +38,7 @@ class ReflectionDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(reflection.title),
+        titleSpacing: 0,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -76,6 +77,7 @@ class ReflectionDetailScreen extends StatelessWidget {
       floatingActionButtonLocation: FloatingActionButtonLocation.endTop,
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.white,
+        mini: true,
         child: Icon(
           isReflectionDay(reflection) ? Icons.cake : Icons.cake_outlined,
           color: Colors.green,

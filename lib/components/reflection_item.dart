@@ -71,33 +71,36 @@ class ReflectionItem extends StatelessWidget {
                 ),
               ],
             ),
-            Padding(
-              padding: const EdgeInsets.all(20),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Row(
-                    children: [
-                      const Icon(Icons.calendar_today),
-                      const SizedBox(width: 6),
-                      Text(reflection.day.toString()),
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      const Icon(Icons.calendar_month),
-                      const SizedBox(width: 6),
-                      Text(reflection.monthText),
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      const Icon(Icons.label_outline),
-                      const SizedBox(width: 6),
-                      Text(reflection.tagText),
-                    ],
-                  ),
-                ],
+            Container(
+              color: Colors.white38,
+              child: Padding(
+                padding: const EdgeInsets.all(20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Row(
+                      children: [
+                        const Icon(Icons.calendar_today),
+                        const SizedBox(width: 6),
+                        Text(reflection.day.toString()),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        const Icon(Icons.calendar_month),
+                        const SizedBox(width: 6),
+                        Text(reflection.monthText),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        const Icon(Icons.label_outline),
+                        const SizedBox(width: 6),
+                        Text(reflection.tagText),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ],

@@ -19,6 +19,7 @@ class MonthsReflectionsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(month.title),
+        titleSpacing: 0,
       ),
       body: ListView.builder(
         itemCount: monthReflections.length,
