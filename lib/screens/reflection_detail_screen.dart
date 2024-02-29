@@ -75,14 +75,17 @@ class ReflectionDetailScreen extends StatelessWidget {
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endTop,
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.white,
-        mini: true,
-        child: Icon(
-          isReflectionDay(reflection) ? Icons.cake : Icons.cake_outlined,
-          color: Colors.green,
+      floatingActionButton: Visibility(
+        visible: reflection.day == 0 ? false : true,
+        child: FloatingActionButton(
+          backgroundColor: Colors.white,
+          mini: true,
+          child: Icon(
+            isReflectionDay(reflection) ? Icons.cake : Icons.cake_outlined,
+            color: Colors.green,
+          ),
+          onPressed: () {},
         ),
-        onPressed: () {},
       ),
     );
   }

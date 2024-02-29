@@ -14,7 +14,57 @@ enum Months {
   dezembro
 }
 
-enum Tags { nenhuma, ouvir, aprender, autoridade, autoconhecimento }
+enum Tags {
+  nenhuma,
+  ouvir,
+  aprender,
+  autoridade,
+  autoconhecimento,
+  virASer,
+  crenca,
+  acao,
+  bemEMal,
+  dependencia,
+  apego,
+  relacionamento,
+  medo,
+  desejo,
+  sexo,
+  casamento,
+  paixao,
+  inteligencia,
+  sentimentos,
+  palavras,
+  condicionamento,
+  energia,
+  atencao,
+  atencaoSemEscolha,
+  violencia,
+  felicidade,
+  magoa,
+  dor,
+  tristeza,
+  verdade,
+  realidade,
+  oObservadorEOQueEObservado,
+  oQueE,
+  intelecto,
+  pensamento,
+  conhecimento,
+  mente,
+  tempo,
+  percepcao,
+  cerebro,
+  transformacao,
+  viver,
+  morrer,
+  renascimento,
+  amor,
+  estarSo,
+  religiao,
+  deus,
+  meditacao
+}
 
 class Reflection {
   final String id;
@@ -25,18 +75,6 @@ class Reflection {
   final Tags tag;
   final String imagePath;
   final List<String> paragraphs;
-  final bool isJanuary;
-  final bool isFebruary;
-  final bool isMarch;
-  final bool isApril;
-  final bool isMay;
-  final bool isJune;
-  final bool isJuly;
-  final bool isAugust;
-  final bool isSeptember;
-  final bool isOctober;
-  final bool isNovember;
-  final bool isDecember;
 
   const Reflection({
     required this.id,
@@ -47,18 +85,6 @@ class Reflection {
     this.tag = Tags.nenhuma,
     required this.imagePath,
     required this.paragraphs,
-    this.isJanuary = false,
-    this.isFebruary = false,
-    this.isMarch = false,
-    this.isApril = false,
-    this.isMay = false,
-    this.isJune = false,
-    this.isJuly = false,
-    this.isAugust = false,
-    this.isSeptember = false,
-    this.isOctober = false,
-    this.isNovember = false,
-    this.isDecember = false,
   });
 
   String get monthText {
@@ -93,6 +119,94 @@ class Reflection {
         return 'Autoridade';
       case Tags.autoconhecimento:
         return 'Autoconhecimento';
+      case Tags.virASer:
+        return 'Vir a Ser';
+      case Tags.crenca:
+        return 'Crença';
+      case Tags.acao:
+        return 'Ação';
+      case Tags.bemEMal:
+        return 'Bem e Mal';
+      case Tags.dependencia:
+        return 'Dependência';
+      case Tags.apego:
+        return 'Apego';
+      case Tags.relacionamento:
+        return 'Relacionamento';
+      case Tags.medo:
+        return 'Medo';
+      case Tags.desejo:
+        return 'Desejo';
+      case Tags.sexo:
+        return 'Sexo';
+      case Tags.casamento:
+        return 'Casamento';
+      case Tags.paixao:
+        return 'Paixão';
+      case Tags.inteligencia:
+        return 'Inteligência';
+      case Tags.sentimentos:
+        return 'Sentimentos';
+      case Tags.palavras:
+        return 'Palavras';
+      case Tags.condicionamento:
+        return 'Condicionamento';
+      case Tags.energia:
+        return 'Energia';
+      case Tags.atencao:
+        return 'Atenção';
+      case Tags.atencaoSemEscolha:
+        return 'Atenção Sem Escolha';
+      case Tags.violencia:
+        return 'Violência';
+      case Tags.felicidade:
+        return 'Felicidade';
+      case Tags.magoa:
+        return 'Mágoa';
+      case Tags.dor:
+        return 'Dor';
+      case Tags.tristeza:
+        return 'Tristeza';
+      case Tags.verdade:
+        return 'Verdade';
+      case Tags.realidade:
+        return 'Realidade';
+      case Tags.oObservadorEOQueEObservado:
+        return 'O Observador e o Que é Observado';
+      case Tags.oQueE:
+        return 'O Que É';
+      case Tags.intelecto:
+        return 'Intelecto';
+      case Tags.pensamento:
+        return 'Pensamento';
+      case Tags.conhecimento:
+        return 'Conhecimento';
+      case Tags.mente:
+        return 'Mente';
+      case Tags.tempo:
+        return 'Tempo';
+      case Tags.percepcao:
+        return 'Percepção';
+      case Tags.cerebro:
+        return 'Cérebro';
+      case Tags.transformacao:
+        return 'Transformação';
+      case Tags.viver:
+        return 'Viver';
+      case Tags.morrer:
+        return 'Morrer';
+      case Tags.renascimento:
+        return 'Renascimento';
+      case Tags.amor:
+        return 'Amor';
+      case Tags.estarSo:
+        return 'Estar Só';
+      case Tags.religiao:
+        return 'Religião';
+      case Tags.deus:
+        return 'Deus';
+      case Tags.meditacao:
+        return 'Meditação';
       default:
         return 'Oração';
     }

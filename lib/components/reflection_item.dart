@@ -71,10 +71,10 @@ class ReflectionItem extends StatelessWidget {
                 ),
               ],
             ),
-            Container(
-              color: Colors.white38,
-              child: Padding(
-                padding: const EdgeInsets.all(20),
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Visibility(
+                visible: reflection.day == 0 ? false : true,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
