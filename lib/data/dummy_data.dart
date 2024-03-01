@@ -230,5 +230,89 @@ const dummyReflections = [
       'Habitualmente, aprendemos através do estudo, dos livros, da experiência ou recebendo aulas. Essas são as formas comuns de se aprender. Decoramos o que fazer e o que não fazer, o que pensar e o que não pensar, como sentir, como reagir.\n\nAtravés da experiência, do estudo, da análise, da experimentação, do exame introspectivo, armazenamos conhecimento sob a forma de memória; e a memória, então, dá resposta a outros desafios, a outras exigências, a partir das quais vai aprendendo sempre cada vez mais...\n\nO que é aprendido é decorado sob a forma de conhecimento, e esse conhecimento entra em ação sempre que nos deparamos com um desafio ou sempre que temos de fazer algo.\n\nMas eu penso que existe um outro modo completamente diferente de aprender, e vou falar-vos um pouco sobre isso; mas para compreendê-lo e para aprender neste modo diferente, vocês devem estar completamente libertos da autoridade; de outra forma estarão apenas a ser instruídos e irão repetir o que tiverem ouvido.\n\nÉ por isso que é muito importante compreender a natureza da autoridade. A autoridade impede a aprendizagem, aquela aprendizagem que não é acumulação de conhecimento sob a forma de memória.\n\nA memória responde sempre com padrões; sem qualquer liberdade.\n\nUm homem que está sobrecarregado de conhecimento, de instruções, que está derreado sob o peso das coisas que aprendeu, nunca é livre. Pode ser extraordinariamente erudito, mas a sua acumulação de conhecimento impede-o de ser livre, e portanto ele é incapaz de aprender.'
     ],
   ),
+  Reflection(
+    id: '15',
+    title: 'Destruir É Construir',
+    day: 15,
+    month: Months.janeiro,
+    monthFilters: ['jan'],
+    tag: Tags.autoridade,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Para serem livres, vocês têm de examinar a autoridade, todo o esqueleto da autoridade, despedaçando toda essa coisa abominável. E isso requer energia, verdadeira energia física, e exige também energia psicológica.\n\nMas a energia é destruída, é desperdiçada quando estamos em conflito... Assim, quando se dá a compreensão de todo o processo do conflito, dá-se o fim do próprio conflito, e existe então abundância de energia.\n\nEntão poderão continuar demolindo a casa que foram construindo ao longo dos séculos e que não tem qualquer significado.\n\nSabem, destruir é construir. Devemos destruir, não os edifícios, não o sistema social ou económico — isto acontece diariamente — mas o psicológico, as defesas conscientes e inconscientes, seguranças que construímos racionalmente, individualmente, profundamente e superficialmente.\n\nDevemos desmantelar tudo isso para que possamos ficar totalmente sem defesas, porque temos de estar sem defesas para amarmos e sentirmos afeição.\n\nEntão podem ver e compreender a ambição, a autoridade; e começam a perceber em que circunstâncias é a autoridade necessária e a que nível, a autoridade da polícia, e apenas essa.\n\nEntão não existe nenhuma autoridade da aprendizagem, nenhuma autoridade do conhecimento, nenhuma autoridade da capacidade, nenhuma autoridade que a função possa assumir e que se torna um estatuto.\n\nPara se compreender toda a autoridade, dos gurus, dos mestres e de outros, é necessário ter-se uma mente muito atenta, um cérebro que vê com clareza, não um cérebro confuso ou entorpecido.'
+    ],
+  ),
+  Reflection(
+    id: '16',
+    title: 'A Virtude Não Tem Qualquer Autoridade',
+    day: 16,
+    month: Months.janeiro,
+    monthFilters: ['jan'],
+    tag: Tags.autoridade,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Poderá a mente estar liberta da autoridade, o que significa estar livre do medo, de modo a que já não seja capaz de seguir? Se assim for, isto põe fim à imitação, a qual se torna mecânica. Afinal, a virtude, a ética não são uma repetição daquilo que é bom.\n\nA partir do momento em que se torna mecânica, ela deixa de ser virtude. A virtude é algo que tem de acontecer a cada momento, tal como a humildade. A humildade não pode ser cultivada, e uma mente que não tem humildade não é capaz de aprender. Portanto a virtude não tem qualquer autoridade.\n\nA moralidade social não é moralidade nenhuma; é imoral, porque admite a competição, a ganância, a ambição, e portanto a sociedade encoraja a imoralidade.\n\nA virtude é algo que transcende a moralidade. Sem virtude, não existe ordem, e a ordem não deve existir de acordo com um padrão, de acordo com uma fórmula.\n\nUma mente que, através da autodisciplína, segue uma fórmula para alcançar a virtude, está a criar para si própria os problemas da imoralidade.\n\nUma autoridade exterior pretendida pela mente, com excepção da lei, como Deus, como moral, e assim por diante, torna-se destrutiva quando a mente está a tentar compreender o que é a verdadeira virtude.\n\nNós temos a nossa própria autoridade, sob a forma de experiência, de conhecimento, que tentamos seguir. Existe esta constante repetição, a imitação, que todos nós conhecemos.\n\nA autoridade psicológica, não a autoridade da lei, da polícia que está a manter a ordem, a autoridade psicológica, que cada um de nós tem, destrói a virtude, porque a virtude é algo vivo, em movimento.\n\nDa mesma forma que não podemos cultivar a humildade, o amor, assim também a virtude não pode ser cultivada; e nisso reside uma grande beleza.\n\nA virtude não é mecânica, e sem a virtude não existem bases para se poder pensar com clareza.'
+    ],
+  ),
+  Reflection(
+    id: '17',
+    title: 'A Mente Velha Está Acorrentada Pela Autoridade',
+    day: 17,
+    month: Months.janeiro,
+    monthFilters: ['jan'],
+    tag: Tags.autoridade,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O problema é, portanto, este: será possível que uma mente que tem sido tão condicionada, criada no meio de inúmeras seitas, religiões, e todo o tipo de superstições, medos, consiga libertar-se de si mesma e dar assim lugar a uma mente nova?\n\nA mente velha é essencialmente, a mente que está acorrentada pela autoridade.\n\nNão estou a utilizar o termo autoridade no sentido legal; refiro-me antes à autoridade enquanto tradição, autoridade enquanto conhecimento, autoridade enquanto experiência, autoridade enquanto meio de alcançar segurança e de permanecer nessa segurança, interior e exteriormente, porque, afinal, é isso que a mente procura sem cessar, um local onde possa estar segura, sem perturbações.\n\nUma tal autoridade pode ser a autoridade auto-imposta de uma ideia ou da assim chamada ideia religiosa de Deus, a qual não se reveste de qualquer realidade para aquele que é de fato religioso.\n\nUma ideia não é um fato, é uma ficção. Deus é uma ficção; podem acreditar nele, mas ele continua a ser uma ficção.\n\nContudo, para encontrarem Deus, têm de destruir completamente a ficção, porque a mente velha é a mente que está assustada, que é ambiciosa, que tem medo da morte, de viver, e de estar em relação; e que está sempre, consciente ou inconscientemente, em busca de permanência, de segurança.'
+    ],
+  ),
+  Reflection(
+    id: '18',
+    title: 'Livre no Começo',
+    day: 18,
+    month: Months.janeiro,
+    monthFilters: ['jan'],
+    tag: Tags.autoridade,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Se conseguirmos compreender a compulsão que se encontra por detrás do nosso desejo de dominar ou de sermos dominados, então talvez possamos libertarmo-nos dos efeitos debilitantes da autoridade.\n\nAnsiamos por ter certezas, por estarmos certos, por termos sucesso, por sabermos; e este desejo de certeza, de permanência, constrói dentro de nós mesmos a autoridade da experiência pessoal, enquanto externamente cria a autoridade da sociedade, da família, da religião, e assim por diante.\n\nMas ignorar, simplesmente, a autoridade, abalar os seus símbolos exteriores tem muito pouco significado.\n\nLibertarmo-nos de uma tradição para nos moldarmos a outra, abandonar este líder para começar a seguir aquele, é apenas uma atitude superficial.\n\nSe estivermos conscientes de todo o processo da autoridade, se percebermos o quanto esse processo é interno, se compreendermos e conseguirmos transcender o nosso desejo de segurança, então teremos uma ampla compreensão e uma tomada de consciência profunda e instantânea, temos de estar livres não no final, mas no começo.'
+    ],
+  ),
+  Reflection(
+    id: '19',
+    title: 'Libertação da Ignorância, da Tristeza',
+    day: 19,
+    month: Months.janeiro,
+    monthFilters: ['jan'],
+    tag: Tags.autoridade,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Ouvimos com esperança e com medo; procuramos a luz de outra pessoa, mas não estamos naquele estado de atenção passiva que nos permite compreender.\n\nSe o liberto parece preencher os nossos desejos, aceitamo-lo; caso contrário, continuamos em busca daquele que os preencherá; aquilo que a maioria de nós deseja é a satisfação a diferentes níveis.\n\nO importante não é como reconhecer aquele que está liberto, mas como vos compreender a vós mesmos.\n\nNenhuma autoridade presente ou futura vos pode dar conhecimento sobre vós mesmos; sem autoconhecimento, não pode haver libertação da ignorância, da tristeza.'
+    ],
+  ),
+  Reflection(
+    id: '20',
+    title: 'Por Que Seguimos?',
+    day: 20,
+    month: Months.janeiro,
+    monthFilters: ['jan'],
+    tag: Tags.autoridade,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Por que aceitamos, por que seguimos? Seguimos a autoridade de outro, a experiência de outro, e depois colocamo-las em dúvida; esta procura da autoridade e a sua sequela, a desilusão, é um processo penoso para a maioria de nós.\n\nCulpamos ou criticamos a autoridade que aceitámos no passado, o líder, o professor, mas não examinamos a nossa própria ânsia por uma autoridade que possa orientar a nossa conduta. Uma vez que tenhamos entendido esta ânsia, compreederemos a importância da dúvida.'
+    ],
+  ),
+  Reflection(
+    id: '21',
+    title: 'A Autoridade Corrompe Tanto o Líder Como Aquele que o Segue',
+    day: 21,
+    month: Months.janeiro,
+    monthFilters: ['jan'],
+    tag: Tags.autoridade,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Estarmos conscientes de nós mesmos é uma tarefa árdua, e como a maioria de nós prefere um caminho fácil e ilusório, conferimos existência à autoridade que dá uma forma e um padrão à nossa vida.\n\nEsta autoridade pode ser o colectivo, o Estado; ou pode ser pessoal, o Mestre, o salvador, o guru.\n\nQualquer tipo de autoridade cega alimenta a negligência; e como a maior parte de nós considera que ser cuidadoso implica dor, entregamo-nos à autoridade.\n\nA autoridade engendra o poder, e o poder torna-se sempre centralizado e, como consequência, completamente corrupto; corrompe não só o controlador, mas também aquele que o segue.\n\nA autoridade do conhecimento e da experiência perverte, quer esteja investida no Mestre, no seu representante ou no sacerdote.\n\nÉ a vossa própria vida, este conflito aparentemente interminável, é isso que é importante, não o padrão ou o líder.\n\nA autoridade do Mestre ou do sacerdote afasta-vos da questão central, que é o conflito dentro de vós.'
+    ],
+  ),
   /* Janeiro: Ouvir - Aprender - Autoridade - Autoconhecimento */
 ];
