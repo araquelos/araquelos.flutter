@@ -93,25 +93,25 @@ class Reflection {
         return 'Janeiro';
       case Months.fevereiro:
         return 'Fevereiro';
-case Months.marco:
-        return 'Março'; 
-case Months.abril:
+      case Months.marco:
+        return 'Março';
+      case Months.abril:
         return 'Abril';
-case Months.maio:
-        return 'Maio'; 
-case Months.junho:
+      case Months.maio:
+        return 'Maio';
+      case Months.junho:
         return 'Junho';
-case Months.julho:
+      case Months.julho:
         return 'Julho';
-case Months.agosto:
+      case Months.agosto:
         return 'Agosto';
-case Months.setembro:
+      case Months.setembro:
         return 'Setembro';
-case Months.outubro:
+      case Months.outubro:
         return 'Outubro';
-case Months.novembro:
+      case Months.novembro:
         return 'Novembro';
-case Months.dezembro:
+      case Months.dezembro:
         return 'Dezembro';
       default:
         return 'Nenhum';
@@ -124,25 +124,25 @@ case Months.dezembro:
         return 1;
       case Months.fevereiro:
         return 2;
-case Months.marco:
-        return 3; 
-case Months.abril:
+      case Months.marco:
+        return 3;
+      case Months.abril:
         return 4;
-case Months.maio:
-        return 5; 
-case Months.junho:
+      case Months.maio:
+        return 5;
+      case Months.junho:
         return 6;
-case Months.julho:
+      case Months.julho:
         return 7;
-case Months.agosto:
+      case Months.agosto:
         return 8;
-case Months.setembro:
+      case Months.setembro:
         return 9;
-case Months.outubro:
+      case Months.outubro:
         return 10;
-case Months.novembro:
+      case Months.novembro:
         return 11;
-case Months.dezembro:
+      case Months.dezembro:
         return 12;
       default:
         return 0;
