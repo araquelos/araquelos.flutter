@@ -482,6 +482,90 @@ const dummyReflections = [
       'A estrutura hierárquica oferece uma excelente oportunidade de auto-expansão. Vocês podem desejar que todos sejam irmãos, mas como é que tal pode acontecer se vocês procuram distinções espirituais?\n\nVocês podem rir-se dos títulos mundanos; mas quando admitem a existência do mestre, do salvador, do guru no reino do espírito, não estão justamente a fazer uma transposição da mesma atitude mundana?\n\nPoderão existir divisões ou graus hierárquicos no crescimento espiritual, na compreensão da verdade, na compreensão de Deus?\n\nO amor não admite divisões. Ou se ama ou não se ama; mas não transformem a falta de amor num processo interminável cujo fim é o amor. Quando sabemos, não amamos, quando estamos conscientes desse fato através da atenção sem escolha, então existe a possibilidade de transformação; mas cultivar laboriosamente esta distinção entre o Mestre e o discípulo, entre aqueles que alcançaram e os que não alcançaram, entre o salvador e o pecador, é negar o amor.\n\nO explorador, que é por sua vez explorado, encontra um paraíso nesta escuridão e ilusão. A separação entre Deus ou a realidade e vós é criada por vós mesmos, pela mente que se agarra ao conhecido, à certeza, à segurança.\n\nEsta separação não pode ser anulada; não há nenhum ritual, nenhuma disciplina, nenhum sacrifício que possa fazer a ponte; não existe nenhum salvador, nenhum mestre, nenhum guru que vos possa conduzir ao real ou que possa destruir esta separação.\n\nA divisão não é entre o real e vós; ela está dentro de vós mesmos.\n\nO essencial é que compreendam o conflito crescente do desejo; e esta compreensão só vem através do autoconhecimento e da constante atenção aos movimentos do eu.'
     ],
   ),
+  Reflection(
+    id: '36',
+    title: 'Para Além de Toda a Experiência',
+    day: 5,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.virASer,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A compreensão do eu requer uma grande dose de inteligência, uma grande dose de observação, de atenção, observando ininterruptamente, de modo a que ela não desapareça.\n\nEu, que sou muito sério, quero dissolver o eu. Quando digo isso, sei que é possível dissolver o eu.\n\nPor favor, tenham paciência. No momento em que digo: "Quero dissolver isto", e no processo que sigo para que essa dissolução aconteça, há o experimentar do eu; e assim o eu é reforçado.\n\nPortanto, de que forma é possível ao eu não experimentar?\n\nPodemos observar que a criação não é de todo a experiência do eu. A criação acontece quando o eu está ausente, porque a criação não é intelectual, não provém da mente, não é uma projeção do eu, é algo que está para além de toda a experiência, tal como a conhecemos.\n\nSerá possível para a mente ficar quieta, num estado em que não está a reconhecer, o que significa não estar a experimentar, estar num estado no qual a criação pode acontecer, ou seja, quando o eu não está lá, quando o eu está ausente? Estou a ser claro ou não?\n\nO problema é este, não é verdade? Qualquer movimento da mente, positivo ou negativo, constitui uma experiência que na realidade fortalece o "eu".\n\nSerá possível para a mente não reconhecer? Isso só pode acontecer quando há um silêncio total, mas não o silêncio que é uma experiência do eu, e que como tal, reforça o eu.'
+    ],
+  ),
+  Reflection(
+    id: '37',
+    title: 'O que É o Eu?',
+    day: 6,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.virASer,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A procura de poder, posição, autoridade, ambição e todo o resto, são as formas do eu em todas as suas diferentes manifestações. Mas o que é importante, é compreender o eu, e tenho a certeza de que tanto vós como eu estamos convencidos disso.\n\nSe me permitem acrescentar, sejamos sérios acerca deste assunto; porque eu sinto que se vocês e eu, enquanto indivíduos, - não como um grupo de pessoas pertencentes a determinadas classes, a determinadas sociedades, a determinadas divisões climáticas -, podemos compreender isto e agir sobre isto, então penso que acontecerá uma verdadeira revolução.\n\nNo momento em que se torna universal e com uma melhor organização, o eu relugia-se nisso; ao passo que se vocês e eu, enquanto indivíduos, pudermos amar, pudermos realmente levar isto a cabo no nosso cotidiano, então essa revolução que é tão essencial poderá ter lugar.\n\nSabem a que me refiro quando utilizo o termo "eu"? Refiro-me a ideia, à memória, à conclusão, à experiência, às diversas formas de intenções nomeáveis e inomináveis, ao empenho consciente para ser ou para não ser.\n\nÀ memória acumulada do inconsciente, da raça, do grupo, do indivíduo, do clã e do conjunto de tudo isso, quer se projete exteriormente por meio da ação, ou espiritualmente sob a forma de virtude; o esforço por obter tudo isto é o eu. Nele está incluída a competição, o desejo de ser.\n\nA totalidade desse processo é o eu, e na verdade nós sabemos, quando somos confrontados com isso, que é algo mau.\n\nEstou a usar a palavra mau intencionalmente, porque o eu divide; o eu fecha-se em si mesmo; as suas atividades, por mais nobres que sejam, estão separadas e isoladas.\n\nSabemos tudo isto. Sabemos igualmente que extraordinários são os momentos em que o eu não está presente, nos quais não existe a sensação de empenho, de esforço, e que acontecem quando há amor.'
+    ],
+  ),
+  Reflection(
+    id: '38',
+    title: 'Quando Há Amor, Não Há Eu',
+    day: 7,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A realidade, a verdade, não pode ser reconhecida. Para que a verdade surja, a crença, o conhecimento, a experiência, a virtude, a procura da virtude, que é diferente de ser-se virtuoso, tudo isto tem de desaparecer.\n\nA pessoa virtuosa que está consciente de procurar a virtude, nunca poderá encontrar a realidade. Pode ser uma pessoa muito decente; mas isso é inteiramente diferente do homem de verdade, do homem que compreende. Para o homem de verdade, a verdade ganhou existência.\n\nUm homem virtuoso é um homem correto, e um homem correto nunca pode compreender o que é a verdade; porque para ele a virtude é a cobertura do eu, o reforço do eu; porque ele procura a virtude.\n\nQuando ele diz: "Não devo ser ganancioso", o estado no qual ele não é ganan­cioso, e que ele experimenta, fortalece o eu. É por isso que é tão importante ser-se pobre, não apenas no que se refere às coisas mundanas, mas também no que diz respeito à crença e ao conhecimento.\n\nUm homem abastado em riquezas mundanas, ou um homem rico em conhecimento e crença, nunca conhecerão outra coisa que não a escuridão, e serão o centro de toda a maldade e miséria.\n\nMas se vocês e eu, enquanto indivíduos, conseguirmos ver toda esta atividade do eu, então saberemos o que é o amor.\n\nPosso assegurar-vos de que essa é a única reforma que poderá mudar o mundo. O amor não é o eu. O eu não pode reconhecer o amor.\n\nVocês dizem "amo", mas então, no próprio ato de o dizerem, no próprio ato de o experimentarem, não há amor. Mas, quando vocês conhecem o amor, não há eu. Quando há amor, não há eu.'
+    ],
+  ),
+  Reflection(
+    id: '39',
+    title: 'Compreender O Que É',
+    day: 8,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Certamente, um homem que compreende a vida não quer ter crenças. Um homem que ama não tem crenças, ama. É o homem que está consumido pelo intelecto que tem crenças, porque o intelecto está sempre em busca de segurança, de proteção; está constantemente a evitar o perigo, e portanto constrói ideias, crenças, ideais, nos quais procura refúgio.\n\nO que aconteceria se vocês lidassem diretamente com a violência agora? Seriam um perigo para a sociedade; e como a mente antevê o perigo, ela diz "alcançarei o ideal da não-violência daqui a dez anos", o que é um processo tão fictício e falso.\n\nCompreender "o que é", é mais importante do que criar e seguir ideais, porque os ideais são falsos, e "o que é" é o real. Compreender "o que é" requer uma enorme capaci­dade, uma mente ágil e sem preconceitos.\n\nÉ porque não queremos encarar e compreender "o que é", que inventamos as muitas formas de fugir e damos-lhes nomes adoráveis como ideal, crença, Deus.\n\nPor certo que é somente quando vejo o falso como falso, que a minha mente se torna capaz de ver o que é verdadeiro. Uma mente que está confundida pelo falso nunca pode descobrir a verdade.\n\nPortanto, devo compreender o que é falso nos meus relacionamentos, nas minhas ideias, nas coisas que me dizem respeito, porque perceber a verdade requer a compreensão do falso.\n\nSem se removerem as causas da ignorância, não pode haver iluminação; e procurar a iluminação quando a mente não está iluminada é totalmente vazio, sem sentido.\n\nPor isso, devo começar a ver o falso na minha relação com as ideias, com as pessoas, com as coisas. Quando a mente vê aquilo que é falso, então o que é verdadeiro ganha existência e então há êxtase, há felicidade.'
+    ],
+  ),
+  Reflection(
+    id: '40',
+    title: 'Aquilo em que Acreditamos',
+    day: 9,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Será que a crença traz entusiasmo? Será que o entusiasmo se pode sustentar a si mesmo se não houver uma crença, e será o entusiasmo de todo necessário, ou o que é necessário é um outro tipo de energia, um outro tipo de vitalidade, de atividade?\n\nA maioria de nós entusiasma-se com uma coisa ou outra. Somos muito interessados, muito entusiásticos quando se trata de concertos, de exercício físico ou de ir fazer um piquenique. Todavia, a menos que esses entusiasmos sejam constantemente alimentados por uma coisa ou outra, eles acabam por esmorecer, e passamos a ter um novo entusiasmo por outras coisas.\n\nHaverá uma força que se sustente a si mesma, uma energia, que não dependa de uma crença?\n\nA outra questão é: será que necessitamos de qualquer espécie de crença, e se necessitamos, por que razão isso acontece?\n\nEste é um dos problemas relacionados com a questão. Nós não precisamos de acreditar que o sol, as montanhas e os rios existem. Não precisamos de acreditar que discutimos com as nossas mulheres. Não precisamos de acreditar que a vida é um grande sofrimento com as suas angústias, conflitos e constante ambição; é um fato.\n\nMas exigimos uma crença quando queremos fugir de um fato em direção a uma irrealidade.'
+    ],
+  ),
+  Reflection(
+    id: '41',
+    title: 'Conturbados pela Crença',
+    day: 10,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A vossa religião, a vossa crença em Deus, é uma fuga ao real, o portanto não é religião nenhuma.\n\nO homem rico que acumula dinheiro por meio da crueldade, da desonestidade, da exploração astuciosa, acredita em Deus; e vocês também acreditam em Deus, também são astuciosos, cruéis, desconfiados, invejosos.\n\nSerá possível encontrar Deus através da desonestidade, do logro, dos truques astuciosos da mente? Será que o fato de vocês colecionarem todos os livros sagrados e os vários símbolos de Deus significa que são pessoas religiosas?\n\nAssim, a religião não é a fuga ao fato; a religião é a compreensão do fato, daquilo que vocês são nos vossos relacionamentos cotidianos; a religião é o modo como falam, como dizem as coisas, como se dirigem aos vossos empregados, como tratam a vossa mulher, os vossos filhos, os vossos vizinhos.\n\nEnquanto não compreenderem a vossa relação com o vosso vizinho, com a sociedade, com a vossa mulher e os vossos filhos, haverá sempre confusão; e faça o que fizer, a mente que está confusa apenas será capaz de criar mais confusão, mais problemas e mais conflito.\n\nUma mente que foge do real, dos fatos do relacionamento, nunca encontrará Deus; uma mente que está conturbada pelas crenças não conhecerá a verdade.\n\nMas a mente que compreende a sua relação com a propriedade, com as pessoas, com as ideias, a mente que já não se debate com os problemas inerentes ao relacionamento, e para a qual a solução não é o afastamento mas a compreensão do amor, essa mente, e apenas ela, pode compreender a realidade.'
+    ],
+  ),
+  Reflection(
+    id: '42',
+    title: 'Para Além da Crença',
+    day: 11,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Constatamos que a vida é feia, dolorosa, triste; queremos algum tipo de teoria, algum tipo de especulação ou satisfação, algum tipo de doutrina que explique tudo isto, e portanto ficamos enredados na explicação, nas palavras, nas teorias, e gradualmente, as crenças vão adquirindo raízes profundas e inabaláveis, porque por detrás dessas crenças, por detrás desses dogmas, existe um medo permanente do desconhecido.\n\nMas nós nunca olhamos para esse medo; desviamo-nos dele.\n\nQuanto mais fortes forem as crenças, mais fortes serão os dogmas. E quando examinamos estas crenças — cristãs, hindus, budistas — descobrimos que elas dividem as pessoas.\n\nCada dogma, cada crença tem uma série de rituais, uma série de compulsões que prendem e separam os homens. Portanto, começamos com uma investigação para descobrirmos o que é verdadeiro, para descobrirmos qual é o significado deste sofrimento, desta luta, desta dor; e rapidamente nos tornamos prisioneiros de crenças, de rituais, de teorias.\n\nA crença é corrupção, porque por detrás dela e da moralidade esconde-se a mente, o eu, o eu a tornar-se maior, mais forte e poderoso.\n\nNós consideramos a crença em Deus, a crença em algo como sendo a religião. Consideramos que acreditar é ser-se religioso. Compreendem?\n\nSe não acreditarem, serão considerados ateus, serão condenados pela sociedade. Uma sociedade condenará aqueles que acreditam em Deus, e outra condenará os que não acreditam. São ambas iguais.\n\nPortanto a religião torna-se uma questão de crença, e a crença atua sobre a mente e influencia-a; a mente, neste caso, nunca pode ser livre.\n\nMas é somente na liberdade que vocês podem descobrir o que é verdadeiro, o que é Deus, não através de qualquer crença, porque a vossa própria crença projeta o que vocês pensam que Deus deve ser, o que vocês pensam que deve ser o verdadeiro.'
+    ],
+  ),
   /* Fevereiro: Vir a Ser - Crença - Acção - Bem e Mal */
   /* 
   Reflection(
