@@ -566,6 +566,54 @@ const dummyReflections = [
       'Constatamos que a vida é feia, dolorosa, triste; queremos algum tipo de teoria, algum tipo de especulação ou satisfação, algum tipo de doutrina que explique tudo isto, e portanto ficamos enredados na explicação, nas palavras, nas teorias, e gradualmente, as crenças vão adquirindo raízes profundas e inabaláveis, porque por detrás dessas crenças, por detrás desses dogmas, existe um medo permanente do desconhecido.\n\nMas nós nunca olhamos para esse medo; desviamo-nos dele.\n\nQuanto mais fortes forem as crenças, mais fortes serão os dogmas. E quando examinamos estas crenças — cristãs, hindus, budistas — descobrimos que elas dividem as pessoas.\n\nCada dogma, cada crença tem uma série de rituais, uma série de compulsões que prendem e separam os homens. Portanto, começamos com uma investigação para descobrirmos o que é verdadeiro, para descobrirmos qual é o significado deste sofrimento, desta luta, desta dor; e rapidamente nos tornamos prisioneiros de crenças, de rituais, de teorias.\n\nA crença é corrupção, porque por detrás dela e da moralidade esconde-se a mente, o eu, o eu a tornar-se maior, mais forte e poderoso.\n\nNós consideramos a crença em Deus, a crença em algo como sendo a religião. Consideramos que acreditar é ser-se religioso. Compreendem?\n\nSe não acreditarem, serão considerados ateus, serão condenados pela sociedade. Uma sociedade condenará aqueles que acreditam em Deus, e outra condenará os que não acreditam. São ambas iguais.\n\nPortanto a religião torna-se uma questão de crença, e a crença atua sobre a mente e influencia-a; a mente, neste caso, nunca pode ser livre.\n\nMas é somente na liberdade que vocês podem descobrir o que é verdadeiro, o que é Deus, não através de qualquer crença, porque a vossa própria crença projeta o que vocês pensam que Deus deve ser, o que vocês pensam que deve ser o verdadeiro.'
     ],
   ),
+  Reflection(
+    id: '43',
+    title: 'O Véu da Crença',
+    day: 12,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Vocês acreditam em Deus, e outra pessoa não acredita em Deus, e assim as vossas crenças separam-vos uns dos outros.\n\nA crença encontra-se organizada, pelo mundo a fora, sob a forma de Hinduísmo, Budismo ou Cristianismo, e deste modo divide um homem do outro.\n\nEstamos confusos e achamos que através da crença iremos tornar claro o que é confuso; isto é, a crença é sobreposta à confusão, e nós esperamos que com isso a confusão seja dissipada.\n\nMas a crença é uma mera fuga, ao fato que é a confusão, ela não nos ajuda a encarar nem a compreender o fato, mas apenas a fugirmos da confusão em que nos encontramos.\n\nPara compreendermos a confusão não é necessária a crença, e a crença apenas atua como um véu entre nós e os nossos problemas. Assim, a religião, que é a crença organizada, torna-se um meio de fuga "ao que é", ao fato que é a confusão.\n\nO homem que acredita em Deus, o homem que acredita no além, ou que tem qualquer outra forma de crença, está a fugir à realidade do que ele próprio é.\n\nNão conhecem aqueles que acreditam em Deus, que fazem puja, que repetem certos cânticos e mantras, e que nas suas vidas diárias são dominadores, cruéis, ambiciosos, batoteiros, desonestos? Poderão encontrar Deus? Estão realmente à procura de Deus? Será possível encontrar Deus através da repetição de palavras, através da crença?\n\nMas essas pessoas acreditam em Deus, adoram a Deus, vão todos os dias ao templo, fazem de tudo para fugirem ao fato que é a realidade do que são. E vocês consideram-nas respeitáveis porque elas são vocês mesmos.'
+    ],
+  ),
+  Reflection(
+    id: '44',
+    title: 'Uma Nova Aproximação à Vida',
+    day: 13,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Parece-me que uma das coisas que a maioria de nós aceita de bom grado e toma como garantido é a questão das crenças.\n\nNão estou a atacar as crenças. O que estamos a tentar fazer é descobrir por que razão aceitamos as crenças; e se pudermos compreender os motivos, o que está na origem da aceitação, então talvez, possamos não só compreender por que o fazemos, mas também libertarmo-nos disso.\n\nPodemos observar de que modo as crenças políticas e religiosas, nacionalistas e de muitos outros tipos, separam as pessoas, criam realmente conflito, confusão e antagonismo, o que é um fato óbvio; e ainda assim não temos vontade de nos libertar delas.\n\nExiste a crença hindu, a crença cristã, a crença budista, inúmeras crenças sectárias e nacionalistas, diversas ideologias políticas, degladiando-se todas umas às outras, tentando converter-se umas às outras.\n\nPodemos observar, como é óbvio, que a crença está a separar as pessoas, a criar intolerância; será possível viver sem crença?\n\nSó o poderemos descobrir se nós conseguirmos estudar a nós mesmos na nossa relação com uma crença. Será possível viver neste mundo sem ter uma crença, não mudando de crenças, não substituindo uma crença por outra, mas estar completamente livre de todas as crenças, de forma a que possamos ter uma nova aproximação à vida a cada minuto?\n\nIsto é, afinal, a verdade: ter a capacidade de encarar tudo de uma nova forma, de momento a momento, sem a reação condicionante do passado, de modo a que não haja o efeito cumulativo que funciona como uma barreira entre nós mesmos e "o que é".'
+    ],
+  ),
+  Reflection(
+    id: '45',
+    title: 'A Crença Impede a Compreensão Verdadeira',
+    day: 14,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Se não tivéssemos qualquer crença, o que é que nos sucederia? Não deveríamos ficar muito assustados com o que pudesse acontecer?\n\nSe não tivéssemos qualquer padrão de ação baseado numa crença, quer fosse em Deus, ou no comunismo, ou no imperialismo, ou nalgum tipo de fórmula religiosa, algum dogma no qual estamos condicionados, sentir-nos-íamos totalmente perdidos, não era?\n\nE não é esta aceitação da crença o disfarce desse medo, do medo de no fundo não sermos nada, de sermos vazios?\n\nAfinal, uma chávena apenas tem utilidade se estiver vazia; e uma mente que está cheia de crenças, de dogmas, de certezas, de citações, é na verdade uma mente incapaz de criar; é tão-somente uma mente repetitiva.\n\nPara escaparmos desse medo, desse medo do vazio, desse medo da solidão, desse medo da estagnação, de não se chegar, de não se conseguir, de não se alcançar, de não se ser alguma coisa, de não se vir a ser alguma coisa, é certamente uma das razões, não é verdade, por que aceitamos as crenças tão rápida e avidamente?\n\nE, através da aceitação da crença, será que nos compreendemos a nós mesmos?\n\nPelo contrário. Uma crença, religiosa ou política, impede, obviamente, a compreensão de nós mesmos. Atua como um véu através do qual olhamos para nós próprios.\n\nE poderemos olhar para nós próprios sem as crenças? Se removermos estas crenças, as muitas crenças que temos, sobrará alguma coisa para a qual olharmos?\n\nSe não tivermos nenhumas das crenças com as quais a mente se tenha identificado, então a mente, sem identificação, torna-se capaz de se ver a si mesma tal qual é, e então, tem por certo início a compreensão de nós mesmos.'
+    ],
+  ),
+  Reflection(
+    id: '46',
+    title: 'Observação Direta',
+    day: 15,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.crenca,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Por que criam as ideias raízes na nossa mente? Por que não se tornam os fatos o mais importante, e não as ideias? Por que é que as teorias, as ideias, se tornam tão importantes em vez dos fatos? Será que não conseguimos compreender o fato, ou que não temos a capacidade, ou que tememos encarar o fato?\n\nPortanto, as ideias, as especulações, as teorias são um meio de fugir do fato.\n\nPodem fugir, podem fazer todo o tipo de coisas; os fatos permanecem lá, o fato de estarmos zangados, o fato de sermos ambiciosos, o fato de sermos seres sexuais, milhentas coisas.\n\nPodem reprimi-los, podem transmutá-los, o que é uma outra forma de repressão; podem controlá-los, mas eles estarão todos a ser reprimidos, controlados e disciplinados por meio de ideias.\n\nNão é verdade que as ideias nos fazem perder a nossa energia? Não é verdade que as ideias embotam a mente? Podemos ser inteligentes quando especulamos, quando citamos alguém; mas, como é óbvio, é uma mente embotada que cita, que leu muito, e cita.\n\nAcabarão com o conflito dos opostos de uma só vez se forem capazes de viver com o fato, e com isso libertarem a energia necessária para encararem o fato.\n\nPara a maior parte de nós, a contradição é um campo extraordinário no qual a mente se encontra aprisionada.\n\nQuero fazer determinada coisa, e acabo por fazer algo completamente diferente; mas se eu encarar o fato de querer fazer determinada coisa, deixa de haver contradição; e assim, de uma só vez, abulo por completo todo o significado da oposição, e então a minha mente fica inteiramente atenta "ao que é", e com a compreensão "do que é".'
+    ],
+  ),
   /* Fevereiro: Vir a Ser - Crença - Acção - Bem e Mal */
   /* 
   Reflection(
