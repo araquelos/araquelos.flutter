@@ -614,6 +614,102 @@ const dummyReflections = [
       'Por que criam as ideias raízes na nossa mente? Por que não se tornam os fatos o mais importante, e não as ideias? Por que é que as teorias, as ideias, se tornam tão importantes em vez dos fatos? Será que não conseguimos compreender o fato, ou que não temos a capacidade, ou que tememos encarar o fato?\n\nPortanto, as ideias, as especulações, as teorias são um meio de fugir do fato.\n\nPodem fugir, podem fazer todo o tipo de coisas; os fatos permanecem lá, o fato de estarmos zangados, o fato de sermos ambiciosos, o fato de sermos seres sexuais, milhentas coisas.\n\nPodem reprimi-los, podem transmutá-los, o que é uma outra forma de repressão; podem controlá-los, mas eles estarão todos a ser reprimidos, controlados e disciplinados por meio de ideias.\n\nNão é verdade que as ideias nos fazem perder a nossa energia? Não é verdade que as ideias embotam a mente? Podemos ser inteligentes quando especulamos, quando citamos alguém; mas, como é óbvio, é uma mente embotada que cita, que leu muito, e cita.\n\nAcabarão com o conflito dos opostos de uma só vez se forem capazes de viver com o fato, e com isso libertarem a energia necessária para encararem o fato.\n\nPara a maior parte de nós, a contradição é um campo extraordinário no qual a mente se encontra aprisionada.\n\nQuero fazer determinada coisa, e acabo por fazer algo completamente diferente; mas se eu encarar o fato de querer fazer determinada coisa, deixa de haver contradição; e assim, de uma só vez, abulo por completo todo o significado da oposição, e então a minha mente fica inteiramente atenta "ao que é", e com a compreensão "do que é".'
     ],
   ),
+  Reflection(
+    id: '47',
+    title: 'Ação sem Ideia',
+    day: 16,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.acao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'É somente quando a mente se encontra livre da ideia que pode haver experimentação.\n\nAs ideias não são a verdade; e a verdade é algo que deve ser experimentado de forma direta, de momento a momento. Não se trata de uma experiência que seja desejada por vós, o que seria mera sensação.\n\nE apenas quando conseguimos ir além do feixe de ideias, que constitui o "eu", que constitui a mente, que tem uma continuidade parcial ou completa, só quando conseguimos ir para além disso, quando o pensamento se encontra completamente silencioso, é que existe um estado que permite a experimentação.\n\nEntão saberemos o que é a verdade.'
+    ],
+  ),
+  Reflection(
+    id: '48',
+    title: 'Ação sem o Processo do Pensamento',
+    day: 17,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.acao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O que entendemos por ideia? Certamente a ideia é o processo do pensamento. Não é verdade? A ideia é um processo da atividade mental, da atividade do pensamento; e a atividade do pensamento é sempre uma reação, ou do consciente ou do inconsciente.\n\nPensar é um processo de verbalização, o qual resulta da memória; pensar é um processo do tempo. Portanto, quando a ação se baseia no processo do pensamento, uma tal ação deve, inevitavelmente, ser condicionada, isolada.\n\nUma ideia deve opor-se a outra ideia, uma ideia deve ser dominada por outra ideia. Então verifica-se uma lacuna entre a ação e a ideia. O que nós estamos a tentar descobrir é se a ação pode existir sem a ideia.\n\nPodemos observar o quanto a ideia separa as pessoas. Tal como já vos expliquei, o conhecimento e a crença são, na sua essência, qualidades que separam. As crenças nunca unem as pessoas; elas separam sempre as pessoas; quando a ação se baseia na crença, ou numa ideia, ou num ideal, torna-se inevitável que ela seja isolada, fragmentada.\n\nÉ possível agir sem o processo do pensamento, sendo o pensamento um processo do tempo, um processo de cálculo, um processo de autoproteção, um processo de crença, negação, condenação, justificação.\n\nCertamente vos deve ter ocorrido, como me ocorreu a mim, se poderá ser possível haver ação sem a ideia.'
+    ],
+  ),
+  Reflection(
+    id: '49',
+    title: 'As Ideias Limitam a Ação?',
+    day: 18,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.acao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Poderão as ideias alguma vez produzir ação, ou será que elas apenas moldam o pensamento e limitam, consequentemente, a ação?\n\nQuando a ação é impulsionada por uma ideia, ela nunca pode libertar o homem. É extraordinariamente importante para nós que compreendamos este ponto.\n\nSe uma ideia der forma à ação, então a ação nunca poderá trazer a solução para os nossos sofrimentos, porque, antes que ela possa ser posta em ação, temos de descobrir primeiro como é que surge a ideia.'
+    ],
+  ),
+  Reflection(
+    id: '50',
+    title: 'A Ideologia Evita a Ação',
+    day: 19,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.acao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O mundo está permanentemente à beira da catástrofe. Mas parece que atualmente se encontra ainda mais próximo dela.\n\nAo nos apercebermos desta catástrofe iminente, muitos de nós refugiam-se na ideia. Nós pensamos que esta catástrofe, esta crise, pode ser resolvida através de uma ideologia.\n\nA ideologia é sempre um impedimento ao relacionamento direto, e isto não permite a ação.\n\nNós desejamos a paz apenas como uma ideia, mas não como uma realidade. Queremos a paz somente ao nível verbal, o qual se encontra exclusivamente ao nível do pensamento, embora seja com orgulho que lhe chamamos o nível intelectual.\n\nMas a palavra paz não é a paz. A paz só pode existir quando cessar a confusão que se estabelece entre vós e o outro. Estamos apegados ao mundo das ideias e não à paz.\n\nProcuramos novos padrões sociais e políticos, não procuramos a paz; estamos preocupados com a reconciliação dos efeitos e não com a erradicação das causas da guerra.\n\nEsta procura apenas nos trará respostas condicionadas pelo passado. E a este condicionamento que chamamos conhecimento, experiência; e os fatos novos, em mudança, são traduzidos, interpretados, de acordo com este conhecimento.\n\nPortanto, existe conflito entre "o que é" e a experiência passada. O passado, que é conhecimento, estará sempre em conflito com o fato, que se situa sempre no presente.\n\nAssim, isto não irá resolver o problema, mas antes perpetuar as condições que criaram o problema.'
+    ],
+  ),
+  Reflection(
+    id: '51',
+    title: 'Ação sem Ideação',
+    day: 20,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.acao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A ideia é o resultado do processo do pensamento, o processo do pensamento é a resposta da memória, e a memória está sempre condicionada.\n\nA memória está sempre no passado, e essa memória ganha vida no presente por meio de um desafio.\n\nA memória não tem qualquer tipo de vida em si mesma; é-lhe dada vida no presente quando é confrontada por um desafio. E toda a memória, latente ou ativa, é condicionada, não é verdade?\n\n Assim sendo, tem de haver uma aproximação totalmente diferente. Têm de descobrir por vós mesmos, interiormente, se estão a agir sobre uma ideia, e se poderá existir ação sem ideação.'
+    ],
+  ),
+  Reflection(
+    id: '52',
+    title: 'Agir sem Ideia É o Caminho do Amor',
+    day: 21,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.acao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O pensamento está sempre limitado pelo pensador, que está condicionado; o pensador está sempre condicionado e nunca é livre; quando ocorre um pensamento, segue-se imediatamente uma ideia. A ideia como meio para a ação só poderá dar origem a mais confusão.\n\nEstando conscientes de tudo isto, será possível agir sem ideia? Sim, é o caminho do amor. O amor não é uma ideia; não é uma sensação; não é uma memória; não é um sentimento de adiamento, um dispositivo de auloproteção.\n\nSó podemos estar despertos para o caminho do amor quando compreendemos todo o processo da ideia.\n\nAgora, será possível abandonar os outros caminhos e conhecer o caminho do amor, que é a única redenção que existe?\n\nNenhum outro caminho, político ou religioso, irá resolver o problema. Não se trata de uma teoria sobre a qual terão de refletir para depois adotarem nas vossas vidas; deve ser real.\n\nExiste ideia quando amamos? Não o aceitem; observem-no, examinem-no, investiguem-no profundamente; porque nós já tentámos todos os outros caminhos, e não nos deram qualquer resposta para o sofrimento.\n\nOs políticos podem prometê-lo; as assim chamadas organizações religiosas podem prometer uma felicidade futura; mas não a temos no presente, e o futuro tem uma importância muito relativa quando estou faminto.\n\nTentámos todos os outros caminhos; e só podemos conhecer o caminho do amor se conhecermos o caminho da ideia e abandonarmos a ideia, o que é agir.'
+    ],
+  ),
+  Reflection(
+    id: '53',
+    title: 'O Conflito dos Opostos',
+    day: 22,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.bemEMal,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Pergunto-me se existirá uma tal coisa a que se possa chamar o mal?\n\nPor favor, prestem atenção, acompanhem-me, vamos investigar juntos.\n\nDizemos que existe o bem e o mal. Existe a inveja e o amor, e dizemos que a inveja é má e que o amor é bom.\n\nPor que razão dividimos a vida, chamando bom a isto e mau àquilo, criando desta forma o conflito entre os opostos?\n\nNão que a inveja, o ódio, a brutalidade não existam na mente e no coração humanos, uma ausência de compaixão, de amor, mas por que dividimos a vida entre a coisa a que chamamos bem e a coisa a que chamamos mal?\n\nNão existirá, na verdade, apenas uma única coisa, que é uma mente que não está atenta?\n\nCertamente, quando há uma atenção total, isto é, quando a mente está completamente consciente, alerta, atenta, não existe uma tal coisa como mal ou bem; existe apenas um estado de consciência desperta.\n\nEntão, a bondade não é uma qualidade, uma virtude, e um estado de amor. Quando existe amor, não há bem nem mal, há apenas amor.\n\nQuando vocês amam verdadeiramente alguém, não pensam em termos de bem ou de mal, todo o vosso ser está repleto desse amor. E somente quando cessa a atenção completa, quando cessa o amor, que surge o conflito entre o que sou e o que deveria ser.\n\nEntão, aquilo que sou é o mal e aquilo que deveria ser é o assim chamado bem.\n\nObservem a vossa mente e verão que no momento em que a mente pára de pensar em termos de vir a ser algo diferente do que é, dá-se um terminar da ação que não é estagnação; é um estado de atenção total, que é bondade.'
+    ],
+  ),
+  Reflection(
+    id: '54',
+    title: 'Para Além da Dualidade',
+    day: 23,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.bemEMal,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Não estão conscientes dela? Não são as suas ações óbvias, a sua tristeza esmagadora? Quem a criou senão cada um de nós? Quem é responsável por ela senão cada um de nós?\n\nDo mesmo modo que criámos o bem, por pouco que seja, também criamos o mal, por mais vasto que seja.\n\nO bem e o mal são parte de nós e são também independentes de nós. Quando somos mesquinhos no que pensamos-sentimos, invejosos, com ganância e ódio, estamos a aumentar o mal que nos dilacera.\n\nEste problema do bem e do mal, este problema conflituoso, está sempre conosco à medida que o vamos criando. Tornou-se parte de nós mesmos, este querer e não querer, amar e odiar, desejar e renunciar. Estamos continuamente a criar esta dualidade na qual o pensamento-sentimento é apanhado.\n\nO pensamento-sentimento pode ir além e acima do bem e do seu oposto somente quando compreende a sua causa, o desejo. Ao compreendermos o mérito e o demérito, libertamo-nos de ambos.\n\nOs opostos não se podem fundir e deverão ser transcendidos através da dissolução do desejo. Cada oposto deve ser bem estudado, atentamente sentido, tão vasta e profundamente quanto possível, através de todas as camadas da consciência.\n\nA partir deste pensar e deste sentir profundos, uma nova compreensão é despertada, a qual não é produto do desejo ou do tempo.\n\nExiste mal no mundo e nós estamos a contribuir para ele, da mesma forma que contribuímos para o bem. Parece que o homem se une mais facilmente no ódio do que no bem.\n\nUm homem sábio compreende a causa do bem e do mal, e através da compreensão, liberta o pensamento-sentimento dela.'
+    ],
+  ),
   /* Fevereiro: Vir a Ser - Crença - Acção - Bem e Mal */
   /* 
   Reflection(
