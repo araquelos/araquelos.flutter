@@ -710,7 +710,200 @@ const dummyReflections = [
       'Não estão conscientes dela? Não são as suas ações óbvias, a sua tristeza esmagadora? Quem a criou senão cada um de nós? Quem é responsável por ela senão cada um de nós?\n\nDo mesmo modo que criámos o bem, por pouco que seja, também criamos o mal, por mais vasto que seja.\n\nO bem e o mal são parte de nós e são também independentes de nós. Quando somos mesquinhos no que pensamos-sentimos, invejosos, com ganância e ódio, estamos a aumentar o mal que nos dilacera.\n\nEste problema do bem e do mal, este problema conflituoso, está sempre conosco à medida que o vamos criando. Tornou-se parte de nós mesmos, este querer e não querer, amar e odiar, desejar e renunciar. Estamos continuamente a criar esta dualidade na qual o pensamento-sentimento é apanhado.\n\nO pensamento-sentimento pode ir além e acima do bem e do seu oposto somente quando compreende a sua causa, o desejo. Ao compreendermos o mérito e o demérito, libertamo-nos de ambos.\n\nOs opostos não se podem fundir e deverão ser transcendidos através da dissolução do desejo. Cada oposto deve ser bem estudado, atentamente sentido, tão vasta e profundamente quanto possível, através de todas as camadas da consciência.\n\nA partir deste pensar e deste sentir profundos, uma nova compreensão é despertada, a qual não é produto do desejo ou do tempo.\n\nExiste mal no mundo e nós estamos a contribuir para ele, da mesma forma que contribuímos para o bem. Parece que o homem se une mais facilmente no ódio do que no bem.\n\nUm homem sábio compreende a causa do bem e do mal, e através da compreensão, liberta o pensamento-sentimento dela.'
     ],
   ),
-  /* Fevereiro: Vir a Ser - Crença - Acção - Bem e Mal */
+  Reflection(
+    id: '55',
+    title: 'Justificar o Mal',
+    day: 24,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.bemEMal,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'É óbvio que a presente crise que grassa por todo o mundo tem um carácter excepcional, sem precedentes. Tem havido crises de diversos tipos em períodos diferentes da história, sociais, nacionais, políticas.\n\nAs crises vêm e vão; recessões econômicas, depressões, chegam, são modificadas, e continuam sob uma outra forma. Sabemos isso; estamos familiarizados com esse processo.\n\nMas a presente crise é certamente diferente, não é? É diferente, porque, em primeiro lugar, estamos a lidar não com dinheiro nem com coisas tangíveis, mas com ideias.\n\nEsta crise é excepcional porque se situa no campo da ideação. Estamos a guerrear com ideias, estamos a justificar o assassínio; em toda a parte do mundo estamos a justificar o assassínio como meio para se atingir um fim que é correto, o que é, em si próprio, algo que nunca havia acontecido anteriormente.\n\nNo passado, o mal era reconhecido como mal, o assassinato era reconhecido como tal, mas agora o assassinato é um meio de se atingir um resultado nobre.\n\nO assassínio, seja de uma única pessoa ou de um grupo de pessoas, é justificado, porque o assassino, ou o grupo que o assassino representa, o justifica como um meio de alcançar um resultado que será benéfico para a humanidade.\n\nOu seja, sacrificamos o presente em nome do futuro, e não importa quais os meios que empregamos desde que o nosso propósito expresso seja o de produzir um resultado que dizemos trazer benefícios à humanidade.\n\nPortanto, o que está implícito é que um meio errado pode produzir um fim correto, e justificamos os meios errados através da ideação.\n\nDispomos de uma magnífica estrutura de ideias para justificarmos o mal e isso é certamente algo sem precedentes.\n\nO mal é mal; não pode dar origem a algo bom. A guerra não é um meio para se alcançar a paz.'
+    ],
+  ),
+  Reflection(
+    id: '56',
+    title: 'A Bondade Não Tem Motivo',
+    day: 25,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.bemEMal,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Se eu tiver um motivo para ser bom, será que isso faz nascer a bondade? Ou será a bondade algo que é completamente desprovido desta ânsia de ser bom, que está sempre baseada num motivo? Será o bem o oposto do mau, o oposto do mal?\n\nCada oposto contém em si a semente do seu próprio oposto, não é assim? Existe a ganância, e existe o ideal da não-ganância. Quando a mente procura a não-ganância, quando ela tenta deixar de ser gananciosa, está a continuar a sê-lo, porque está a querer ser algo.\n\nA ganância implica desejar, adquirir, expandir; e quando a mente vê que ser gananciosa não compensa, começa a desejar deixar de ser gananciosa, portanto o motivo continua a ser o mesmo, o de ser ou de adquirir algo.\n\nQuando a mente quer deixar de querer, a raiz do querer, do desejo, ainda permanece lá. Portanto a bondade não é o oposto do mal; é um estado totalmente diferente.\n\nE o que é esse estado? É óbvio que a bondade não tem motivo, porque todo o motivo tem a sua base no eu; é o movimento egocêntrico da mente.\n\nPortanto, o que queremos dizer quando falamos de bondade? Certamente só existe bondade quando há uma atenção total. A atenção não tem motivo. Quando existe um motivo para a atenção, haverá realmente atenção?\n\nSe presto atenção, porque quero adquirir algo, a aquisição, seja ela boa ou má, não é atenção, é uma distração. Uma divisão.\n\nSó existe bondade quando há uma totalidade de atenção na qual não se verifica nenhum esforço para ser ou para não ser.'
+    ],
+  ),
+  Reflection(
+    id: '57',
+    title: 'Evolução Humana',
+    day: 26,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.bemEMal,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Será necessário conhecermos a embriaguês para que possamos conhecer a sobriedade? Será necessário que vocês conheçam o ódio para que possam saber o que significa ser-se compassivo? Será que precisam de passar por guerras, pela vossa destruição e a dos outros, para saberem o que é a paz?\n\nEsta é certamente uma forma de pensar completamente errada, não é assim?\n\nPrimeiro acreditam que existe evolução, crescimento, um movimento que vai do mau para o bom, e depois deixam que a vossa forma de pensar adote este padrão.\n\nÉ óbvio que existe um crescimento físico, a pequena planta que se transforma numa grande árvore; há progresso tecnológico, a roda que evoluiu ao longo de séculos e que chegou ao avião a jato. Mas será que há um progresso psicológico, uma evolução?\n\nÉ isso que estamos a discutir, se haverá um crescimento, uma evolução do "eu", que começa com o mal e termina com o bem. Poderá o "eu", que é o centro do mal, através de um processo de evolução, através do tempo, vir alguma vez a tornar-se nobre, bom?\n\nÉ óbvio que não. Aquilo que é mau, o "eu" psicológico, permanecerá sempre mau. Mas nós não o queremos encarar. Pensamos que através do processo do tempo, através do crescimento e da mudança, o "eu" tornar-se-á enfim realidade. É esta a nossa esperança, o nosso anseio, que o "eu" se irá aperfeiçoar com o tempo.\n\nO que é este "eu"? É um nome, uma forma, um feixe de memórias, esperanças, frustrações, desejos, dores, tristezas, alegrias passageiras.\n\nNós queremos que este "eu" continue e se torne perfeito, e portanto dizemos que para além do "eu" existe um "super-eu", um eu mais elevado, uma entidade espiritual que é intemporal, mas uma vez que podemos pensar nela, essa entidade "espiritual" pertence ainda ao campo do tempo, não é?\n\nSe podemos pensar nela, isso significa que ela se encontra, como é óbvio, dentro do campo da nossa razão.'
+    ],
+  ),
+  Reflection(
+    id: '58',
+    title: 'Liberdade em relação à Ocupação',
+    day: 27,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.bemEMal,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Poderá a mente ficar livre do passado, livre do pensamento, não do bom ou mau pensamento? Como posso descobrir isso?\n\nSó o posso descobrir se observar aquilo de que a mente se ocupa. Se a minha mente está ocupada com o bom ou com o mau, então está apenas preocupada com o passado, está ocupada com o passado. Portanto, o importante é descobrir com o que é que a mente se ocupa.\n\nSempre que a mente está ocupada, está ocupada com o passado, porque toda a nossa consciência é passado. O passado não se encontra apenas à superfície, mas ao mais alto nível, e a pressão sobre o inconsciente é também o passado.\n\nPoderá a mente ficar livre da ocupação? Ou seja, poderá a mente estar completamente desocupada, e deixar a memória, os pensamentos bons ou maus, fluírem sem escolha?\n\nSempre que a mente está ocupada com um pensamento, bom ou mau, está ocupada com o passado.\n\nSe ouvirem com atenção, não apenas verbalmente, mas muito profundamente, então poderão ver que existe uma estabilidade que não vem da mente, que é a libertação do passado. E no entanto, o passado nunca pode ser posto de lado.\n\nHá um observar do passado à medida que ele vai correndo, mas não uma ocupação com ele. Assim, a mente está livre para observar e para não escolher.\n\nOnde houver escolha neste movimento do rio da memória, haverá ocupação; e a partir do momento que a mente se encontra ocupada, fica aprisionada no passado; e quando a mente está ocupada com o passado, torna-se incapaz de ver algo real, verdadeiro, novo, original, incontaminado.'
+    ],
+  ),
+  Reflection(
+    id: '59',
+    title: 'O Pensar Gera Esforço',
+    day: 28,
+    month: Months.fevereiro,
+    monthFilters: ['fev'],
+    tag: Tags.bemEMal,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Como posso permanecer livre de pensamentos maus, de pensamentos maus e caprichosos? Existirá o pensador, aquele que está separado do pensamento, separado dos pensamentos maus e caprichosos? Por favor, observem as vossas próprias mentes.\n\n Dizemos: Existe o eu que diz “Este pensamento é caprichoso”, “Isto é mau”, “Tenho de controlar este pensamento”, “Tenho de me ater a este pensamento”. Isto é o que conhecemos.\n\nSerá que esse alguém, o eu, o pensador, o juiz, aquele que julga, que censura, diferente de tudo isto? Será o eu diferente do pensamento, diferente da inveja, diferente do mal?\n\nO eu que diz que é diferente deste mal está perpetuamente a tentar superar-me, empurrar-me para longe, a tentar tornar-se algo. Portanto vocês têm esta luta, o esforço para afastar certos pensamentos, para não se ser caprichoso.\n\nFomos nós que criámos, através do próprio processo do pensamento, este problema do esforço. Estão a acompanhar o que digo?\n\nEntão vocês deram origem à disciplina, ao controlo do pensamento, o eu a controlar os pensamentos que não são bons, o eu que está a tentar não ser invejoso, violento, que está a tentar ser isto e ser aquilo.\n\nAssim, deram origem ao próprio processo do esforço quando existe o eu e algo que ele está a controlar. Esta é a realidade da nossa existência cotidiana.'
+    ],
+  ),
+  Reflection(
+    id: '60',
+    title: 'Uma Mente Livre É Humilde',
+    day: 1,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.dependencia,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Alguma vez se debruçaram sobre a questão da dependência psicológica?\n\nSe a observarem muito profundamente, descobrirão que a maior parte de nós se encontra terrivelmente só. A maioria de nós tem uma mente muito superficial e vazia. A maioria de nós não sabe o que é o amor.\n\nAssim, devido a essa solidão, devido a essa insuficiência, à privação da vida, apegamo-nos a algo, apegamo-nos à família; dependemos dela. E quando a mulher ou o marido desviam de nós a sua atenção, ficamos enciumados.\n\nO ciúme não é amor; mas o amor que a sociedade atribui à família está investido de respeitabilidade. Essa é outra forma de defesa, outra forma de fugirmos de nós mesmos.\n\nPortanto, qualquer forma de resistência alimenta a dependência. E uma mente que é dependente nunca poderá ser livre.\n\nVocês precisam de ser livres, porque assim poderão observar que uma mente que é livre contém a essência da humildade. Uma tal mente, que é livre e, portanto, humilde, pode aprender, o que não acontece com uma mente que tem resistências.\n\nAprender é uma coisa extraordinária, aprender, não acumular conhecimento. Acumular conhecimento é algo completamente diferente.\n\nAquilo a que chamamos conhecimento é relativamente fácil, porque se inscreve no movimento que parte do conhecido para o conhecido. Mas aprender é um movimento que parte do conhecido para o desconhecido, só assim podem aprender, não é verdade?'
+    ],
+  ),
+  Reflection(
+    id: '61',
+    title: 'Nunca Questionamos o Problema da Dependência',
+    day: 2,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.dependencia,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Por que somos dependentes? Dependemos psicologicamente e interiormente de uma crença, de um sistema, de uma filosofia; pedimos a outros um modelo de conduta; procuramos guias que nos ensinem um modo de vida que nos proporcione alguma esperança, alguma felicidade.\n\nPortanto, estamos sempre à procura de algum tipo de dependência, de segurança, não é verdade? Será que a mente poderá alguma vez libertar-se deste sentido da dependência?\n\nIsto não significa que a mente deva alcançar a independência, isso é apenas a reação à dependência. Não estamos a falar de independência, da libertação relativamente a um determinado estado.\n\nSe pudermos investigar sem a reação da procura de libertação relativamente a um estado particular de dependência, então poderemos ir muito mais fundo na nossa investigação.\n\nAceitamos a necessidade de dependência; dizemos que é inevitável. Nunca questionamos realmente este assunto a fundo, a razão de cada um de nós procurar algum tipo de dependência.\n\nNão é verdade que, lá bem no fundo, nós exigimos, de fato, segurança, permanência? Estando nós imersos num estado de confusão, queremos que alguém nos salve dessa mesma confusão. Assim, estamos sempre preocupados com a forma de escaparmos ou de evitarmos o estado no qual nos encontramos.\n\nNo processo de evitarmos esse estado, torna-se inevitável que criemos algum tipo de dependência, a qual se transforma numa autoridade para nós.\n\nSe dependermos de outro para termos a nossa segurança, para o nosso bem-estar interior, surgem, dessa mesma dependência, inúmeros problemas, e então tentamos resolver esses problemas, os problemas do apego. Mas nunca questionamos, nunca investigamos profundamente o problema da dependência em si próprio.\n\nTalvez se nós conseguirmos investigar esta questão de um modo verdadeiramente inteligente, com uma total atenção, então talvez possamos descobrir que a dependência não é de todo o que está em causa, que ela é somente uma forma de fugirmos de um fato mais profundo.'
+    ],
+  ),
+  Reflection(
+    id: '62',
+    title: 'Existe um Fato mais Profundo que nos Torna Dependentes',
+    day: 3,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.dependencia,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Sabemos que somos dependentes, do nosso relacionamento com os outros, ou de alguma ideia, ou de algum sistema de pensamento. Porquê?\n\nNa verdade, não considero que a dependência seja o problema; penso que existe um fator mais profundo que nos torna dependentes. E, se formos capazes de esclarecer isso, então, tanto a dependência quanto a luta pela liberdade terão muito pouca importância; então, todos os problemas que surgem com a dependência se dissiparão.\n\nPortanto, qual é esse fator mais profundo? Será o fato de a mente detestar, temer, a ideia de estar só? E será que a mente conhece esse estado que tenta a todo o custo evitar?\n\nEnquanto essa solidão não for verdadeiramente compreendida, sentida, penetrada, dissolvida, qualquer que seja o termo que desejem empregar, enquanto esse sentimento de solidão perdurar, a dependência é inevitável, e nunca conseguiremos ser livres; nunca poderemos descobrir por nós mesmos aquilo que é verdadeiro, aquilo que é a religião.'
+    ],
+  ),
+  Reflection(
+    id: '63',
+    title: 'Tornar-se Profundamente Desperto',
+    day: 4,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.apego,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A dependência desencadeia o movimento da indiferença e do apego, um conflito constante no qual não há nem compreensão nem libertação.\n\nVocês devem tornar-se conscientes do processo do apego e da dependência, tornar-se conscientes dele sem condenação, sem julgamento, e então perceberão o significado deste conflito de opostos.\n\nSe conseguirem estar profundamente conscientes e dirigirem o pensamento no sentido da compreensão do que realmente significa a necessidade, a dependência, então a vossa mente consciente ficará aberta e clarificada relativamente a isto; e então, o subconsciente, com as suas motivações, buscas e intenções ocultas, projetar-se-á no consciente.\n\nQuando isto acontece, devem estudar e compreender cada sugestão do subconsciente. Se fizerem isto muitas vezes, tornando-se conscientes das projeções do subconsciente que têm lugar depois de o consciente ter resolvido o problema através do pensamento da forma mais clara possível, então, apesar de darem atenção a outros assuntos, o consciente e o subconsciente resolverão o problema da dependência, ou qualquer outro problema.\n\nAssim, fica estabelecida uma atenção constante que, de forma paciente e suave, dará origem à integração; e se a vossa saúde e a vossa alimentação estiverem corretas, isto vos trará, por sua vez, uma plenitude do ser.'
+    ],
+  ),
+  Reflection(
+    id: '64',
+    title: 'Relacionamento',
+    day: 5,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.relacionamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O relacionamento baseado na necessidade mútua só pode trazer conflito. Independentemente do quanto possamos ser interdependentes, nós estamos a usar-nos uns aos outros com um propósito, com um fim. Quando há um fim em vista, não há relacionamento.\n\nVocês podem usar-me e eu posso usar-vos. Neste uso perdemos o contato. Uma sociedade haseada no uso mútuo constitui os alicerces da violência.\n\nQuando utilizamos outra pessoa, temos apenas a imagem do fim que temos em vista. O fim, o ganho, impede o relacionamento, a comunhão.\n\nNa utilização de outra pessoa, por mais gratificante e reconfortante que seja, está sempre presente o medo.\n\nPara evitarmos este medo, temos de possuir. A partir desta posse surgem a inveja, a desconfiança e o conflito constantes. Um tal relacionamento nunca poderá ser uma fonte de felicidade.\n\nUma sociedade cuja estrutura se baseia na mera necessidade, fisiológica ou psicológica, tem forçosamente de alimentar o conflito, a confusão e a miséria.\n\nA sociedade é a projeção de vós mesmos no vosso relacionamento com o outro, no qual predominam a necessidade e a utilização.\n\nQuando fazem uso de outra pessoa para responderem ás nossas necessidades, físicas ou psicológicas, não estão, de fato, em relação com essa pessoa; não têm verdadeiramente qualquer contato com ela, nenhuma comunhão com ela.\n\nComo é possível estarem em comunhão com o outro quando ele está a ser utilizado como uma peça de mobiliário, para vossa conveniência e conforto?\n\nPortanto, é essencial compreender a importância do relacionamento na vida diária.'
+    ],
+  ),
+  Reflection(
+    id: '65',
+    title: 'O "Eu" É a Posse',
+    day: 6,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A renúncia, o auto-sacrifício, não é um gesto de grandeza que deva ser elogiado e seguido.\n\nQueremos possuir, porque sem a posse não existimos. As posses são muitas e variadas. Alguém que não tem posses materiais pode estar apegado ao conhecimento, às ideias; outro pode estar apegado à virtude, outro, à experiência, outro, ao nome e à fama, e assim por diante.\n\nSem as posses, o "eu" não existe; o "eu" é a posse, a mobília, a virtude, o nome.\n\nPor causa deste medo do não ser, a mente está apegada ao nome, à mobília, ao valor; e abandoná-los-á por um nível mais elevado, sendo o mais elevado aquilo que é mais gratificante, mais permanente.\n\nO medo da incerteza, de não ser, produz o apego, a posse. Quando a posse não é satisfatória ou provoca dor, renunciamos a ela em troca de um apego mais prazeroso.\n\nA posse mais gratilicante é, em última instância, a palavra Deus, ou o seu substituto, o Estado.\n\nEnquanto não estiverem dispostos a ser nada, e de fato não estão, é inevitável que vocês alimentem a tristeza e o antagonismo.\n\nA vontade de ser nada não é uma questão de renúncia, de constrangimento, interior ou exterior, mas de se ver a verdade "do que é".\n\nVer a verdade "do que é" liberta-nos do medo da insegurança, o medo que alimenta o apego e conduz à ilusão de desapego, de renúncia.\n\nO amor por "o que é" é o começo da sabedoria. Só o amor pode partilhar, só ele pode entrar em comunhão; mas a renúncia e o auto-sacrifício são os caminhos do isolamento e da ilusão.'
+    ],
+  ),
+  Reflection(
+    id: '66',
+    title: 'Explorar É Ser-se Explorado',
+    day: 7,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.dependencia,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Como a maioria de nós procura o poder sob uma forma ou outra, é assim estabelecido o princípio da hierarquia, o novato e o iniciado, o aluno e o Mestre, e até mesmo entre os mestres existem graus de crescimento espiritual.\n\nA maior parte de nós adora explorar e ser explorado, e o sistema em que vivemos oferece-nos todos os meios para tal, estejam eles ocultos ou à vista.\n\nExplorar é ser-se explorado. O desejo de fazermos uso dos outros para as nossas necessidades psicológicas abre caminho à dependência, e quando dependemos temos de agarrar, de possuir; e aquilo que possuímos possui-nos.\n\nSem dependência, sutil ou grosseira, sem possuirmos coisas, pessoas e ideias, ficamos vazios, tornamo-nos algo sem importância.\n\nQueremos ser alguma coisa e, para evitarmos o medo corrosivo de não sermos nada, passamos a pertencer a esta ou àquela organização, a esta ou àquela ideologia, a esta igreja ou àquele templo; portanto somos explorados, e por nosso lado, também exploramos.'
+    ],
+  ),
+  Reflection(
+    id: '67',
+    title: 'Cultivar o Desapego',
+    day: 8,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.apego,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Só existe apego; não existe uma tal coisa a que se possa chamar desapego. A mente inventa o desapego como reação à dor do apego. Quando vocês reagem ao apego tornando-se "desapegados", isso significa que estão apegados a qualquer outra coisa. Assim, todo esse processo é um processo de apego.\n\nEstão apegados à vossa mulher ou ao vosso marido, aos vossos filhos, a ideias, à tradição, à autoridade, e assim por diante; e a vossa reação a esse apego é o desapego.\n\nCultivar o desapego é o resultado da tristeza, da dor. Querem fugir da dor do apego, e a vossa fuga é encontrarem algo a que pensam que se podem apegar.\n\nPortanto, existe apenas o apego. E é uma mente estúpida que cultiva o desapego.\n\nTodos os livros dizem: "Sejam desapegados", mas qual é a verdade disto?\n\nSe observarem a vossa própria mente, poderão ver uma coisa extraordinária, que ao cultivar o desapego, a vossa mente se está a tornar apegada a uma outra coisa.'
+    ],
+  ),
+  Reflection(
+    id: '68',
+    title: 'O Apego é Auto-Ilusão',
+    day: 9,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.apego,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Somos as coisas que possuímos, somos aquilo a que estamos apegados.\n\nO apego não tem qualquer nobreza. O apego ao conhecimento não é em nada diferente de qualquer outra dependência gratificante.\n\nO apego é estar absorto sobre si mesmo, quer seja ao nível mais baixo ou mais elevado.\n\nO apego é auto-ilusão, é uma fuga ao vazio do eu.\n\nAs coisas às quais estamos apegados, bens, pessoas, ideias, tornam-se o mais importante, pois sem as muitas coisas que preenchem o seu vazio, o eu não tem existência.\n\nE o medo de não existir que dá origem à posse; e o medo alimenta a ilusão, a sujeição às conclusões.\n\nAs conclusões, materiais ou ideológicas, impedem a fruição da inteligência, da liberdade na qual, e única e exclusivamente nela, a realidade pode passar a existir; e sem esta liberdade, a astúcia é tomada por inteligência.\n\nOs caminhos da astúcia são sempre complexos e destrutivos. É esta astúcia autoprotetora que origina o apego; e quando o apego causa dor, é esta mesma astúcia que busca o desapego e encontra prazer no orgulho e na vaidade da renúncia.\n\nA compreensão dos caminhos da astúcia, dos caminhos do eu, é o princípio da inteligência.'
+    ],
+  ),
+  Reflection(
+    id: '69',
+    title: 'Enfrentem o Fato e Vejam o que Acontece',
+    day: 10,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.dependencia,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Todos nós já experimentámos o sentimento de uma terrível solidão, na qual os livros, a religião, tudo desapareceu e nós ficamos terrivelmente, interiormente, sós, vazios.\n\nA maioria de nós não consegue enfrentar esse vazio, essa solidão, e foge dela.\n\nA dependência é uma das coisas para as quais fugimos, das quais dependemos, porque não suportamos estar sós connosco mesmos.\n\nPrecisamos de ter o rádio, ou um livro, ou alguém para conversar, um incessante palrar sobre isto e aquilo, sobre arte e sobre cultura.\n\nAssim, chegamos àquele ponto em que sabemos que temos esta extraordinária sensação de auto-isolamento. Podemos ter um excelente emprego, trabalhar arduamente, escrever livros, mas interiormente temos este enorme vácuo.\n\nQueremos preenchê-lo, e a dependência é uma das formas de o fazermos.\n\nUtilizamos a dependência, o divertimento, os trabalhos para a igreja, as religiões, a bebida, as mulheres, mil e uma coisas para o preenchermos, para o encobrirmos.\n\nSe constatarmos que é completamente inútil tentar encobri-lo, completamente inútil, não verbalmente, não com convicção e portanto com acordo e determinação, mas se conseguirmos ver o caráter totalmente absurdo disso, então somos confrontados com um fato.\n\nNão é uma questão de como se ser livre da dependência; isso não é um fato; isso é apenas uma reação a um fato. Por que é que não enfrento o fato e vejo o que acontece?\n\nSurge então a questão do observador e da coisa observada. O observador diz: "Estou vazio; não gosto de me sentir assim", e foge desse sentimento.\n\nO observador diz: "Sou diferente do vazio". Mas o observador é o vazio; não se trata do vazio a ser visto por um observador. O observador é a coisa observada.\n\nDá-se uma imensa revolução no pensar e no sentir quando tal acontece.'
+    ],
+  ),
+  Reflection(
+    id: '70',
+    title: 'O Apego É uma Fuga',
+    day: 11,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.apego,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Tentem estar conscientes do vosso condicionamento.\n\nSó o podem conhecer de forma indireta, em relação a algo. Não é possível estarem conscientes do vosso condicionamento como uma abstração, porque nesse caso tudo se passa a um nível meramente verbal, com pouco significado.\n\nEstamos apenas conscientes do conflito. O conflito existe quando não há integração entre o desafio e a resposta. Este conflito é o resultado do nosso condicionamento.\n\nO condicionamento é apego: apego ao trabalho, à tradição, à propriedade, às pessoas, às ideias, e assim por diante. Se não houvesse qualquer apego, haveria condicionamento? É claro que não.\n\nPortanto, por que é que sentimos apego? Sinto apego ao meu país, porque, através da identificação com ele, torno-me alguém.\n\nIdentifico-me com o meu trabalho, e assim o trabalho torna-se importante. Eu sou a minha família, a minha propriedade; estou apegado a tudo isso.\n\nO objeto do meu apego oferece-me o meio de fuga ao meu próprio vazio. O apego é uma fuga, e é a fuga que fortalece o condicionamento.'
+    ],
+  ),
+  /* Março: Dependência - Apego - Relacionamento - Medo
+ */
   /* 
   Reflection(
     id: '1',
