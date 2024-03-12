@@ -902,6 +902,126 @@ const dummyReflections = [
       'Tentem estar conscientes do vosso condicionamento.\n\nSó o podem conhecer de forma indireta, em relação a algo. Não é possível estarem conscientes do vosso condicionamento como uma abstração, porque nesse caso tudo se passa a um nível meramente verbal, com pouco significado.\n\nEstamos apenas conscientes do conflito. O conflito existe quando não há integração entre o desafio e a resposta. Este conflito é o resultado do nosso condicionamento.\n\nO condicionamento é apego: apego ao trabalho, à tradição, à propriedade, às pessoas, às ideias, e assim por diante. Se não houvesse qualquer apego, haveria condicionamento? É claro que não.\n\nPortanto, por que é que sentimos apego? Sinto apego ao meu país, porque, através da identificação com ele, torno-me alguém.\n\nIdentifico-me com o meu trabalho, e assim o trabalho torna-se importante. Eu sou a minha família, a minha propriedade; estou apegado a tudo isso.\n\nO objeto do meu apego oferece-me o meio de fuga ao meu próprio vazio. O apego é uma fuga, e é a fuga que fortalece o condicionamento.'
     ],
   ),
+  Reflection(
+    id: '71',
+    title: 'Estar Só',
+    day: 12,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.apego,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Estar só, que não é o mesmo que defender uma filosofia da solidão, é obviamente estar num estado de revolução contra toda a organização da sociedade, não apenas desta sociedade, mas da sociedade comunista, da fascista, de qualquer forma de sociedade que constitua a brutalidade organizada, o poder organizado.\n\nE isso significa uma extraordinária percepção dos efeitos do poder.\n\nSenhores, já alguma vez repararam nos soldados durante os treinos? Eles já não são seres humanos, são máquinas, eles são os vossos filhos, os meus filhos, ali em sentido, sob o sol.\n\nIsto acontece aqui, na América, na União Soviética, e em toda a parte do mundo, não apenas ao nível governamental, mas também ao nível monástico, com a pertença a mosteiros, a ordens, a grupos que detêm um poder surpreendente.\n\nE é apenas a mente que não pertence a nada que pode estar só. E a solidão não é algo que possa ser cultivado. Conseguem perceber isso?\n\nQuando se vê tudo isto, fica-se de fora, e não se é convidado para jantar por nenhum governador, por ne­nhum presidente.\n\nNessa solidão existe humildade. É esta solidão que conhece o amor, e não o poder. O homem ambicioso, seja ou não religioso, nunca poderá saber o que é o amor.\n\nPortanto, se formos capazes de ver tudo isto, então temos essa qualidade de viver na totalidade, e consequentemente, de agir na totalidade. Isto vem por meio do autoconhecimento.'
+    ],
+  ),
+  Reflection(
+    id: '72',
+    title: 'Ansiar é Sempre Ansiar',
+    day: 13,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.apego,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Para evitarmos o sofrimento, cultivamos o desapego. Sabendo de antemão que o apego, mais tarde ou mais cedo, traz consigo o sofrimento, queremos tornar-nos desapegados.\n\nO apego é uma fonte de satisfação, mas ao nos apercebermos da dor que ele acarreta, desejamos encontrar satisfação de outra forma, através do desapego. O desapego é o mesmo que o apego, na medida em que deseja a satisfação.\n\nPortanto, aquilo de que estamos verdadeiramente à procura é de satisfação; desejamos ardentemente ser satisfeitos, a qualquer preço.\n\n Tornamo-nos dependentes ou apegados, porque isso nos dá prazer, segurança, poder, uma sensação de bem-estar, embora ele encerre em si mesmo a tristeza e o medo.\n\nProcuramos o desapego pela mesma razão, pela procura de prazer, de modo a não sermos magoados, a não sermos feridos interiormente. A nossa busca tem como objetivo o prazer, a satisfação.\n\nSem condenar ou justificar, devemos tentar compreender este processo, pois a menos que o compreendamos, não poderemos sair da nossa confusão e da nossa contradição.\n\nPoderá o anseio alguma vez ser satisfeito, ou será ele um poço sem fundo?\n\nQuer ansiemos pelo mais baixo quer pelo mais elevado, ansiar é sempre ansiar, um fogo ardente, e aquilo que é passível de ser consumido por ele, em pouco tempo se transforma em cinzas; mas o anseio pela satisfação permanece, sempre a arder, sempre a consumir, e não há um fim para isso.\n\nO apego e o desapego vão a par na criação de amarras, e ambos devem ser transcendidos.'
+    ],
+  ),
+  Reflection(
+    id: '73',
+    title: 'Intensidade Livre de Qualquer Apego',
+    day: 14,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.apego,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'No estado de paixão sem causa, existe intensidade livre de qualquer apego; mas quando a paixão tem uma causa, existe apego, e o apego é o começo da tristeza.\n\nA maioria de nós está apegada; agarramo-nos a uma pessoa, a um país, a uma crença, a uma ideia, e quando nos é tirado o objeto do nosso apego, ou, em vez disso, perde significado, encontramo-nos vazios, insuficientes.\n\nE nós tentamos preencher este vazio agarrando-nos a outra coisa, a algo que, uma vez mais, se torna objeto da nossa paixão.'
+    ],
+  ),
+  Reflection(
+    id: '74',
+    title: 'O Relacionamento É um Espelho',
+    day: 15,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.relacionamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Certamente é apenas no relacionamento que o processo daquilo que sou se desenrola, não é verdade?\n\nO relacionamento é um espelho no qual me vejo tal como sou; mas como a maior parte de nós não gosta do que é, começamos a disciplinar, positiva ou negativamente, o que percepcionamos no espelho do relacionamento.\n\nOu seja, eu descubro algo no relacionamento, na ação do relacionamento, e não gosto do que descubro.\n\nPortanto, começo a modificar aquilo de que não gosto, aquilo que considero desagradável. Quero mudar isso, o que significa que já tenho um padrão do que deveria ser.\n\nA partir do momento em que existe um padrão do que eu deveria ser, deixa de haver a compreensão do que eu sou. A partir do momento em que tenho uma imagem do que quero ser, ou do que deveria ser, ou do que não posso ser, um padrão de acordo com o qual quero mudar-me a mim mesmo, então, certamente, não pode haver a compreensão do que eu sou no momento do relacionamento.\n\nPenso que é muito importante que compreendamos isto, porque penso que é aqui que a maioria de nós se perde.\n\nNós não queremos saber o que somos de fato num determinado momento do relacionamento. Se só estamos preocupados em melhorarmo-nos a nós mesmos, não existe compreensão de nós próprios, "do que é".'
+    ],
+  ),
+  Reflection(
+    id: '75',
+    title: 'A Função do Relacionamento',
+    day: 16,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.relacionamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O relacionamento é inevitavelmente doloroso, e a nossa existência diária é a prova disso.\n\nSe não existir qualquer tensão no relacionamento, deixa de haver relacionamento e passa a haver apenas um confortável estado de adormecimento, um soporífero, que muitas pessoas preferem e até desejam.\n\nO conflito ocorre entre este desejo de conforto e os fatos, entre a ilusão e a realidade.\n\nSe reconhecerem a ilusão, então poderão, ao pô-la de lado, dirigir a vossa atenção para a compreensão do relacionamento. Mas se procurarem segurança no relacionamento, ele transforma-se num investimento no conforto, na ilusão, e a grandeza do relacionamento é a sua própria insegurança.\n\nAo procurarem segurança no relacionamento, estão a impedir a sua função, e isso traz consigo as suas próprias ações e os seus próprios infortúnios.\n\nDecerto que a função do relacionamento é a de revelar o estado de todo o nosso ser. O relacionamento é um processo de auto-revelação, de autoconhecimento. Esta auto-revelação é dolorosa, exige um ajustamento constante, uma flexibilidade de pensamento-emoção. É uma luta dolorosa, com alguns períodos de uma paz iluminada.\n\nMas a maioria de nós evita ou põe de lado a tensão no relacionamento, preferindo a facilidade e o conforto de uma dependência satisfatória, de uma segurança que não é desafiada, de um porto seguro.\n\nEntão, a família e outros relacionamentos tornam-se um refúgio, o refúgio dos irrefletidos.\n\nQuando a insegurança se transforma em dependência, como é inevitável que aconteça, então o relacionamento em que tal acontece é posto de lado e um novo relacionamento é iniciado na esperança de que a segurança permanente seja encontrada; mas não há segurança no relacionamento, e a dependência apenas serve para alimentar o medo.\n\nSem se ter a compreensão do processo da segurança e do medo, o relacionamento transforma-se num impedimento que nos condiciona, num caminho de ignorância.\n\nEntão toda a existência se transforma em luta e dor, e não há outra forma de se sair disso que não seja o pensamento correto, que acontece com o autoconhecimento.'
+    ],
+  ),
+  Reflection(
+    id: '76',
+    title: 'Como Pode Haver Amor Verdadeiro?',
+    day: 17,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.relacionamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A imagem que vocês têm de uma pessoa, a imagem que têm dos vossos políticos, do primeiro-ministro, do vosso deus, da vossa mulher, dos vossos filhos, essa imagem está a ser observada.\n\nE essa imagem foi criada através do vosso relacionamento, ou através dos vossos medos, ou através das vossas esperanças.\n\nO prazer sexual e outros que tiveram com a vossa mulher, o vosso marido, a raiva, a lisonja, o conforto, e todas as coisas inerentes a vossa vida familiar, que é, na verdade, uma vida mortal, criaram uma imagem da vossa mulher ou do vosso marido.\n\nMunidos dessa imagem, vocês olham. Da mesma forma, a vossa mulher ou o vosso marido têm uma imagem vossa. Portanto, o relacionamento entre vocês e a vossa mulher ou o vosso marido, entre vocês e o político é, na realidade, o relacionamento entre essas duas imagens. Certo?\n\nIsto é um fato. Como podem duas imagens, que são o resultado do pensamento, do prazer, e assim por diante, ter qualquer afeição ou amor?\n\nPortanto, o relacionamento entre dois indivíduos, quer sejam muito próximos quer muito distantes, é um relacionamento de imagens, de símbolos, de memórias. E como poderá haver nisso um amor verdadeiro?'
+    ],
+  ),
+  Reflection(
+    id: '77',
+    title: 'Somos Aquilo que Possuímos',
+    day: 18,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.relacionamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Para se compreender o relacionamento, tem de haver uma atenção passiva, a qual não destrói o relacionamento. Pelo contrário, ela torna o relacionamento muito mais vital, muito mais importante.\n\nEntão, existe nesse relacionamento uma possibilidade de afeição verdadeira; existe uma ternura, uma sensação de proximidade, que não é um mero sentimento ou uma sensação.\n\nE se formos capazes de ter essa aproximação, esse tipo de relacionamento em relação a tudo, então os nossos problemas serão facilmente resolvidos, os problemas que têm que ver com os bens, com as posses. Porque nós somos aquilo que possuímos.\n\nO homem que possui dinheiro é o dinheiro. O homem que se identifica com a propriedade é a propriedade, a casa, a mobília. O mesmo acontece com as ideias, ou com as pessoas; e quando existe o sentimento de posse, não há relacionamento.\n\nMas a maior parte de nós é possessiva, porque não tem mais nada se não possuir. Somos como conchas vazias se não possuímos, se não preenchermos a nossa vida com mobiliário, com música, com conhecimento, com isto e aquilo. E essa concha faz imenso barulho, e a esse barulho chamamos nós viver; e com isso ficamos satisfeitos.\n\nE quando se dá uma ruptura, um corte em relação a isso, então surge a tristeza, porque então descobrimo-nos subitamente tal como somos, uma concha vazia, com pouco significado.\n\nAssim, estar consciente de todo o conteúdo do relacionamento é ação; e a partir dessa ação existe uma possibilidade de uma relação verdadeira, uma possibilidade de descoberta da sua grande profundidade, da sua grande importância, e de se saber o que é o amor.'
+    ],
+  ),
+  Reflection(
+    id: '78',
+    title: 'Estar em Relação',
+    day: 19,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.relacionamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Sem relacionamento não há existência: ser é estar em relação.\n\nA maioria de nós parece não perceber isto, que o mundo é o meu relacionamento com os outros, quer seja com uma só pessoa quer seja com muitas.\n\nO meu problema é o problema do relacionamento. O que sou, o que projeto, e, como é óbvio, se não me compreender a mim mesmo todo o relacionamento se torna uma confusão que se expande em círculos cada vez maiores.\n\nPortanto, o relacionamento tem uma importância extraordinária, não em relação à assim chamada massa, a multidão, mas no mundo da minha família e dos meus amigos, por mais pequeno que ele possa ser, o meu relacionamento com a minha mulher, com os meus filhos, com o meu vizinho.\n\nNum mundo onde abundam as grandes organizações, as grandes mobilizações de pessoas, os movimentos de massas, receamos agir ao nível da pequena escala; temos medo de ser uma simples pessoa que limpa o seu próprio quintal.\n\nDizemos a nós mesmos: "O que está ao meu alcance fazer? Devo juntar-me a um movimento de massas para que possa haver uma reforma?".\n\nPelo contrário, a verdadeira revolução não acontece através de movimentos de massas, mas pela reavaliação interior do relacionamento, é essa a verdadeira reforma, uma revolução radical e contínua.\n\nReceamos começar a uma pequena escala. Pelo fato de o problema ser tão vasto, pensamos que temos de o enfrentar acompanhados de um vasto número de pessoas, de uma grande organização, de movimentos de massas.\n\nTemos certamente de começar por atacar o problema numa pequena escala, e a pequena escala é o "eu" e o "tu".\n\nQuando me compreendo a mim mesmo, compreendo o outro, e dessa compreensão nasce o amor. O amor é o fator que falta; existe uma falta de afeição, de ternura no relacionamento; e porque nos falta esse amor, essa ternura, essa generosidade, essa compaixão no relacionamento, refugiamo-nos na ação das massas, a qual produz mais confusão, mais sofrimento.\n\nPreenchemos os nossos corações com letras de imprensa que falam da reforma mundial, e não olhamos para esse único fator de solução que é o amor.'
+    ],
+  ),
+  Reflection(
+    id: '79',
+    title: 'Vocês e Eu Somos o Problema, não o Mundo',
+    day: 20,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.relacionamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O mundo não é algo que esteja separado de vocês e de mim; o mundo, a sociedade, é o relacionamento que estabelecemos entre nós.\n\nPortanto, vocês e eu somos o problema, e não o mundo, porque o mundo é a projeção de nós mesmos, e para compreendermos o mundo, temos de nos compreender a nós mesmos.\n\nEsse mundo não é separado de nós; nós somos o mundo, e os nossos problemas são os problemas do mundo.'
+    ],
+  ),
+  Reflection(
+    id: '80',
+    title: 'Não Existe uma tal Coisa a que se Possa Chamar Viver Sozinho',
+    day: 21,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Nós queremos fugir da nossa solidão, com os seus medos que nos fazem entrar em pânico, e portanto dependemos de outrem, enriquecemo-nos com o companheirismo, e assim por diante.\n\nNós somos as figuras principais, e os outros tornam-se peões no nosso jogo; e quando o peão se vira e exige algo em troca, ficamos chocados e magoados.\n\nSe a nossa fortaleza for resistente, sem apresentar nenhuma brecha, este ataque vindo do exterior traz-nos poucas consequências.\n\nAs tendências peculiares que vão surgindo com a idade devem ser compreendidas e corrigidas enquanto ainda somos capazes de uma auto-observação e de um estudo de nós mesmos desapegados e tolerantes; os nossos medos devem ser observados e compreendidos no presente.\n\nAs nossas energias devem ser direcionadas, não apenas para a compreensão das pressões e das exigências exteriores pelas quais somos responsáveis, mas também para a compreensão de nós mesmos, da nossa solidão, dos nossos medos, exigências e fragilidades.\n\nNão existe tal coisa a que se possa chamar viver sozinho, pois todo o viver é relacionamento; mas viver sem um relacionamento direto exige uma inteligência elevada, uma atenção mais viva e maior relativamente à autodescoberta.\n\nUma existência "solitária", sem esta atenção penetrante e fluida, fortalece as tendências que já são dominantes, dando assim origem ao desequilíbrio, à distorção.\n\nÉ no presente que temos de nos tornar conscientes dos hábitos rígidos e peculiares do pensamento-sentimento que vêm com a idade, e através dessa compreensão devemos acabar com eles.\n\nSomente as riquezas interiores nos podem trazer paz e alegria.'
+    ],
+  ),
   /* Março: Dependência - Apego - Relacionamento - Medo
  */
   /* 
