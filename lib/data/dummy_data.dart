@@ -1022,6 +1022,102 @@ const dummyReflections = [
       'Nós queremos fugir da nossa solidão, com os seus medos que nos fazem entrar em pânico, e portanto dependemos de outrem, enriquecemo-nos com o companheirismo, e assim por diante.\n\nNós somos as figuras principais, e os outros tornam-se peões no nosso jogo; e quando o peão se vira e exige algo em troca, ficamos chocados e magoados.\n\nSe a nossa fortaleza for resistente, sem apresentar nenhuma brecha, este ataque vindo do exterior traz-nos poucas consequências.\n\nAs tendências peculiares que vão surgindo com a idade devem ser compreendidas e corrigidas enquanto ainda somos capazes de uma auto-observação e de um estudo de nós mesmos desapegados e tolerantes; os nossos medos devem ser observados e compreendidos no presente.\n\nAs nossas energias devem ser direcionadas, não apenas para a compreensão das pressões e das exigências exteriores pelas quais somos responsáveis, mas também para a compreensão de nós mesmos, da nossa solidão, dos nossos medos, exigências e fragilidades.\n\nNão existe tal coisa a que se possa chamar viver sozinho, pois todo o viver é relacionamento; mas viver sem um relacionamento direto exige uma inteligência elevada, uma atenção mais viva e maior relativamente à autodescoberta.\n\nUma existência "solitária", sem esta atenção penetrante e fluida, fortalece as tendências que já são dominantes, dando assim origem ao desequilíbrio, à distorção.\n\nÉ no presente que temos de nos tornar conscientes dos hábitos rígidos e peculiares do pensamento-sentimento que vêm com a idade, e através dessa compreensão devemos acabar com eles.\n\nSomente as riquezas interiores nos podem trazer paz e alegria.'
     ],
   ),
+  Reflection(
+    id: '81',
+    title: 'A Libertação do Medo',
+    day: 22,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Será possível para a mente esvaziar-se completamente do medo?\n\nQualquer tipo de medo alimenta a ilusão; torna a mente embotada, rasteira. Onde existe o medo, não pode haver, como é óbvio, liberdade, e sem liberdade não há amor.\n\nE a maioria de nós tem alguma forma de medo; medo do escuro, medo da opinião pública, medo de cobras, medo da dor física, medo da velhice, medo da morte. Temos, literalmente, milhares de medos. E será possível estarmos completamente livres do medo?\n\nPodemos observar o que o medo faz a cada um de nós. Faz com que digamos mentiras; corrompe-nos de diversas formas; torna a mente vazia, superficial.\n\nExistem cantos escuros na mente que nunca poderão ser investigados e expostos enquanto tivermos medo.\n\nA autoprotecção física, a urgência instintiva de nos mantermos afastados de uma cobra venenosa, de um precipício, de evitarmos ser atropelados pelo autocarro, e assim por diante, é saudável e normal. Mas eu estou a colocar a questão da autoproteção psicológica que nos faz temer a doença, a morte, um inimigo.\n\nQuando procuramos qualquer forma de preenchimento, quer seja através da pintura, da música, da relação, ou do que se quiser, existe sempre medo. Portanto, o que é importante é estarmos conscientes de todo este processo de nós mesmos, observar, aprender acerca dele, e não perguntarmos como é que nos podemos ver livres do medo.\n\nQuando apenas desejamos ver-nos livres do medo, encontramos formas e meios de lhe escaparmos, e assim nunca poderá haver a libertação do medo.'
+    ],
+  ),
+  Reflection(
+    id: '82',
+    title: 'Lidar com o Medo',
+    day: 23,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Receamos a opinião pública, receamos não alcançar, não preencher, receamos não ter a oportunidade; e em tudo isto há esta extraordinária sensação de culpa, fizemos algo que não deveríamos ter feito; a sensação de culpa na própria ação; somos saudáveis, e existem pessoas que são pobres e doentes; temos comida e há outros que a não têm.\n\nQuanto mais a mente investiga, penetra, pergunta, tanto maior é a sensação de culpa, ansiedade...\n\nO medo é a urgência que procura um Mestre, um guru; o medo é esta cobertura de responsabilidade, de que toda a gente gosta tanto, ser responsável.\n\nVocês determinam-se a ser corajosos para enfrentarem os acontecimentos da vida, ou meramente afastam o medo através da racionalização, ou encontram explicações que darão satisfação à mente que está apanhada pelo medo?\n\nComo é que lidam com isto? Ligam o rádio, lêem um livro, dirigem-se a um templo, agarram-se a alguma forma de dogma, crença?\n\nO medo é a energia destrutiva que existe no homem. Ele debilita a mente, distorce o pensamento, conduz a todo o tipo de teorias astuciosas e sutis, superstições absurdas, dogmas e crenças.\n\nSe vocês vêem que o medo é destrutivo, então de que modo procedem para limpar a vossa mente? Vocês dizem que ao investigar a causa do medo ficarão livres do medo. Será que isso é verdade?\n\nTentar desvendar e conhecer a causa do medo não o elimina.'
+    ],
+  ),
+  Reflection(
+    id: '83',
+    title: 'A Porta para a Compreensão',
+    day: 24,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Não se pode fazer desaparecer o medo sem a compreensão, sem se ver verdadeiramente a natureza do tempo, o que significa pensamento, o que significa palavra.\n\nA partir disso surge a questão: existirá pensamento sem palavra, existirá o pensar sem a palavra que é memória?\n\nSenhores, sem se ver a natureza da mente, o movimento da mente, o processo de se conhecer a si mesmo, o mero fato de dizer que me devo libertar do medo, tem muito pouco significado. Temos de observar o medo inserido no contexto da mente.\n\nPara ver, para aprofundar tudo isto, é necessária energia. A energia não vem através da alimentação, essa é uma parte da necessidade física.\n\nMas para ver, no sentido em que estou a usar essa palavra, é necessária uma imensa energia; e essa energia é dissipada quando nos estamos a confrontar com as palavras, quando estamos a resistir, a condenar, quando estamos cheios de opiniões que nos impedem de olhar, de ver, toda a nossa energia é dissipada nisso.\n\nAssim, na consideração desta percepção, deste ver, abrimos novamente a porta.'
+    ],
+  ),
+  Reflection(
+    id: '84',
+    title: 'O Medo Faz-nos Obedecer',
+    day: 25,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Por que fazemos tudo isto, obedecer, seguir, copiar? Porque?\n\nPorque, interiormente, tememos a incerteza. Queremos estar certos de algo, financeiramente, moralmente, queremos ser aprovados, queremos estar numa posição segura, queremos evitar ser confrontados com problemas, com a dor, com o sofrimento, queremos estar numa redoma.\n\nAssim, o medo, de forma consciente ou inconsciente, faz-nos obedecer ao Mestre, ao líder, ao padre, ao governo.\n\nO medo também nos controla no sentido de não nos deixar fazer algo que pode ser maléfico para os outros, porque sabemos que seremos castigados. Portanto, por detrás de todas estas ações, ganâncias, buscas, esconde-se este desejo de certeza, este desejo de nos sentirmos assegurados.\n\nPortanto, sem resolvermos o medo, o mero ato de obedecer ou de ser obedecido tem pouca importância; o que tem significado é a compreensão deste medo, dia a dia, e observar como o medo se revela a si mesmo de formas diferentes.\n\nE só quando estamos libertos do medo que existe essa qualidade interior da compreensão, a solidão na qual não existe acumulação de conhecimento ou de experiência, e é somente isso que nos dá uma extraordinária claridade na busca do real.'
+    ],
+  ),
+  Reflection(
+    id: '85',
+    title: 'Face a Face com o Fato',
+    day: 26,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Nós temos medo de um fato ou de uma ideia a respeito de um fato? Tememos a coisa tal como ela é, ou o que pensamos que ela é?\n\nTomemos como exemplo a morte. Temos medo do fato que constitui a morte ou da ideia da morte? O fato é uma coisa e a ideia sobre o fato é outra. Tenho medo da palavra morte ou do fato em si mesmo?\n\nPorque receio a palavra, a ideia, nunca compreendo o fato, nunca olho para o fato, nunca estou em rela­ção direta com o fato.\n\nÉ somente quando me encontro numa comunhão completa com o fato que não existe medo. Se não estiver em comunhão com o fato, então há medo, e não pode haver comunhão com o fato enquanto eu tiver uma ideia, uma opinião, uma teoria, a respeito do fato; portanto tenho de perceber de forma muito clara se tenho medo da palavra, da ideia, ou do fato.\n\nSe me encontrar face a face com o fato, não há nada a compreender sobre ele: o fato está lá, e eu posso lidar com ele. Se eu recear a palavra, então devo compreender a palavra, investigar profundamente todo o processo do que a palavra, o termo significa.\n\nÉ a minha opinião, a minha ideia, a minha experiência, o meu conhecimento sobre o fato, que cria o medo. Enquanto houver verbalização do fato, o ato de dar nome ao fato, e com isso identificá-lo ou condená-lo, enquanto o pensamento estiver a julgar o fato a partir da sua posição de observador, terá de haver medo.\n\nO pensamento é o produto do passado; só pode existir através da verbalização, dos símbolos, das imagens. Enquanto o pensamento estiver a julgar ou a traduzir o fato, haverá sempre medo.'
+    ],
+  ),
+  Reflection(
+    id: '86',
+    title: 'Entrar em Contato com o Medo',
+    day: 27,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Existe o medo físico. Percebem a que me estou a referir, por exemplo, quando vocês vêem uma cobra, um animal selvagem, instintivamente surge o medo, esse é um medo normal, saudável e natural. Não é medo, é um desejo de se proteger, isso é normal.\n\nMas a proteção psicológica de si próprio, isto é, o desejo de estar sempre seguro, dá origem ao medo. Uma mente que está sempre à procura de se sentir segura é uma mente morta, porque não há nenhuma certeza na vida, não há nenhuma permanência.\n\nQuando se entra em contato direto com o medo, dá-se uma resposta dos nervos e de tudo o resto.\n\nEntão, quando a mente já não está a fugir através das palavras ou de qualquer tipo de atividade, não existe divisão entre o observador e a coisa ob­servada enquanto medo. É apenas a mente que foge que se separa a si mesma do medo.\n\nMas quando há um contato direto com o medo, não há observador, não há nenhuma entidade que diz: "Tenho medo". Portanto, no momento em que se está em contato direto com a vida, com o que quer que seja, não há divisão, e é esta divisão que alimenta a competição, a ambição e o medo.\n\nAssim, o que é importante não é "como ficar livre do medo?". Se procurarem uma forma, um método, um sistema para se livrarem do medo, serão eternamente apanhados nas malhas do medo.\n\nMas se compreenderem o medo, o que só pode acontecer quando entrarem em contato direto com ele, do mesmo modo que entram em contato com a fome, do mesmo modo que entram em contato direto quando são ameaçados de perderem o vosso emprego, então fazem qualquer coisa; só então poderão descobrir que todo o medo cessa, quero dizer todo o medo, não este ou aquele tipo específico de medo.'
+    ],
+  ),
+  Reflection(
+    id: '87',
+    title: 'O Medo é a Não-Aceitação do Que É',
+    day: 28,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O medo encontra diversas fugas. A variedade mais comum é a identificação, não é verdade? A identificação com o país, com a sociedade, com uma ideia.\n\nJá repararam na forma como respondem quando vêem uma procissão, militar ou religiosa, ou quando o país está em risco de ser invadido? Então identificam-se com o país, com um ser, com uma ideologia. Noutras alturas, identificam-se com o vosso filho, a vossa mulher, com uma determinada forma de ação, ou de inação.\n\nA identificação é um processo de auto-esquecimento. Enquanto eu estiver consciente do "eu", sei que haverá dor, luta, um medo constante. Mas se eu puder identificar- me com algo maior, com algo que valha a pena, com a beleza, com a vida, com a verdade, com a crença, com o conhecimento, pelo menos temporariamente, dá-se uma fuga do "eu", não é verdade?\n\nSe falo do "meu país", por momentos estou a esquecer-me de mim mesmo, não estou? Se puder dizer algo sobre Deus, esqueço-me de mim. Se me puder identificar com a minha família, com um grupo, com um determinado partido, com uma certa ideologia, então verifica-se uma fuga temporária.\n\nSerá que agora sabemos o que é o medo? Não será ele a não-aceitação "do que é"?\n\nTemos de compreender a palavra aceitação. Não estou a utilizar esta palavra no sentido de um esforço que é feito para se aceitar algo. Não há nada que aceitar quando se compreende "o que é".\n\nQuando não vejo claramente "o que é", então dou início ao processo de aceitação. Portanto, o medo é a não-aceitação "do que é".'
+    ],
+  ),
+  Reflection(
+    id: '88',
+    title: 'A Desordem que É Criada pelo Tempo',
+    day: 29,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O tempo é o movimento que parte "do que é" para "o que devia ser".\n\nTenho medo, mas um dia conseguirei libertar-me do medo; portanto, o tempo é necessário para que me possa libertar do medo, ou pelo menos é assim que pensamos. Para passar "do que é" para "o que devia ser" preciso de tempo.\n\nAgora, tempo significa que existe esforço nesse intervalo entre "o que é" e "o que devia ser".\n\nNão gosto do medo, e portanto vou fazer um esforço para o compreender, para o analisar, para o dissecar, ou vou descobrir a sua causa, ou vou fugir totalmente a ele. Tudo isto implica esforço, e o esforço é aquilo a que estamos acostumados.\n\nEstamos permanentemente em conflito entre "o que é" e "o que devia ser". O que eu devia ser é uma ideia, e a ideia é fictícia, não é "o que eu sou", que é o fato; e "o que eu sou" só pode ser alterado quando compreendo a desordem que é criada pelo tempo.\n\nPortanto, será que é possível que eu me consiga ver totalmente livre do medo, completamente, no mesmo instante?\n\nSe permito que o medo permaneça, criarei sempre desordem, não um meio de me ver definitivamente livre do medo. Assim, não existe um processo gradual para nos libertarmos do medo, da mesma forma que não existe nenhum processo gradual que nos permita libertar do veneno do nacionalismo.\n\nSe vocês forem nacionalistas e disserem que um dia todos os homens se sentirão irmãos, no intervalo entre uma coisa e outra, acontecem guerras, ódios, miséria, e toda esta aterradora divisão entre um homem e outro; portanto, o tempo está a criar a desordem.'
+    ],
+  ),
   /* Março: Dependência - Apego - Relacionamento - Medo
  */
   /* 
