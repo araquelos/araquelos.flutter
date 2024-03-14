@@ -1118,7 +1118,32 @@ const dummyReflections = [
       'O tempo é o movimento que parte "do que é" para "o que devia ser".\n\nTenho medo, mas um dia conseguirei libertar-me do medo; portanto, o tempo é necessário para que me possa libertar do medo, ou pelo menos é assim que pensamos. Para passar "do que é" para "o que devia ser" preciso de tempo.\n\nAgora, tempo significa que existe esforço nesse intervalo entre "o que é" e "o que devia ser".\n\nNão gosto do medo, e portanto vou fazer um esforço para o compreender, para o analisar, para o dissecar, ou vou descobrir a sua causa, ou vou fugir totalmente a ele. Tudo isto implica esforço, e o esforço é aquilo a que estamos acostumados.\n\nEstamos permanentemente em conflito entre "o que é" e "o que devia ser". O que eu devia ser é uma ideia, e a ideia é fictícia, não é "o que eu sou", que é o fato; e "o que eu sou" só pode ser alterado quando compreendo a desordem que é criada pelo tempo.\n\nPortanto, será que é possível que eu me consiga ver totalmente livre do medo, completamente, no mesmo instante?\n\nSe permito que o medo permaneça, criarei sempre desordem, não um meio de me ver definitivamente livre do medo. Assim, não existe um processo gradual para nos libertarmos do medo, da mesma forma que não existe nenhum processo gradual que nos permita libertar do veneno do nacionalismo.\n\nSe vocês forem nacionalistas e disserem que um dia todos os homens se sentirão irmãos, no intervalo entre uma coisa e outra, acontecem guerras, ódios, miséria, e toda esta aterradora divisão entre um homem e outro; portanto, o tempo está a criar a desordem.'
     ],
   ),
-  /* Março: Dependência - Apego - Relacionamento - Medo
+  Reflection(
+    id: '89',
+    title: 'De que forma Encaro a Raiva?',
+    day: 30,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'É óbvio que olho para ela como um observador que está com raiva. Digo: "Estou enraivecido".\n\nNo momento da raiva não existe um "eu"; o "eu" surge imediatamente a seguir, o que implica tempo.\n\nSerá que posso olhar para o fato sem o fator tempo, que é o pensamento, que é a palavra?\n\nIsto acontece quando existe o ato de olhar sem a presença do observador.\n\nVejam aonde isto me conduziu. Começo agora a aperceber-me de um modo de olhar, percepção sem opinião, sem conclusão, sem condenação ou julgamento.\n\nAssim, eu percebo que pode haver o ato de "olhar" sem pensamento, que é a palavra. Portanto, a mente está para além das amarras das ideias, do conflito da dualidade e de tudo o resto que se relaciona com isto.\n\nPortanto, será possível olhar para o medo sem o encarar como um fato isolado?\n\nSe isolarem um fato que não tenha aberto a porta a todo o universo da mente, então voltemos ao fato e comecemos outra vez, tomando outro fato de forma a que vocês mesmos comecem a ver esta coisa extraordinária da mente, para que possam ter a chave, possam abrir a porta, possam entrar profundamente nisso.\n\nAo considerarmos um determinado medo, o medo da morte, o medo do vizinho, o medo de o nosso cônjuge nos dominar, vocês sabem, toda a questão do domínio, será que isso é suficiente para abrir a porta?\n\nIsso é tudo o que importa, não como nos vermos livres dele, porque no momento em que vocês abrirem a porta, o medo desvanece-se completamente.\n\nA mente é o resultado do tempo, e o tempo é a palavra, como é extraordinário pensar nisto!\n\nO tempo é pensamento; é o pensamento que alimenta o medo, é o pensamento que alimenta o medo da morte; e é o tempo, que é pensamento, que tem em suas mãos todas as complexidades e todas as subtilezas do medo.'
+    ],
+  ),
+  Reflection(
+    id: '90',
+    title: 'A Raiz de Todo o Medo',
+    day: 31,
+    month: Months.marco,
+    monthFilters: ['mar'],
+    tag: Tags.medo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A ânsia por ser outra coisa diferente do que se é dá origem ao medo; ser, alcançar e, portanto, depender, engendra o medo.\n\nO estado em que não existe medo não é negação, não é o oposto do medo nem tão-pouco é coragem.\n\nNa compreensão da causa do medo, reside o seu fim, não no ato de se tornar corajoso, porque em todo o "vir a ser" habita a semente do medo.\n\nA dependência de coisas, de pessoas ou de ideias alimenta o medo; a dependência nasce da ignorância, da ausência de autoconhecimento, da pobreza interior; o medo dá origem à incerteza da mente-coração, impedindo a comunicação e a compreensão.\n\nAtravés da autoconsciência começamos a descobrir e, portanto, a compreender a causa do medo, não apenas os medos superficiais, mas também os medos com causas muito profundas, os medos que se vão acumulando.\n\nO medo é simultaneamente de natureza interna e adquirido; está relacionado com o passado, e para se poder libertar o pensamento-sentimento dele, o passado deve ser compreendido através do presente.\n\nO passado está sempre a querer originar o presente, o qual acaba por se tornar a memória de identificação do "eu" e do "meu", que em conjunto constitui o "eu".\n\nO "eu" é a raiz de todo o medo.'
+    ],
+  ),
+  /* Abril: Desejo - Sexo - Casamento - Paixão
+
  */
   /* 
   Reflection(
