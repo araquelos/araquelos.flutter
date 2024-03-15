@@ -1142,6 +1142,42 @@ const dummyReflections = [
       'A ânsia por ser outra coisa diferente do que se é dá origem ao medo; ser, alcançar e, portanto, depender, engendra o medo.\n\nO estado em que não existe medo não é negação, não é o oposto do medo nem tão-pouco é coragem.\n\nNa compreensão da causa do medo, reside o seu fim, não no ato de se tornar corajoso, porque em todo o "vir a ser" habita a semente do medo.\n\nA dependência de coisas, de pessoas ou de ideias alimenta o medo; a dependência nasce da ignorância, da ausência de autoconhecimento, da pobreza interior; o medo dá origem à incerteza da mente-coração, impedindo a comunicação e a compreensão.\n\nAtravés da autoconsciência começamos a descobrir e, portanto, a compreender a causa do medo, não apenas os medos superficiais, mas também os medos com causas muito profundas, os medos que se vão acumulando.\n\nO medo é simultaneamente de natureza interna e adquirido; está relacionado com o passado, e para se poder libertar o pensamento-sentimento dele, o passado deve ser compreendido através do presente.\n\nO passado está sempre a querer originar o presente, o qual acaba por se tornar a memória de identificação do "eu" e do "meu", que em conjunto constitui o "eu".\n\nO "eu" é a raiz de todo o medo.'
     ],
   ),
+  Reflection(
+    id: '91',
+    title: 'Só Existe o Desejo',
+    day: 1,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.desejo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Não existe qualquer entidade separada do desejo; só existe o desejo, não existe um sujeito que deseja. O desejo adota diferentes máscaras em diferentes ocasiões, dependendo dos seus interesses.\n\nA memória destes interesses que vão variando entra em contato com o novo e isso origina o conflito, e assim nasce o sujeito que escolhe, o sujeito que se estabelece a si mesmo como uma entidade separada e distinta do desejo.\n\nMas a entidade não é separada das suas qualidades. A entidade que tenta preencher ou fugir do vazio, da incompletude, da solidão não é diferente daquilo que está a tentar evitar; ela é isso.\n\nEla não pode fugir de si mesma; tudo o que pode fazer é compreender-se a si mesma. Ela é a sua solidão, o seu vazio; e enquanto ela encarar tudo isso como separado de si mesma, estará mergulhada na ilusão e no eterno conflito.\n\nSó quando ela experimenta de forma direta que ela é a sua própria solidão, é que pode libertar-se do medo.\n\nO medo só existe na relação com uma ideia, e a ideia é a resposta da memória sob a forma de pensamento. O pensamento é o resultado da experiência; e embora ele possa refletir sobre o vazio, ter sensações em relação a ele, não pode conhecê-lo de forma direta.\n\nA palavra solidão, com as suas memórias de dor e de medo, impede o ato de experimentar de forma nova.\n\nA palavra é memória, e quando a palavra deixa de ser importante, então a relação entre aquele que experimenta e o que é experimentado é totalmente diferente; então essa experiência é direta e não feita através de palavras ou da memória; então aquele que experimenta é a experiência, e só isso pode trazer a libertação do medo.'
+    ],
+  ),
+  Reflection(
+    id: '92',
+    title: 'Compreender o Desejo',
+    day: 2,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.desejo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Temos de compreender o desejo; e é muito difícil compreendermos algo que é tão vital, tão exigente, tão urgente, porque na própria satisfação do desejo é engendrada a paixão, com o seu prazer e com a sua dor.\n\nE se quisermos compreender o desejo, é óbvio que não pode haver escolha.\n\nNão podemos julgar o desejo como sendo bom ou mau, nobre ou ignóbil, nem podemos dizer: "Vou conservar este desejo e negar aquele outro".\n\nDevemos pôr tudo isso de lado se quisermos descobrir a verdade sobre o desejo, a sua beleza, a sua fealdade, ou o que quer que seja.'
+    ],
+  ),
+  Reflection(
+    id: '93',
+    title: 'O Desejo Tem de Ser Compreendido',
+    day: 3,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.desejo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Continuemos a refletir sobre o desejo. Nós conhecemos, não é verdade, o desejo que se contradiz a si mesmo, que é tortuoso, que nos puxa em direções diferentes; a dor, o tumulto, a ansiedade do desejo, e a tentativa de o disciplinar, de o controlar.\n\nE, na eterna batalha com ele nós contorcemo-lo alterando a sua forma, tornando-o irreconhecível; mas ele permanece lá, constantemente a ver, à espera, a puxar.\n\nFaçam o que quiserem, sublimem-no, fujam dele, neguem-no ou aceitem-no, façam-lhe todas as concessões, ele estará sempre lá.\n\nE nós sabemos o quanto os mestres religiosos e outros nos disseram que devíamos não ter desejos, que devíamos cultivar o desapego, estar livres do desejo, o que é verdadeiramente absurdo, porque o desejo tem de ser compreendido, não destruído.\n\nSe vocês destruírem o desejo, podem estar a destruir também a própria vida.\n\nSe perverterem o desejo, o moldarem, o controlarem, o dominarem, o suprimirem, podem estar a destruir algo extraordinariamente belo.'
+    ],
+  ),
   /* Abril: Desejo - Sexo - Casamento - Paixão
 
  */
