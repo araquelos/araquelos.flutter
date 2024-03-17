@@ -1178,6 +1178,42 @@ const dummyReflections = [
       'Continuemos a refletir sobre o desejo. Nós conhecemos, não é verdade, o desejo que se contradiz a si mesmo, que é tortuoso, que nos puxa em direções diferentes; a dor, o tumulto, a ansiedade do desejo, e a tentativa de o disciplinar, de o controlar.\n\nE, na eterna batalha com ele nós contorcemo-lo alterando a sua forma, tornando-o irreconhecível; mas ele permanece lá, constantemente a ver, à espera, a puxar.\n\nFaçam o que quiserem, sublimem-no, fujam dele, neguem-no ou aceitem-no, façam-lhe todas as concessões, ele estará sempre lá.\n\nE nós sabemos o quanto os mestres religiosos e outros nos disseram que devíamos não ter desejos, que devíamos cultivar o desapego, estar livres do desejo, o que é verdadeiramente absurdo, porque o desejo tem de ser compreendido, não destruído.\n\nSe vocês destruírem o desejo, podem estar a destruir também a própria vida.\n\nSe perverterem o desejo, o moldarem, o controlarem, o dominarem, o suprimirem, podem estar a destruir algo extraordinariamente belo.'
     ],
   ),
+  Reflection(
+    id: '94',
+    title: 'A Qualidade do Desejo',
+    day: 4,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.desejo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O que acontece se não condenarem o desejo, não o avaliarem como sendo bom ou mau, mas estiverem simplesmente conscientes dele?\n\nPergunto-me se vocês saberão o que significa estar consciente de algo? A maioria de nós não está consciente, porque está muito acostumada a condenar, a julgar, a avaliar, a identificar, a escolher.\n\nA escolha, como é óbvio, impede o estar consciente, porque a escolha tem sempre lugar em resultado do conflito.\n\nEstar-se consciente quando se entra numa casa, ver toda a mobília, a carpete ou a ausência dela, e assim por diante — apenas ver, estar consciente disso tudo sem qualquer sentido de julgamento — é muito difícil.\n\nJá alguma vez tentaram olhar para uma pessoa, uma flor, uma ideia, uma emoção, sem qualquer tipo de escolha, sem qualquer tipo de julgamento?\n\nE se fizermos o mesmo em relação ao desejo, se vivermos com ele, sem o negarmos e sem dizermos: "O que farei com este desejo? É tão feio, tão desenfreado, tão violento", sem lhe darmos um nome, um símbolo, sem o cobrirmos com uma palavra, então continuará ele a causar algum tumulto? Será, então, que o desejo é algo que deve ser posto de lado, que deve ser destruído?\n\nQueremos destruí-lo, porque um desejo vai contra o outro, dando origem a conflito, sofrimento e contradição; e é fácil observarmos o quanto tentamos fugir a este conflito permanente.\n\nPortanto, será possível estarmos conscientes da totalidade do desejo?\n\nO que entendo por totalidade não é apenas um desejo ou muitos desejos, mas a total qualidade do próprio desejo.'
+    ],
+  ),
+  Reflection(
+    id: '95',
+    title: 'Por que Não Devemos Ter Prazer?',
+    day: 5,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.desejo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Observamos um bonito pôr-do-sol, uma linda árvore, um rio com um movimento largo, sinuoso, um rosto belo, e olhar para isso dá-nos um grande prazer, deleita-nos. Que mal há nisso?\n\nParece-me que a confusão e o sofrimento começam quando esse rosto, esse rio, essa nuvem, essa montanha se transforma em memória, e essa memória, então, exige uma maior continuação do prazer; queremos que essas coisas se repitam. Todos nós sabemos isto.\n\nConheci um determinado prazer, ou vocês sentiram deleite com algo, e queremos que isso se repita. Quer seja um prazer de ordem sexual, artística, intelectual, ou de qualquer outra ordem, queremos que se repita, e penso que é aí que o prazer começa a obscurecer a mente e cria valores que são falsos, que não são reais.\n\nO que importa é compreender o prazer, não tentarmos vermo-nos livres dele, isso é demasiado estúpido. Ninguém se pode ver livre do prazer.\n\nMas é essencial compreender a natureza e a estrutura do prazer; porque se a vida for só prazer, e se é isso que queremos, então juntamente com o prazer vêm o sofrimento, a confusão, as ilusões, os falsos valores que criamos, e portanto não pode haver clareza alguma.'
+    ],
+  ),
+  Reflection(
+    id: '96',
+    title: 'Uma Reação Saudável, Normal',
+    day: 6,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.desejo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Tenho de descobrir por que o desejo tem uma força tão grande na minha vida. Pode ser correto e pode não o ser. Tenho de o descobrir.\n\nVejo isso. O desejo surge, o que é uma reação, o que é uma reação saudável e normal; caso contrário, estaríamos mortos.\n\nVejo algo bonito e digo: "Meu Deus, quero aquilo". Se não quisesse, estaria morto.\n\nMas na procura constante da satisfação do desejo há dor. Esse é o problema, há prazer e há dor.\n\nVejo uma bela mulher, e ela é mesmo bonita; seria completamente absurdo negá-lo, dizer: "Não, ela não é bonita". Trata-se de um fato.\n\nMas o que dá continuidade ao prazer? É óbvio que é o pensamento, o pensar nele...\n\nPenso nele. Deixa de haver relação direta com o objeto, que é o desejo, mas agora o pensamento aumenta esse desejo ao pensar nele, ao formar imagens, quadros, ideias...\n\nO pensamento chega e diz: "Por favor, tens de ler isto; isso é crescimento; isso é importante; isso não é importante; isto é vital para a tua vida; isto não é vital para a tua vida".\n\nMas posso olhar para algo e sentir desejo, e tudo terminar ali, sem a interferência do pensamento.'
+    ],
+  ),
   /* Abril: Desejo - Sexo - Casamento - Paixão
 
  */
