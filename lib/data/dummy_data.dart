@@ -1214,6 +1214,42 @@ const dummyReflections = [
       'Tenho de descobrir por que o desejo tem uma força tão grande na minha vida. Pode ser correto e pode não o ser. Tenho de o descobrir.\n\nVejo isso. O desejo surge, o que é uma reação, o que é uma reação saudável e normal; caso contrário, estaríamos mortos.\n\nVejo algo bonito e digo: "Meu Deus, quero aquilo". Se não quisesse, estaria morto.\n\nMas na procura constante da satisfação do desejo há dor. Esse é o problema, há prazer e há dor.\n\nVejo uma bela mulher, e ela é mesmo bonita; seria completamente absurdo negá-lo, dizer: "Não, ela não é bonita". Trata-se de um fato.\n\nMas o que dá continuidade ao prazer? É óbvio que é o pensamento, o pensar nele...\n\nPenso nele. Deixa de haver relação direta com o objeto, que é o desejo, mas agora o pensamento aumenta esse desejo ao pensar nele, ao formar imagens, quadros, ideias...\n\nO pensamento chega e diz: "Por favor, tens de ler isto; isso é crescimento; isso é importante; isso não é importante; isto é vital para a tua vida; isto não é vital para a tua vida".\n\nMas posso olhar para algo e sentir desejo, e tudo terminar ali, sem a interferência do pensamento.'
     ],
   ),
+  Reflection(
+    id: '97',
+    title: 'Morrer para as Pequenas Coisas',
+    day: 7,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.desejo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Já alguma vez tentaram morrer voluntariamente para um determinado prazer, sem ser de forma forçada?\n\nNormalmente, quando morremos, isso acontece contra a nossa vontade; a morte chega e leva-nos; não é um ato voluntário, exceto no caso do suicídio.\n\nMas já alguma vez tentaram morrer voluntariamente, com facilidade, sentindo o abandono do prazer?\n\nÉ óbvio que não! No presente, os vossos ideais, os vossos prazeres, as vossas ambições são as coisas que lhes dão o assim chamado significado.\n\nA vida é viver, é abundância, plenitude, abandono, não um sentimento de que o eu tem importância. Isso é um mero fruto do intelecto.\n\nSe experimentarem morrer para as pequenas coisas, isso já é suficientemente bom. Apenas morrer para os pequenos prazeres, com facilidade, confortavelmente, com um sorriso, é suficiente, porque então perceberão que a vossa mente é capaz de morrer para muitas coisas, para todas as memórias.\n\nAs máquinas estão a apropriar-se das funções da memória, os computadores, mas a mente humana é algo mais do que um mero hábito mecânico de associação e memória.\n\nMas não poderá ser esse algo mais se não morrer para tudo o que conhece.\n\nAgora, para ver a verdade de tudo isto, é essencial uma mente jovem, uma mente que não está apenas a funcionar no campo do tempo. A mente jovem morre para todas as coisas.\n\nSão capazes de ver a verdade disto de forma imediata, de sentir a verdade disto instantaneamente?\n\nPode acontecer que não vejam a totalidade da sua extraordinária importância, a imensa sutileza, a beleza desse morrer, a sua riqueza, mas até mesmo o mero fato de ouvirem falar disso já planta a semente, e o significado destas palavras cria raízes, não apenas a um nível superficial, consciente, mas também ao nível do próprio inconsciente.'
+    ],
+  ),
+  Reflection(
+    id: '98',
+    title: 'Sexo',
+    day: 8,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.sexo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O sexo é um problema, porque no ato sexual parece verificar-se uma completa ausência do eu.\n\nNesse momento vocês estão felizes, porque cessa a autoconsciência, a consciência do eu; e ao desejarem que isso se repita, essa abnegação do eu na qual existe uma felicidade completa, sem passado e sem futuro, ao exigirem essa felicidade completa que se dá através da fusão total, da integração, é natural que este aspecto assuma uma importância preponderante. Não é assim?\n\nPorque se trata de algo que me transmite uma alegria que não é adulterada, um completo esquecimento de mim mesmo, quero cada vez mais e mais repetir esse prazer.\n\nAgora, por que quero eu mais? Porque em tudo o resto me encontro em conflito, em tudo o resto, em todos os diferentes níveis da existência se verifica o fortalecimento do eu.\n\nNo campo econômico, social, religioso, há um constante adensar da autoconsciência, e isso é conflito.\n\nAfinal, só se está consciente de si mesmo quando existe conflilo. A consciência de si mesmo é, na sua própria essência, o resultado do conflito.\n\nPortanto, o problema não é o sexo, certamente, mas como ficarmos livres do eu.\n\nJá provaram esse estado de ser no qual o eu não está presente, nem que tenha sido apenas por alguns segundos por um dia, ou o que quer que tenha sido; e onde está o eu, há conflito, há sofrimento, há luta.\n\nAssim, há um desejo constante de repetir esse estado de ausência do eu.'
+    ],
+  ),
+  Reflection(
+    id: '99',
+    title: 'A Maior Fuga',
+    day: 9,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.sexo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O que queremos diZer com o problema do sexo? Será que nos referimos ao ato, ou será um pensamento acerca do ato? Certamente, não se trata do ato.\n\nO ato sexual não é para vós um problema, tal como comer também não o é, mas se vocês se puserem a pensar na comida durante todo o dia, porque não têm mais nada em que pensar, então isso torna-se um problema para vós.\n\nPor que o empolam? Os cinemas, as revistas, as histórias, a forma como as mulheres se vestem, tudo contribui para alimentar os vossos pensamentos a respeito do sexo.\n\nE por que é que a mente os empola, por que é que a mente pensa em sexo de todo? Porquê, minhas senhoras e meus senhores? É o vosso problema.\n\nPorquê? Por que se tornou o sexo um assunto fulcral na vossa vida? Quando existem tantas coisas que vos chamam, que exigem a vossa atenção, vocês dão total atenção ao pensamento do sexo.\n\nO que se passa? Por que está a vossa mente de tal forma ocupada com ele? Porque essa é a maior forma de fuga, não é verdade? É uma forma de total esquecimento de si mesmo.\n\nPor algum tempo, pelo menos nesse momento, podem esquecer-se de si próprios, e não existe nenhum outro modo de isso acontecer.\n\nTudo o resto que fazem na vida dá ênfase ao "eu". O vosso negócio, a vossa religião, os vossos deuses, os vosso líderes, as vossas ações políticas e econômicas, as vossas fugas, as vossas atividades sociais, a vossa escolha de um partido e rejeição de outro, tudo isso enfatiza e fortalece o "eu".\n\nQuando existe apenas uma coisa na vossa vida que constitui uma avenida para a maior fuga, para o completo esquecimento de si próprios, ainda que apenas por alguns segundos, vocês agarram-se a ela com todas as vossas forças, porque esse é o único momento em que estão felizes.\n\nAssim, o sexo transforma-se num problema extraordinariamente difícil e complexo que perdurará enquanto não compreenderem a mente que pensa no problema.'
+    ],
+  ),
   /* Abril: Desejo - Sexo - Casamento - Paixão
 
  */
