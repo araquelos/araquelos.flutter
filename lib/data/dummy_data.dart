@@ -1250,6 +1250,78 @@ const dummyReflections = [
       'O que queremos diZer com o problema do sexo? Será que nos referimos ao ato, ou será um pensamento acerca do ato? Certamente, não se trata do ato.\n\nO ato sexual não é para vós um problema, tal como comer também não o é, mas se vocês se puserem a pensar na comida durante todo o dia, porque não têm mais nada em que pensar, então isso torna-se um problema para vós.\n\nPor que o empolam? Os cinemas, as revistas, as histórias, a forma como as mulheres se vestem, tudo contribui para alimentar os vossos pensamentos a respeito do sexo.\n\nE por que é que a mente os empola, por que é que a mente pensa em sexo de todo? Porquê, minhas senhoras e meus senhores? É o vosso problema.\n\nPorquê? Por que se tornou o sexo um assunto fulcral na vossa vida? Quando existem tantas coisas que vos chamam, que exigem a vossa atenção, vocês dão total atenção ao pensamento do sexo.\n\nO que se passa? Por que está a vossa mente de tal forma ocupada com ele? Porque essa é a maior forma de fuga, não é verdade? É uma forma de total esquecimento de si mesmo.\n\nPor algum tempo, pelo menos nesse momento, podem esquecer-se de si próprios, e não existe nenhum outro modo de isso acontecer.\n\nTudo o resto que fazem na vida dá ênfase ao "eu". O vosso negócio, a vossa religião, os vossos deuses, os vosso líderes, as vossas ações políticas e econômicas, as vossas fugas, as vossas atividades sociais, a vossa escolha de um partido e rejeição de outro, tudo isso enfatiza e fortalece o "eu".\n\nQuando existe apenas uma coisa na vossa vida que constitui uma avenida para a maior fuga, para o completo esquecimento de si próprios, ainda que apenas por alguns segundos, vocês agarram-se a ela com todas as vossas forças, porque esse é o único momento em que estão felizes.\n\nAssim, o sexo transforma-se num problema extraordinariamente difícil e complexo que perdurará enquanto não compreenderem a mente que pensa no problema.'
     ],
   ),
+  Reflection(
+    id: '100',
+    title: 'Fizemos do Sexo um Problema',
+    day: 10,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.sexo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Por que será que transformamos tudo aquilo em que tocamos num problema? Por que se tornou o sexo um problema? Por que nos submetemos a viver com problemas; por que não lhes pomos um fim?Por que não morremos para os nossos problemas em vez de os carregarmos às costas dia após dia, ano após ano?\n\nCertamente o sexo é uma questão relevante a que irei responder já a seguir, mas há uma questão primordial: por que fazemos da vida um problema?\n\nO trabalho, o sexo, o ganhar dinheiro, pensar, sentir, experimentar, estão a ver, todo o processo de viver, por que é que ele é um problema?\n\nNão será, essencialmente, porque pensamos sempre a partir de um determinado ponto de vista, de um ponto de vista fixo?\n\nEstamos sempre a pensar a partir de um centro para a periferia, mas a periferia é o centro para a maioria de nós, e portanto tudo aquilo em que tocarmos é superficial.\n\nMas a vida não é superficial; ela exige que se viva de forma completa, e pelo fato de estarmos a viver apenas superficialmente, conhecemos apenas a reação superficial.\n\nO que quer que façamos na periferia irá, inevitavelmente, criar um problema, e isso é a nossa vida, vivemos a um nível superficial e estamos contentes de viver assim, com todos os problemas do superficial.\n\nPortanto, os problemas existem enquanto vivemos no superficial, na periferia, sendo a periferia o "eu" e as suas sensações, que podem ser exteriorizadas ou tornadas subjetivas, que se podem identificar com o universo, com o país, ou com qualquer outra coisa inventada pela mente.\n\nAssim, enquanto vivermos no campo da mente, terá de haver sempre complicações, problemas, e isso é tudo o que conhecemos.'
+    ],
+  ),
+  Reflection(
+    id: '101',
+    title: 'O Que Entendem por Amor?',
+    day: 11,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.casamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O amor é o incognoscível. Só pode ser apercebido quando o conhecido é compreendido e transcendido. Só quando a mente está livre do conhecido, só então haverá amor.\n\nPortanto, devemos começar por abordar a questão do amor pela negativa e não pela positiva.\n\nO que é o amor para a maioria de nós? No nosso caso, quando amamos, existe posse, domínio ou subserviência. Deste sentimento de posse nascem o ciúme e o medo da perda, e nós legalizamos este instinto possessivo.\n\nCom a posse, surgem o ciúme e os inúmeros conflitos com os quais cada um de nós está familiarizado. Portanto, a posse não é amor. Nem o amor é sentimental.\n\nSer sentimental, ser emocional exclui o amor. O sentimentalismo e as emoções são meras sensações.\n\nSó o amor pode transformar a insanidade, a confusão e a luta. Nenhum sistema, nenhuma teoria de esquerda ou de direita pode trazer a paz e a felicidade à humanidade.\n\nOnde há amor, não há sentimento de posse, não há inveja; há misericórdia e compaixão, não em teoria mas efetivamente, pela vossa mulher e pelos vossos filhos, pelo vosso vizinho e pelo vosso empregado.\n\nSó o amor pode fazer nascer a misericórdia e a beleza, a ordem e a paz.\n\nExiste amor e todas as suas bênçãos quando "vocês" deixam de existir.'
+    ],
+  ),
+  Reflection(
+    id: '102',
+    title: 'Enquanto Possuirmos Nunca Poderemos Amar',
+    day: 12,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.casamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Conhecemos o amor enquanto sensação, não é verdade?\n\nQuando dizemos que amamos, conhecemos o ciúme, conhecemos o medo, a ansiedade. Quando vocês dizem que amam alguém, tudo isto está implicado: a inveja, o desejo de possuir, o desejo de ter, de dominar, o medo da perda, e assim por diante.\n\nA tudo isto chamamos nós amor, e não conhecemos o amor que não vem acompanhado pelo medo, pela inveja, pela posse; apenas verbalizamos esse estado de amor a que é alheio o medo, chamamos-lhe impessoal, puro, divino, ou sabe Deus mais o quê; mas o fato é que somos ciumentos, somos dominadores, possessivos.\n\nSó poderemos conhecer esse estado de amor quando cessar em nós o ciúme, a inveja, o sentimento de posse, o domínio; e enquanto possuirmos, nunca poderemos amar.\n\nQuando é que vocês pensam na pessoa que amam? Pensam nela quando ela está ausente, quando está longe, quando vos deixou. Portanto, vocês sentem falta da pessoa que dizem que amam quando estão de alguma forma perturbados, quando estão a sofrer; e enquanto vocês possuírem essa pessoa, não tem de pensar nela, porque na posse nada vos está a perturbar.\n\n.O pensamento surge quando estão perturbados, e vocês estão condenados a esse estado de perturbação enquanto o vosso pensamento for aquilo a que vocês chamam amor.\n\nCertamente o amor não é uma coisa da mente; e como as coisas da mente têm preenchido os nossos corações, não temos amor.\n\nAs coisas da mente são o ciúme, a inveja, a ambição, o desejo de ser alguém, de ter sucesso. Estas coisas da mente preenchem os vossos corações, e então vocês dizem que amam; mas como é possível que amem se têm todos estes elementos confusos em vós?\n\nQuando há fumo, como é possível que haja uma chama pura?'
+    ],
+  ),
+  Reflection(
+    id: '103',
+    title: 'O Amor não É um Dever',
+    day: 13,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.casamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Quando há amor, não há nenhum dever. Quando vocês amam a vossa mulher, partilham tudo com ela, os vossos bens, os vossos problemas, a vossa ansiedade, a vossa alegria. Não exercem domínio sobre ela.\n\nNão são o homem e ela a mulher que é usada e colocada de lado, uma espécie de máquina reprodutora que dará continuação ao vosso nome.\n\nQuando existe amor, a palavra dever desaparece.\n\nÉ o homem que não tem amor no seu coração que fala de direitos e deveres, e neste país os deveres e os direitos tomaram o lugar do amor. As regulamentações tornaram-se mais importantes do que a ternura da afeição.\n\nQuando há amor, o problema é simples; quando não há amor, o problema torna-se complexo. \n\nQuando um homem ama a sua mulher e os seus filhos, ele nunca será capaz de pensar em termos de dever e de direitos.\n\nSenhores, examinem os vossos próprios corações e as vossas próprias mentes. Sei que se vão rir disto, esse é um dos truques de quem é pouco refletido, rir-se de algo e pô-lo de lado.\n\nA vossa mulher não partilha da vossa responsabilidade, não partilha dos vossos bens, ela não detém metade de tudo o que vocês possuem, porque a consideram inferior a vós mesmos, algo que deve ser conservado e usado em termos sexuais a vosso bel-prazer.\n\nPortanto vocês inventaram as palavras direitos e obrigações; e quando as mulheres se rebelam, vocês atiram-lhes com estas palavras. É uma sociedade estática, uma sociedade em deterioração, aquela que fala de dever e de direitos.\n\nSe examinarem os vossos corações e as vossas mentes com toda a atenção, descobrirão que não têm amor.'
+    ],
+  ),
+  Reflection(
+    id: '104',
+    title: 'Uma Coisa da Mente',
+    day: 14,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.casamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Aquilo a que chamamos o nosso amor é algo que pertence à mente.\n\nOlhem para vós mesmos, senhoras e senhores, e verão que o que estou a dizer é uma verdade óbvia; se assim não fosse, a nossa vida, o nosso casamento, os nossos relacionamentos, seriam inteiramente diferentes, teríamos uma nova sociedade.\n\nNós amarramo-nos a outra pessoa, não através da fusão, mas do contrato, a que se chama amor, casamento.\n\nO amor não funde, não ajusta, não é nem pessoal nem impessoal, é um estado de ser que a mente não pode descobrir; ela pode descrevê-lo, atribuir-lhe um termo, um nome, mas a palavra, a descrição, não é o amor.\n\nSó a mente que está tranquila pode conhecer o amor, e esse estado de tranquilidade não é algo que possa ser cultivado.'
+    ],
+  ),
+  Reflection(
+    id: '105',
+    title: 'A Respeito do Casamento',
+    day: 15,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.casamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Estamos a tentar compreender a questão do casamento, a qual implica o relacionamento sexual, o amor, o companheirismo, a co­munhão.\n\nÉ óbvio que se não houver amor, o casamento se transforma numa desgraça, não é verdade? Nesse caso transforma-se em mera gratificação.\n\nAmar é uma das coisas mais difíceis, não é? O amor só pode surgir, só pode existir quando o eu está ausente.\n\nSem amor, o relacionamento é uma dor; seja ele gratificanle ou superficial, conduzirá ao tédio, à rotina, ao hábito com todas as suas implicações. Então, os problemas sexuais ganham uma importância fundamental.\n\nQuando tomamos em consideração o casamento, quer seja necessário ou não, temos primeiramente de compreender o amor.\n\nCertamente o amor é casto; vocês podem ser celibatários, quer sejam homem ou mulher, mas isso não é ser casto, isso não é ser puro, se não houver amor.\n\nSe vocês tiverem um ideal de castidade, ou seja, se vocês desejarem tornar-se castos, não existe nessa vossa atitude nenhum amor, porque se trata meramente do desejo de virem a ser algo que vocês consideram que é nobre, que pensam que vos ajudará a encontrar a realidade; não há nenhum amor nisso.\n\nA licenciosidade não é casta, apenas conduz à degradação, ao sofrimento. O mesmo acontece com a perseguição de um ideal.\n\nAmbos excluem o amor, ambos implicam o vir a ser algo, o entregar-se a algo; e portanto vocês tornam-se importantes, e onde vocês são importantes, o amor não é.'
+    ],
+  ),
   /* Abril: Desejo - Sexo - Casamento - Paixão
 
  */
