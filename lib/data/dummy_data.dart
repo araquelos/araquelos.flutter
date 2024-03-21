@@ -1322,6 +1322,54 @@ const dummyReflections = [
       'Estamos a tentar compreender a questão do casamento, a qual implica o relacionamento sexual, o amor, o companheirismo, a co­munhão.\n\nÉ óbvio que se não houver amor, o casamento se transforma numa desgraça, não é verdade? Nesse caso transforma-se em mera gratificação.\n\nAmar é uma das coisas mais difíceis, não é? O amor só pode surgir, só pode existir quando o eu está ausente.\n\nSem amor, o relacionamento é uma dor; seja ele gratificanle ou superficial, conduzirá ao tédio, à rotina, ao hábito com todas as suas implicações. Então, os problemas sexuais ganham uma importância fundamental.\n\nQuando tomamos em consideração o casamento, quer seja necessário ou não, temos primeiramente de compreender o amor.\n\nCertamente o amor é casto; vocês podem ser celibatários, quer sejam homem ou mulher, mas isso não é ser casto, isso não é ser puro, se não houver amor.\n\nSe vocês tiverem um ideal de castidade, ou seja, se vocês desejarem tornar-se castos, não existe nessa vossa atitude nenhum amor, porque se trata meramente do desejo de virem a ser algo que vocês consideram que é nobre, que pensam que vos ajudará a encontrar a realidade; não há nenhum amor nisso.\n\nA licenciosidade não é casta, apenas conduz à degradação, ao sofrimento. O mesmo acontece com a perseguição de um ideal.\n\nAmbos excluem o amor, ambos implicam o vir a ser algo, o entregar-se a algo; e portanto vocês tornam-se importantes, e onde vocês são importantes, o amor não é.'
     ],
   ),
+  Reflection(
+    id: '106',
+    title: 'O Amor É Incapaz de Ajustamentos',
+    day: 16,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.casamento,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'O amor não é uma coisa da mente, ou é? O amor não é meramente o ato sexual, ou é? O amor é algo que a mente não é capaz de conceber.\n\nO amor é algo que não pode ser formulado. E sem amor, vocês entram em relação; sem amor vocês casam. Então, nesse casamento, vocês "ajustam-se" um ao outro.\n\nQue bela frase! Ajustam-se um ao outro, o que é, mais uma vez, um processo intelectual, não é assim?\n\nÉ óbvio que este ajuste é um processo mental. Todos os ajustamentos o são. Mas, o amor é certamente incapaz de ajustamento.\n\nVocês sabem, não é verdade, meus senhores, que quando se ama outra pessoa, não há qualquer "ajustamento". Há apenas uma completa fusão. Só quando não existe amor é que começamos a ajustar-nos. E este ajustamento é chamado casamento.\n\nDaí que o casamento falhe, porque ele é a própria fonte de conflito, uma batalha entre duas pessoas. Trata-se de um problema extraordinariamente complexo, como todos os problemas, mas ainda mais, uma vez que os apetites, os impulsos são tão fortes.\n\nAssim, uma mente que está apenas a tentar ajustar-se, nunca poderá ser casta. Uma mente que busca a felicidade através do sexo nunca poderá ser casta.\n\nEmbora possam ter momentaneamente, nesse ato, auto-abnegação, auto-esquecimento, a própria procura dessa felicidade, que pertence ao domínio da mente, torna a mente impura.\n\nA castidade só pode surgir quando existe amor.'
+    ],
+  ),
+  Reflection(
+    id: '107',
+    title: 'Amar É Ser Casto',
+    day: 17,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.sexo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Este problema do sexo não é simples e não pode ser resolvido apenas ao seu nível.\n\nTentar resolvê-lo em termos puramente biológicos é absurdo; e abordá-lo por meio da religião ou tentar solucioná-lo como se ele fosse apenas uma questão de ajustamento físico, de ação glandular, ou cercá-lo de tabus e condenações é algo completamente imaturo, infantil e estúpido.\n\nEste problema exige ser tratado ao mais alto nível da inteligência. Compreendermo-nos na nossa relação com o outro requer uma inteligência muito mais flexível e sutil do que compreender a natureza.\n\nMas nós procuramos compreender sem usarmos a inteligência; queremos a ação imediata, uma solução imediata, e assim o problema vai-se tornando cada vez mais importante.\n\nO amor não é mero pensamento; os pensamentos são somente a ação exterior do cérebro.\n\nO amor é muito mais profundo e a profundidade da vida só pode ser descoberta no amor. Sem amor, a vida não tem qualquer significado, e essa é a parte triste da nossa existência.\n\nEnvelhecemos sem nos tornarmos mais maduros; os nossos corpos envelhecem, engordam e perdem a sua beleza, e nós permanecemos irrefletidos.\n\nEmbora leiamos e conversemos sobre isso, nunca chegamos a conhecer o perfume da vida.\n\nA mera leitura, a mera verbalização, indica uma grande falta da ternura de coração que enriquece a vida; e sem essa qualidade de amor, façam vocês o que fizerem, qualquer que seja a sociedade a que se liguem, qualquer que seja a lei que consigam instaurar, não conseguirão resolver este problema.\n\nAmar é ser casto. O mero intelecto não é castidade.\n\nO homem que tenta ser casto em pensamento é impuro, porque não tem amor. Só o homem que ama é casto, puro, incorrupto.'
+    ],
+  ),
+  Reflection(
+    id: '108',
+    title: 'O Pensamento Constante É uma Perda de Energia',
+    day: 18,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.sexo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A maioria de nós gasta a vida em esforço, em guerra, e o esforço, a luta é uma dissipação de energia.\n\nO homem, ao longo do período histórico da humanidade, tem dito que para encontrar essa realidade que é Deus, qualquer que seja o nome que ele lhe atribui, se tem de ser celibatário; ou seja, toma-se um voto de castidade e suprime-se, controla-se, luta-se consigo mesmo interminavelmente o resto da vida, para se manter o voto.\n\nVejam a perda de energia!\n\nÉ também uma perda de energia permanecermos deleitados neste problema. E ele é investido de uma importância maior quando tentamos suprimi-lo.\n\nO esforço exigido pela supressão, pelo controlo, pela negação do desejo distorce a mente, e, através dessa distorção, temos uma certa sensação de austeridade que se torna cruel.\n\nPor favor, prestem atenção. Observem isto em vós próprios e observem as pessoas à vossa volta. E observem este desperdício de energia, a luta.\n\nNão as implicações do sexo, não o ato em si, mas os ideais, as imagens, o prazer, o pensar constantemente neles é uma perda de energia.\n\nE a maioria das pessoas gasta a sua energia ou na negação do sexo, ou através do voto de castidade, ou a pensarem continuamente nele.'
+    ],
+  ),
+  Reflection(
+    id: '109',
+    title: 'O Idealista Não Pode Conhecer o Amor',
+    day: 19,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.sexo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Aqueles que tentam ser celibatários de modo a alcançarem Deus são impuros, porque buscam um resultado ou um ganho, substituindo assim o fim, o resultado pelo sexo, o que é medo.\n\nOs seus corações não têm amor, e neles não pode haver pureza, e só um coração puro pode encontrar a realidade.\n\nUm coração disciplinado, um coração suprimido, não pode saber o que é o amor. Ele não pode conhecer o amor se estiver aprisionado ao hábito, pela sensação, religiosa ou física, psicológica ou sensorial.\n\nO idealista é um imitador e como tal não pode conhecer o amor. Ele não pode ser generoso, entregar-se completamente sem pensar em si mesmo.\n\nSó quando a mente e o coração se encontram libertos do fardo do medo, da rotina dos hábitos sensoriais, quando existe generosidade e compaixão, é que pode haver amor.\n\nUm tal amor é casto.'
+    ],
+  ),
   /* Abril: Desejo - Sexo - Casamento - Paixão
 
  */
