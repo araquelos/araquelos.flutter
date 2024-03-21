@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:just_audio/just_audio.dart';
 import '../models/reflection.dart';
 
 class ReflectionDetailScreen extends StatelessWidget {
@@ -34,6 +35,15 @@ class ReflectionDetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final reflection = ModalRoute.of(context)!.settings.arguments as Reflection;
+    final player = AudioPlayer();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      await player.setAudioSource(AudioSource.uri(Uri.parse('assets/audios/oracao.m4a')),
+          initialPosition: Duration.zero, preload: true);
+      if (reflection.day == 0) {
+        await player.play();
+      }
+    });
 
     return Scaffold(
       appBar: AppBar(
