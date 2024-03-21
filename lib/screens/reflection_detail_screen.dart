@@ -38,8 +38,9 @@ class ReflectionDetailScreen extends StatelessWidget {
     final player = AudioPlayer();
 
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      await player.setAudioSource(AudioSource.uri(Uri.parse('assets/audios/oracao.m4a')),
-          initialPosition: Duration.zero, preload: true);
+      /*await player.setAudioSource(AudioSource.uri(Uri.parse("asset:///audios/oracao.m4a")));*/
+      await player.setAudioSource(AudioSource.uri(Uri.parse(
+          "https://dc572.4shared.com/img/RvhzCFRPjq/f10ca6b7/dlink__2Fdownload_2FRvhzCFRPjq_2Foracao.mp3_3Fsbsr_3Df11d1fda0bc304a2a5ae4c1fcaa9a30fb0d_26bip_3DMTc5LjE3Ni4yMzMuMTE0_26lgfp_3D52_26bip_3DMTc5LjE3Ni4yMzMuMTE0/preview.mp3")));
       if (reflection.day == 0) {
         await player.play();
       }
