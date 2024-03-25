@@ -1370,6 +1370,42 @@ const dummyReflections = [
       'Aqueles que tentam ser celibatários de modo a alcançarem Deus são impuros, porque buscam um resultado ou um ganho, substituindo assim o fim, o resultado pelo sexo, o que é medo.\n\nOs seus corações não têm amor, e neles não pode haver pureza, e só um coração puro pode encontrar a realidade.\n\nUm coração disciplinado, um coração suprimido, não pode saber o que é o amor. Ele não pode conhecer o amor se estiver aprisionado ao hábito, pela sensação, religiosa ou física, psicológica ou sensorial.\n\nO idealista é um imitador e como tal não pode conhecer o amor. Ele não pode ser generoso, entregar-se completamente sem pensar em si mesmo.\n\nSó quando a mente e o coração se encontram libertos do fardo do medo, da rotina dos hábitos sensoriais, quando existe generosidade e compaixão, é que pode haver amor.\n\nUm tal amor é casto.'
     ],
   ),
+  Reflection(
+    id: '110',
+    title: 'Compreender a Paixão',
+    day: 20,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.paixao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Será que quando nos estamos a punir a nós mesmos isso significa que estamos a levar uma vida religiosa?\n\nSerá a mortificação do corpo ou da mente um sinal de compreensão? Será que a tortura sobre si mesmo é um caminho para a realidade? Será que a castidade é uma negação?\n\nPensam que podem ir longe por meio da renúncia? Pensam realmente que pode haver paz através do conflito? \n\nNão será que os meios importam infinitamente mais do que os fins? O fim poderá vir a ser, mas o meio já é.\n\nA realidade, o que é, deve ser compreendida e não suavizada através de determinações, ideais, e racionalizações astuciosas.\n\nA tristeza não é a forma da felicidade. Aquilo a que se chama paixão tem de ser compreendido, e não suprimido ou sublimado, e não é nada bom arranjar um substituto para ela.\n\nO que quer que façam, qualquer que seja o esquema que possam inventar, só servirá para fortalecer aquilo que não foi amado e compreendido.\n\nAmar aquilo a que chamamos paixão é compreendê-lo. Amar é estar em comunhão direta; e não se pode amar algo se sentirmos ressentimentos, se tivermos ideias, conclusões acerca desse algo.\n\nComo se pode amar e compreender a paixão se se tomou um voto contra ela?\n\nUm voto é uma forma de resistência, e aquilo a que resistimos acaba por nos conquistar.\n\nA verdade não pode ser conquistada; não se pode assaltá-la; ela escapar-nos-á das mãos se a tentarmos agarrar.\n\nA verdade vem silenciosamente, sem que o saibamos. Aquilo que sabemos não é a verdade, é apenas uma ideia, um símbolo. A sombra não é o real.'
+    ],
+  ),
+  Reflection(
+    id: '111',
+    title: 'Os Meios e o Fim São Um Só',
+    day: 21,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.sexo,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Para se atingir a libertação, nada é necessário.\n\nNão se consegue alcançá-la por meio de negociações, do sacrifício, da eliminação; não se trata de algo que se possa comprar. Se fizermos estas coisas, apenas conseguiremos algo do mercado, e portanto, irreal.\n\nA verdade não pode ser comprada, não existem meios para se alcançar a verdade; se houver um meio, então o fim não é a verdade, porque os meios e o fim são um só, eles não estão separados.\n\nA castidade como um meio para a libertação, para a verdade, é uma negação da verdade. A castidade não é uma moeda com a qual se pode comprar a verdade.\n\nPor que achamos que a castidade é essencial? O que entendemos por sexo? Não me refiro apenas ao ato, mas ao pensar nele, á forma como o sentimos, como o antecipamos, como lhe escapamos — este é o nosso problema.\n\nO nosso problema é a sensação, o querermos mais e mais. Olhem para vós mesmos, não para o vosso vizinho. Por que estão os vossos pensamentos tão ocupados com o sexo?\n\nA castidade só pode existir quando há amor, e sem amor não há castidade. Sem amor, a castidade é apenas luxúria sob uma outra forma.\n\nTornar-se casto é tornar-se algo de diferente disso; é como um homem que se está a tornar poderoso, a ter sucesso como advogado, ou político, ou o que quer que seja — a mudança opera-se ao mesmo nível.\n\nIsso não é castidade, mas apenas o resultado final de um sonho, o resultado de uma resistência continuada em relação a um determinado desejo.\n\nPortanto, onde existe amor, a castidade deixa de ser um problema.\n\nEntão a vida não é um problema, a vida é para ser vivida de forma completa na plenitude do amor, e essa revolução dará origem a um mundo novo.'
+    ],
+  ),
+  Reflection(
+    id: '112',
+    title: 'Abandono Total',
+    day: 22,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.paixao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Talvez vocês nunca tenham experimentado aquele estado da mente em que existe um abandono total de tudo, um completo deixar ir.\n\nE não se consegue abandonar tudo sem uma paixão profunda, não é assim? Não se pode abandonar tudo intelectualmente ou emocionalmente.\n\Certamente só pode haver um abandono total quando existe a paixão intensa.\n\nNão fiquem alarmados com essa palavra, porque um homem que não é apaixonado, que não é intenso, nunca poderá compreender ou sentir a qualidade da beleza.\n\nA mente que tem algo de reserva, que tem um interesse adquirido, que se agarra à posição, ao poder, ao prestígio, a mente que é respeitável, o que é um horror — uma tal mente nunca se consegue abandonar.'
+    ],
+  ),
   /* Abril: Desejo - Sexo - Casamento - Paixão
 
  */
