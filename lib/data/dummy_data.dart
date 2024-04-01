@@ -1466,8 +1466,44 @@ const dummyReflections = [
       'É óbvio que tem de haver paixão, e a questão é como fazer renascer essa paixão. Vamos tomar cuidado para que não haja aqui nenhum mal-entendido. Refiro-me à paixão no sentido mais lato, e não apenas à paixão sexual, que é algo muito pequeno. E a maioria de nós fica satisfeita com isso, porque todas as outras paixões foram destruídas, no escritório, na fábrica, no ato de seguir determinada carreira, determinada rotina, de aprender certas técnicas, e assim não resta nenhuma paixão; não existe nenhum sentido criativo de urgência e de libertação. E assim, o sexo torna-se importante para nós, e então perdemo-nos numa paixão insignificante que se torna um problema enorme para a mente estreita e virtuosa, ou então, em breve se transforma num hábito e morre. Estou a usar a palavra paixão como uma coisa total e completa. Um homem apaixonado que sente de forma intensa não se satisfaz somente com um pequeno emprego, seja esse emprego o de primeiro-ministro, cozinheiro, ou o que for. Uma mente que é apaixonada investiga, procura, olha, pergunta, exige, sem estar apenas a tentar encontrar para seu descontentamento um objeto no qual possa preencher-se e ir dormir. Uma mente apaixonada experimenta, procura, entra em ruptura, não aceita nenhuma tradição; não é uma mente que já esteja decidida, que já tenha chegado, mas sim uma mente jovem que está sempre a chegar.'
     ],
   ),
-  /* Abril: Desejo - Sexo - Casamento - Paixão Pag.: 131
-     inclusao dias 23 a 27 de abril
+  Reflection(
+    id: '118',
+    title: 'A Mente Mesquinha',
+    day: 28,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.paixao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'Uma mente apaixonada experimenta, procura, entra em ruptura, sem aceitar nenhuma tradição; não é uma mente que já esteja decidida, que já tenha chegado, mas sim uma mente jovem que está sempre a chegar. Agora, como é que se pode ter uma mente assim? Tem de acontecer. É óbvio que uma mente mesquinha não se consegue transformar numa mente assim. Uma mente mesquinha a tentar tornar-se apaixonada apenas conseguirá reduzir tudo à sua própria mesquinhez. Tem de acontecer, e só poderá acontecer quando a mente observa a sua própria pequenez e ainda assim não tenta fazer nada acerca disso. Estou a ser claro? Provavelmente não estou. Mas tal como disse anteriormente, qualquer mente limitada, embora possa ser muito impetuosa, continuará a ser mesquinha, e isso por certo que é óbvio. Uma mente pequena, embora possa chegar á lua, embora possa aprender determinada técnica, embora possa argumentar e defender com inteligência, continua a ser uma mente pequena. Portanto, quando a mente pequena diz: "Devo ser apaixonada para poder fazer algo que valha a pena", é óbvio que a sua paixão será muito mesquinha, não acham? Como por exemplo zangar-se por causa de uma pequena injustiça ou pensar que o mundo inteiro está a mudar devido a uma reforma pequena e insignificante levada a cabo numa cidade pequenina, por uma mente pequenina. Se a mente pequena for capaz de ver tudo isso, então essa mesma percepção provocará uma mudança em toda a sua atividade.'
+    ],
+  ),
+  Reflection(
+    id: '119',
+    title: 'Paixão Perdida',
+    day: 29,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.paixao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'A palavra não é a coisa. A palavra paixão não é a paixão. Sentir isso e ser apanhado nisso sem qualquer volição, ou diretiva, ou propósito, ouvir esta coisa chamada desejo, ouvir os vossos próprios desejos — e vocês têm muitos desejos, ténues ou intensos — quando forem capazes de o fazer, poderão perceber o prejuizo que causam quando suprimem o desejo, quando o distorcem, quando o querem satisfazer, quando querem fazer algo acerca dele, quando têm uma opinião acerca dele. A maior parte das pessoas perdeu esta paixão. É provável que a tenham tido na juventude — tornar-se um homem rico, ser famoso e viver uma vida burguesa e respeitável — talvez algo vagamente semelhante a isso. E a sociedade, que é aquilo que vocês forem, suprime isso. E portanto uma pessoa tem de se ajustar a vós, que estão mortos, que são respeitáveis, que não têm sequer uma centelha de paixão; e então uma pessoa torna-se parte de vós e, ao fazê-lo, perde esta paixão.'
+    ],
+  ),
+  Reflection(
+    id: '120',
+    title: 'Paixão sem Causa',
+    day: 30,
+    month: Months.abril,
+    monthFilters: ['abr'],
+    tag: Tags.paixao,
+    imagePath: 'assets/images/calendar.jpg',
+    paragraphs: [
+      'No estado de paixão sem causa há uma intensidade livre de qualquer apego; mas quando a paixão tem uma causa, há apego, e o apego é o princípio da tristeza. A maioria de nós está apegada, agarramo-nos a uma pessoa, a um país, a uma crença, a uma ideia, e quando o objeto do nosso apego nos é retirado ou perde de alguma outra forma a sua importância, damos por nós vazios, insuficientes. Então tentamos preencher este vazio agarrando-nos a outra coisa, a qual se torna, mais uma vez, o objeto da nossa paixão. Examinem os vossos próprios corações e as vossas próprias mentes. Eu sou apenas um espelho no qual vocês se vêem a vós mesmos. Se não se quiserem ver, não tem importância; mas se quiserem realmente ver-se, então olhem para vós mesmos com clareza, diretamente, com intensidade, não na esperança de assim dissolverem as vossas infelicidades, as vossas ansiedades, o vosso sentimento de culpa, mas para que possam compreender esta paixão extraordinária que invariavelmente conduz à tristeza. Quando a paixão tem uma causa, transforma-se em luxúria. Quando existe paixão por algo, por uma pessoa, por uma ideia, por algum tipo de preenchimento, então a partir dessa paixão nasce a contradição, o conflito, o esforço. Vocês lutam por alcançar ou por manter um determinado estado, ou por recuperar um que já sentiram e desapareceu. Mas a paixão de que estou a falar não dá origem à contradição, ao conflito. Não está relacionada com nenhuma causa, e portanto não é um efeito.'
+    ],
+  ),
+  /* Maio: Inteligência, Sentimentos, Palavras e Condicionamento Pag.: 135
+     inclusao dias 28 a 30 de abril
  */
   /* 
   Reflection(
